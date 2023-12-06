@@ -1,5 +1,7 @@
-header >h1{
+header {
     height:20vh;
     width: 100%;
     background-color: blueviolet;
 }
+
+
