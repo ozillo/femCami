@@ -4,7 +4,6 @@ import React from 'react'
 const Header = () => {
   return (
 <header>
-  <h1>Header</h1>
     <nav className="menu-nav">
       <ul className="menu-quisom">
         <li><a href="#">Qui som</a>
@@ -15,7 +14,7 @@ const Header = () => {
       </ul>
       </li>
         <li><a href="#">Serveis</a>
-        <ul>
+        <ul className="menu-serveis">
         <li><a href="#">Terapia ocupacional</a></li>
         <li><a href="#">Logopedia</a></li>
         <li><a href="#">Practiques centrades en la familia</a></li>
@@ -26,13 +25,13 @@ const Header = () => {
           </ul>
           </li>
           <li><a href="#">Assesorament</a>
-        <ul>
+        <ul className="menu-assesorament">
         <li><a href="#">Formació i tallers</a></li>
         <li><a href="#">Família i escola</a></li>
           </ul>
           </li>
           <li><a href="#">Col·laboradors</a>
-        <ul>
+        <ul className="menu-colaboradors">
         <li><a href="#">CRAPG</a></li>
         <li><a href="#">Autisme amb futur</a></li>
           </ul>
