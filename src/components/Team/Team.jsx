@@ -3,7 +3,7 @@ import React from 'react'
 
 const Team = () => {
   return (
-    <section className="team-section">Team</section>
+    <section className="team-section"></section>
   )
 }
 

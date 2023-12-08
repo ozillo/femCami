@@ -1,7 +1,7 @@
 .services-section{
     min-height: 40vh;
     width: 80vw;
-    border:2px solid red;
+    
     display: flex;
     flex-direction: column;
     gap:15px;
@@ -10,27 +10,37 @@
     height: 350px;
     width: 80vw;
     border: 1px solid orange;
+    background-color:#014e97;
     display:flex;
     flex-direction: column;
+    border-radius: 10px 40px;
     justify-content: space-between;
     gap:20px;
     padding:35px;
 }
 .div-figure-img-tittle{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    border-radius: 10px 40px;
-    background-color:#014e97
+   
+    
    
 }
 .div-figure-img-tittle img{
-    width: 200px;
-    height: 200px;
-    border:1px solid black;
-    margin:1rem;
-    
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
+    /* border:1px solid black; */
 }
+   
+    
+
 .div-figure-info{
     width: 60%;
+    color:whitesmoke;
+}
+.div-figure-info h2{
+    font-weight:bold;
 }
 
