@@ -19,12 +19,18 @@
 .div-figure-img-tittle{
     display:flex;
     justify-content: space-evenly;
+    border-radius: 10px 40px;
+    background-color:#014e97
+   
 }
 .div-figure-img-tittle img{
-    width: 150px;
-    height: 150px;
-    border:1px solid black
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
+    margin:1rem;
+    
 }
 .div-figure-info{
     width: 60%;
 }
+
