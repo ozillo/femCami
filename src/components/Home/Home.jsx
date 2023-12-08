@@ -7,15 +7,15 @@ import React from 'react'
 const Home = () => {
   return (
     <main>
-    <section>
-    <Description/>
-    </section>
-    <section>
-    <Team/>
-    </section>
-    <section>
-    <Services/>
-    </section>
+      <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028834/Fem%20Cami/logoFemCami_eqfgop.png" 
+        alt="logo-femCami" 
+        className="logoFemCami"
+      />
+      <div className="div-Home-general">
+          <Description/>
+          <Team/>
+          <Services/>
+      </div>
 
     </main>
   )

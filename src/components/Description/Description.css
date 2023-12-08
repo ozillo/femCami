@@ -1,0 +1,32 @@
+.description-section{
+    width: 75vw;
+    min-height: 25vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+    background-color:#399cf9;
+    padding:15px;
+}
+
+.btn-mes-info{
+    width: 150px;
+    height: 55px;
+    border: 3px solid #014e97;
+    background-color: #5EBE34;
+    border-radius: 5px;
+}
+.btn-mes-info:hover{
+    transform: scale(1.1);
+}
+
+.mes-info-section{
+    background-color: #306faa;
+    width: 75vw;
+    min-height: 25vh;
+    display: flex;
+    padding:50px 200px;
+    flex-direction: column;
+    
+    gap:30px;
+}

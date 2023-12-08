@@ -1,6 +1,25 @@
 main {
-    height:80vh;
+    min-height:80vh;
     width:100%;
     background-color:whitesmoke;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
 }
 
+.div-Home-general{
+    width: 80vw;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+    margin:25px 0;
+}
+
+.logoFemCami{
+    width: 90vw;
+    height: 35vh;
+    margin-bottom: 35px;
+}

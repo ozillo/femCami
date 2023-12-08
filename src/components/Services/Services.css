@@ -1,0 +1,30 @@
+.services-section{
+    min-height: 40vh;
+    width: 80vw;
+    border:2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.figure-servici-home{
+    height: 350px;
+    width: 80vw;
+    border: 1px solid orange;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px;
+    padding:35px;
+}
+.div-figure-img-tittle{
+    display:flex;
+    justify-content: space-evenly;
+}
+.div-figure-img-tittle img{
+    width: 150px;
+    height: 150px;
+    border:1px solid black
+}
+.div-figure-info{
+    width: 60%;
+}

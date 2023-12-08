@@ -50,6 +50,7 @@ header {
   .menu-li-hidden{
     list-style: none;
     min-height: 40px;
+    padding: 2.5px 5px;
   }
   .menu-li-hidden a{
     height: 100%;
@@ -58,6 +59,9 @@ header {
     text-decoration: none;
     color:whitesmoke;
     display: block;
+  }
+  .menu-li-hidden:hover{
+    background-color: #0167c7;
   }
  /* .submenu-ul{
     list-style: none;
@@ -71,7 +75,7 @@ header {
     display: none;
     position: absolute;
     padding-top:10px;
-    padding-left:10px;
+    
     background-color:#014e97;
     border-radius: 4px;
   }
@@ -81,11 +85,11 @@ header {
     height: auto;
     padding-top:35px;
     display: block;
-    opacity: 0.75;
+    opacity: 1;
   }
   .submenu-ul:hover{
     display:block;
-    opacity: 0.75
+    opacity: 1
   }
   
 /* .menu-quisom ul li,
