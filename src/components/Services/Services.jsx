@@ -1,12 +1,17 @@
 import "./Services.css"
 import React from 'react'
+import { useState } from "react"
 
 const Services = () => {
+  const [seeFigure,setSeeFigure] = useState(false)
   return (
+   
     <section className="services-section">
       <figure className="figure-servici-home">
         <div className="div-figure-img-tittle">
-          <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702073081/Fem%20Cami/Servicios/Terapia%20Ocupacional/terapiaOcupacionalVector_mua7ha.png" />
+        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702073081/Fem%20Cami/Servicios/Terapia%20Ocupacional/terapiaOcupacionalVector_mua7ha.png" alt="logopediaServeis" 
+        onClick={()=>setSeeFigure(true)}
+        />
           <div className="div-figure-info">
             <h2>Terapia ocupacional</h2>
             <p>La teràpia ocupacional es una professió sòcio-sanitària que vol promoure la major autonomia, benestar i qualitat de vida en les persones, a traves de l’ocupació.
@@ -14,7 +19,10 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <button>Mes info</button>
+        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702076354/Fem%20Cami/Logo/flecha-hacia-abajo-para-navegar_ncfzbc.png" 
+        alt="img-flecha"
+        className="img-flecha"
+        />
       </figure>
       <figure className="figure-servici-home">
         <div className="div-figure-img-tittle">

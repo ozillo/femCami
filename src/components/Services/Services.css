@@ -7,7 +7,7 @@
     gap:15px;
 }
 .figure-servici-home{
-    height: 350px;
+    min-height: 350px;
     width: 80vw;
     border: 1px solid orange;
     background-color:#014e97;
@@ -15,6 +15,7 @@
     flex-direction: column;
     border-radius: 10px 40px;
     justify-content: space-between;
+    align-items: center;
     gap:20px;
     padding:35px;
 }
@@ -44,3 +45,11 @@
     font-weight:bold;
 }
 
+.img-flecha{
+    height:50px;
+    width: 50px;
+    background-color:#6482c6;
+    border-radius: 50%;
+    padding:10px;
+   
+}

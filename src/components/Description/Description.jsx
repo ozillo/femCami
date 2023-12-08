@@ -6,6 +6,7 @@ const Description = () => {
   const [showInfo, setShowInfo] = useState(false)
   return (
       <>
+    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028834/Fem%20Cami/Logo/logoFemCami_eqfgop.png" />
       <section className="description-section"> 
           <h1>Centre D’Intervenció Educativa</h1>
           <p>Fem Camí és un centre d’intervenció educativa amb professionals de l’educació, amb un treball multidisciplinar i una línia metodologica on es basa en aprenentatges funcionals i adaptatius, habilitats personals, socials i d’autonomia, on es prioritza al major treball en entorn natural o un enfoc i un espai molt semblant el que es troben dia a dia, un espai obert.</p>
