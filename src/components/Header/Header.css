@@ -1,6 +1,7 @@
 header {
     height:10vh;
     width: 100%; 
+    
 }
 
 /* .div-anchor-tittle{
@@ -12,6 +13,11 @@ header {
   background-color: whitesmoke;
   transition: 0.2s ease-in-out;
 } */
+.logoHeader{
+  height:100px;
+  margin-top: 2px;
+
+}
 
 .menu-nav {
   height: 100%;
@@ -31,6 +37,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+   
     
   }
 

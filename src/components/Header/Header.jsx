@@ -4,7 +4,12 @@ import React from 'react'
 const Header = () => {
   return (
   <header>
+   
     <nav className="menu-nav">
+    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702047320/Fem%20Cami/Logo/logoFemCamiHor_qlaovk.png" 
+        alt="logo-femCami" 
+        className="logoHeader"
+   />
       <ul className="menu-nav-ul">
         <li className="menu-nav-main-li"><a href="#">Qui som</a>
           <ul className="submenu-ul">

@@ -7,10 +7,7 @@ import React from 'react'
 const Home = () => {
   return (
     <main>
-      <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028834/Fem%20Cami/logoFemCami_eqfgop.png" 
-        alt="logo-femCami" 
-        className="logoFemCami"
-      />
+ 
       <div className="div-Home-general">
           <Description/>
           <Team/>
