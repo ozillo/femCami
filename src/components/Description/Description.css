@@ -33,6 +33,14 @@
 
 .imgDescription{
     height: 300px;
+    position:absolute;
+ 
+}
+
+.div-background-img{
+    height:300px;
+    z-index:-1;
+    position: relative;
     background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1702118118/Fem%20Cami/Imagenes/portadaprova_mz64oj.png");
     opacity: 0.5;
 }
