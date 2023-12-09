@@ -2,4 +2,17 @@
     min-height: 40vh;
     width: 80vw;
     border:2px solid blue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:55px;
+    overflow: hidden;
+}
+.figure-treballador-second{
+    opacity: 0.5;
+}
+.image-treballador{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
 }
