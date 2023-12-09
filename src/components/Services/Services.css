@@ -27,6 +27,18 @@
 .div-figure-right figure{
     border-radius: 40px 10px;
 }
+.div-figure-left figure:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: 17px 20px 20px -5px rgba(255,155,46,0.75);
+-moz-box-shadow: 17px 20px 20px -5px rgba(255,155,46,0.75);
+box-shadow: 17px 20px 20px -5px rgba(255,155,46,0.75);
+}
+.div-figure-right figure:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: -20px 20px 20px -5px rgba(255,155,46,0.75);
+-moz-box-shadow: -20px 20px 20px -5px rgba(255,155,46,0.75);
+box-shadow: -20px 20px 20px -5px rgba(255,155,46,0.75);
+}
 .div-figure-left{
     width: 100%;
     height: 100%;
