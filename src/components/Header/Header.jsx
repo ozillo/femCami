@@ -6,7 +6,7 @@ const Header = () => {
   <header>
    
     <nav className="menu-nav">
-    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702047320/Fem%20Cami/Logo/logoFemCamiHor_qlaovk.png" 
+    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702123411/Fem%20Cami/Logo/logoFemCamiSinletr_zgu3xv.png" 
         alt="logo-femCami" 
         className="logoHeader"
    />
