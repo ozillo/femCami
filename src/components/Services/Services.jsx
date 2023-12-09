@@ -8,10 +8,14 @@ const Services = () => {
    
     <section className="services-section">
       <figure className="figure-servici-home">
-        <div className="div-figure-img-tittle">
-        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702073081/Fem%20Cami/Servicios/Terapia%20Ocupacional/terapiaOcupacionalVector_mua7ha.png" alt="logopediaServeis" 
-        onClick={()=>setSeeFigure(true)}
-        />
+        {
+          seeFigure==false
+          ?
+          <>
+          <div className="div-figure-img-tittle">
+          <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702073081/Fem%20Cami/Servicios/Terapia%20Ocupacional/terapiaOcupacionalVector_mua7ha.png" alt="logopediaServeis" 
+          
+          />
           <div className="div-figure-info">
             <h2>Terapia ocupacional</h2>
             <p>La teràpia ocupacional es una professió sòcio-sanitària que vol promoure la major autonomia, benestar i qualitat de vida en les persones, a traves de l’ocupació.
@@ -22,8 +26,25 @@ const Services = () => {
         <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702076354/Fem%20Cami/Logo/flecha-hacia-abajo-para-navegar_ncfzbc.png" 
         alt="img-flecha"
         className="img-flecha"
+        onClick={()=>setSeeFigure(true)}
         />
+        </>
+        :
+        <>
+        <p>FALSE</p>
+        <p>f</p>
+        <p>F</p>
+        <p>F</p>
+        <p>F</p>
+        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702076354/Fem%20Cami/Logo/flecha-hacia-abajo-para-navegar_ncfzbc.png" 
+        alt="img-flecha"
+        className="img-flecha"
+        onClick={()=>setSeeFigure(false)}/>
+        </>
+        }
       </figure>
+
+
       <figure className="figure-servici-home">
         <div className="div-figure-img-tittle">
           
