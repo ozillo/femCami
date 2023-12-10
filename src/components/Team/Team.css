@@ -1,18 +1,58 @@
 .team-section{
     min-height: 40vh;
     width: 80vw;
-    border:2px solid blue;
     display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap:55px;
     overflow: hidden;
 }
-.figure-treballador-second, .figure-treballador-last{
+/* .figure-treballador-second, .figure-treballador-last{
     opacity: 0.5;
+} */
+.div-tres-trabajadores{
+    width: 80%;
+    display:flex;
+    gap:55px;
+    padding:20px;
+    overflow: scroll;
+}
+.div-tres-trabajadores::-webkit-scrollbar:vertical{
+    display:none;
+}
+.div-tres-trabajadores::-webkit-scrollbar-thumb {
+    background-color: #FF9B2E;
+    border-radius:15px;
+    height: 5px;
+}
+
+.div-tres-trabajadores::-webkit-scrollbar {
+    background-color: #014e97;
+    border-radius: 15px;
+    height: 10px;
+}
+
+.figure-treballador{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    background-color: #5dbe34aa;
+    border:3px solid #FF9B2E;
+    padding:20px;
+    border-radius:20px;
+}
+.figure-treballador:hover{
+    -webkit-box-shadow: 17px 20px 20px -5px rgba(255,155,46,0.75);
+-moz-box-shadow: 17px 20px 20px -5px rgba(255,155,46,0.75);
+box-shadow: 17px 20px 20px -5px rgba(255,155,46,0.75);
 }
 .image-treballador{
     width: 200px;
     height: 300px;
+    border-radius:20px;
     object-fit: cover;
+    border:2px solid #FF9B2E;
 }

@@ -19,6 +19,31 @@ main {
     margin:25px 0;
 }
 
+.p-title-home{
+    height: 50px;
+    min-width: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding:10px;
+    background-color: #014e97;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color:whitesmoke;
+}
+.div-title-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div-title-home div{
+    width: 100vw;
+    height: 2px;
+    background-color: #014e97;
+}
 /* .logoFemCami{
     width: 90vw;
     height: 35vh;

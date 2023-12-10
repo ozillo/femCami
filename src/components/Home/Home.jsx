@@ -9,10 +9,17 @@ const Home = () => {
     <main>
  
       <div className="div-Home-general">
+          
           <Description/>
-          <h1>Nostre equip</h1>
+          <div className="div-title-home">
+            <p className="p-title-home">Nostre equip</p>
+            <div></div>
+          </div>
           <Team/>
-          <h1>Nostres serveis</h1>
+          <div className="div-title-home">
+            <p className="p-title-home">Nostres servicis</p>
+            <div></div>
+          </div>
           <Services/>
       </div>
 
