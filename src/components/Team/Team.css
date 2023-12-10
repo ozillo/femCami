@@ -8,7 +8,7 @@
     gap:55px;
     overflow: hidden;
 }
-.figure-treballador-second{
+.figure-treballador-second, .figure-treballador-last{
     opacity: 0.5;
 }
 .image-treballador{
