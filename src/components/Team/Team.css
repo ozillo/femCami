@@ -65,3 +65,6 @@ box-shadow: 17px 20px 20px -5px rgba(255,155,46,0.75);
     border-radius: 15px;
     border: 1px solid #FF9B2E;
 }
+.btn-conoce-team:hover{
+    transform: scale(1.1);
+}

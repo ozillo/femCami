@@ -12,12 +12,12 @@ const Home = () => {
           
           <Description/>
           <div className="div-title-home">
-            <p className="p-title-home">Nostre equip</p>
+            <p className="p-title-home">El nostre equip</p>
             <div></div>
           </div>
           <Team/>
           <div className="div-title-home">
-            <p className="p-title-home">Nostres servicis</p>
+            <p className="p-title-home">Els nostres serveis</p>
             <div></div>
           </div>
           <Services/>
