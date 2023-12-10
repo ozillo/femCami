@@ -4,8 +4,22 @@ footer {
     background-color:#82bd44;
     display: flex;
     
+    
+    
 }
 
 .logo-social{
     height:30px;
+}
+
+.div-footer-menu{
+    height:50vh;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+}
+.div-general-footer{
+    display:flex;
+    flex-direction:row;
+  
 }
