@@ -1,6 +1,7 @@
 import "./Description.css"
 
 import React, { useState } from 'react'
+import NewDescription from "./NewDescription"
 
 const Description = () => {
   const [showInfo, setShowInfo] = useState(false)
@@ -13,7 +14,8 @@ const Description = () => {
       alt="" 
       className="imgDescription"
       />
-      <section className="description-section"> 
+      <NewDescription/>
+      {/* <section className="description-section"> 
           <h1>Centre D’Intervenció Educativa</h1>
           <p>Fem Camí és un centre d’intervenció educativa amb professionals de l’educació, amb un treball multidisciplinar i una línia metodologica on es basa en aprenentatges funcionals i adaptatius, habilitats personals, socials i d’autonomia, on es prioritza al major treball en entorn natural o un enfoc i un espai molt semblant el que es troben dia a dia, un espai obert.</p>
           <button 
@@ -32,7 +34,7 @@ const Description = () => {
           onClick={()=>setShowInfo(false)}
           className="btn-mes-info">Amagar info</button>
       </section>
-      }
+      } */}
       </>
 
 
