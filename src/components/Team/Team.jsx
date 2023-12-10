@@ -83,7 +83,7 @@ const Team = () => {
       alt="" 
       onClick={()=>choosePerson(indexArray, "mayor")}
       /> */}
-      <button>Coneix nostre equip</button>
+      <button className="btn-conoce-team">Coneix nostre equip</button>
 
     </section>
   )
