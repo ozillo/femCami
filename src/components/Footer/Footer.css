@@ -80,9 +80,9 @@ footer {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 1rem;
-   
-    
-   
+}
+.logo-social:hover{
+    height:70px;
 }
 .div-contact-footer{
     display:flex;
