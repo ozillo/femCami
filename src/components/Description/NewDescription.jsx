@@ -27,7 +27,7 @@ const NewDescription = () => {
                 }
             </div>
             <div className='div-image-newDescription'>
-                <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702243353/Fem%20Cami/Imagenes/IMG-7495-1-1140x855_wbtv9v.jpg" alt="image centro fem cami" />
+                <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702251406/Fem%20Cami/POSTER1_wcdv1o.png" alt="image centro fem cami" />
             </div>
         </div>
     
@@ -35,3 +35,6 @@ const NewDescription = () => {
 }
 
 export default NewDescription
+
+
+// https://res.cloudinary.com/dtfugozix/image/upload/v1702243353/Fem%20Cami/Imagenes/IMG-7495-1-1140x855_wbtv9v.jpg
