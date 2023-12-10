@@ -16,8 +16,23 @@ footer {
     flex-direction:column;
 }
 
+.div-menu-footer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid black;
+}
+
+.div-menu-footer h4{
+    color:black;
+    font-size: 1.5rem;    
+}
+
 .div-general-footer{
-    height: 25vh;
+    height: 35vh;
     display: flex;
     flex-direction: row;
    justify-content: center;
@@ -26,18 +41,13 @@ footer {
 }
 
 .div-general2-footer{
-    height: 25vh;
+    height: 15vh;
     display:flex;
     flex-direction:row;
     justify-content: center;
     align-items: end;
     border:1px solid black;
 }
-
-.footer-menu-li{
-    
-}
-
 .div-social-footer{
     width:50vw;
     display: flex;
