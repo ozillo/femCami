@@ -5,13 +5,27 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
+  <div className="div-general-footer">
   <div className="div-social-footer">
-    <p>Instagram</p>
-    <p>Facebook</p>
-    <p>Contact</p>
+    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702214925/Fem%20Cami/Icon/instagram_icon_138461_fakkj3.png" 
+        alt="instagram" 
+        className="logo-social"
+    />
+    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702214849/Fem%20Cami/Icon/Facebook_Square_icon-icons.com_49948_h5y8gx.png" 
+        alt="facebook" 
+        className="logo-social"
+    />
+    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702214689/Fem%20Cami/Icon/youtube_logo_icon_214667_imtmqt.png" 
+        alt="youtube" 
+        className="logo-social"
+    />
   </div>
-  <div className="div-menu-footer">
-  <div className="div-section2-footer">
+  <div className="div-contact-footer">
+    <h4>CIE FEM CAMÍ - Carrer Alguer, 16 - Vilafranca del Penedès - 637 059 313</h4>
+  </div>
+  </div>
+  <div className="div-general2-footer">
+  <div className="div-themes-footer">
     <h4>Intervenció específica en autisme</h4>
       <ul>
         <li>
