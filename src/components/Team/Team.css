@@ -7,6 +7,7 @@
     justify-content: center;
     gap:55px;
     overflow: hidden;
+    padding:30px 0;
 }
 /* .figure-treballador-second, .figure-treballador-last{
     opacity: 0.5;
@@ -46,10 +47,24 @@
     padding:20px;
     border-radius:20px;
 }
+.figure-treballador h3{
+    background-color: #FF9B2E;
+    width: 100%;
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.figure-treballador p{
+    background-color: #014e97;
+    color:whitesmoke;
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+}
 .figure-treballador:hover{
-    -webkit-box-shadow: 17px 20px 20px -5px rgba(255,155,46,0.75);
--moz-box-shadow: 17px 20px 20px -5px rgba(255,155,46,0.75);
-box-shadow: 17px 20px 20px -5px rgba(255,155,46,0.75);
+    -webkit-box-shadow: 0px 0px 30px 10px rgba(255,155,46,1);
+    -moz-box-shadow: 0px 0px 30px 10px rgba(255,155,46,1);
+    box-shadow: 0px 0px 30px 10px rgba(255,155,46,1);
 }
 .image-treballador{
     width: 200px;
@@ -58,15 +73,34 @@ box-shadow: 17px 20px 20px -5px rgba(255,155,46,0.75);
     object-fit: cover;
     border:2px solid #FF9B2E;
 }
+.div-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap:35px;
+}
+
+.img-arrow-trabajadores{
+    transform: rotateY(180deg);
+}
+.div-btn-container img{
+    width: 200px;
+    height: 75px;
+}
 .btn-conoce-team{
-    height: 50px;
-    width: 150px;
+    height: 65px;
+    width: 180px;
     font-size:15px;
     font-weight:bold;
     background-color: #5dbe34;
     border-radius: 15px;
-    border: 1px solid #FF9B2E;
+    border: 1px solid #014e97;
+    margin-top:50px;
 }
 .btn-conoce-team:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 30px 1px #014e97;
+    -moz-box-shadow: 0px 0px 30px 1px #014e97;
+    box-shadow: 0px 0px 30px 1px #014e97;
 }

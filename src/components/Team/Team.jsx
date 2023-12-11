@@ -56,8 +56,9 @@ const Team = () => {
           dataTeam.map((elem, index)=>{
             return(
               <figure className="figure-treballador">
-                <img src={elem.img} alt={`name de ${elem.name}}`} className="image-treballador" />
                 <h3>{elem.name}</h3>
+                <img src={elem.img} alt={`name de ${elem.name}}`} className="image-treballador" />
+                
                 <p>{elem.job}</p>
               </figure>
             )
@@ -83,7 +84,12 @@ const Team = () => {
       alt="" 
       onClick={()=>choosePerson(indexArray, "mayor")}
       /> */}
-      <button className="btn-conoce-team">Coneix el nostre equip</button>
+      <div className="div-btn-container">
+        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702287892/Fem%20Cami/Icon/flecha1_wfyuhm.png" alt="image arrow trabajadores" className="img-arrow-trabajadores2"/>
+        <button className="btn-conoce-team">Coneix el nostre equip</button>
+        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702287892/Fem%20Cami/Icon/flecha1_wfyuhm.png" alt="image arrow trabajadores" className="img-arrow-trabajadores"/>
+      </div>
+      
 
     </section>
   )
