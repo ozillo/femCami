@@ -9,6 +9,7 @@ footer {
     height:60px;
 }
 
+
 .div-footer-menu{
     height:50vh;
     width: 100%;
@@ -47,15 +48,13 @@ footer {
     color:black;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size:1.5rem;
-    padding: 2px;
+    margin:2px;
+    padding: 4px;
   
 }
 .footer-menu-li a:hover{
-    width: 250px;
-    height: auto;
-    padding-top:35px;
-    display: block;
-    opacity: 1;
+   color:whitesmoke;
+   background-color: black;
 }
 
 .div-general-footer{
@@ -70,9 +69,9 @@ footer {
 .div-general2-footer{
     height: 15vh;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content: center;
-    align-items: end;
+    align-items:center;
     border:1px solid black;
 }
 .div-social-footer{
@@ -82,11 +81,16 @@ footer {
     margin-bottom: 1rem;
 }
 .logo-social:hover{
-    height:70px;
+    background-color:whitesmoke;
+    
 }
 .div-contact-footer{
     display:flex;
     width: 50vw;
     justify-content: center;
     margin-bottom: 1rem;
+}
+
+.div-contact-footer h4{
+   font-size: 22px;
 }

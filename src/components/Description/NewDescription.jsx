@@ -11,7 +11,7 @@ const NewDescription = () => {
                 {
                     moreInfo==false 
                     ?
-                        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702230834/Fem%20Cami/Icon/more_horiz_FILL0_wght400_GRAD0_opsz24_pghiv8.png" 
+                        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702254187/Fem%20Cami/Icon/mas-con-boton-de-tres-puntos_hsmapg.png" 
                         alt="img-flecha"
                         className="img-description-more-info"
                         onClick={()=>setMoreInfo(true)}
