@@ -20,7 +20,7 @@ const Header = () => {
         </li>
         <li className="menu-nav-main-li"><a href="#">Serveis</a>
           <ul className="submenu-ul">
-            <li className="menu-li-hidden"><a href="#">Terapia ocupacional</a></li>
+            <li className="menu-li-hidden"><a href="#">Teràpia ocupacional</a></li>
             <li className="menu-li-hidden"><a href="#">Logopedia</a></li>
             <li className="menu-li-hidden"><a href="#">Practiques centrades en la familia</a></li>
             <li className="menu-li-hidden"><a href="#">Reeducació pedagogica</a></li>

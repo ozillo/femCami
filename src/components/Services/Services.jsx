@@ -45,7 +45,7 @@ const Services = () => {
             <PrintServicio 
             title={"Logopèdia"}
             description={`La Logopèdia és la disciplina que engloba l’estudi, la prevenció, la detecció, l’evaluació, diagnòtic i el tractament dels trastorns de la comunicació humana: les alteracions de la veu, de l’audició, de la parla, del llenguatge (oral, escrit, gestual); i de les funcions orofacilas i deglutòries.`}
-            image={"https://res.cloudinary.com/dtfugozix/image/upload/v1702073081/Fem%20Cami/Servicios/Terapia%20Ocupacional/terapiaOcupacionalVector_mua7ha.png"}
+            image={"https://res.cloudinary.com/dtfugozix/image/upload/v1702255755/Fem%20Cami/Vectores/logopedia_xhkedr.png"}
             links={["link1", "link2", "link3", "link4"]}
             />
           </div>
