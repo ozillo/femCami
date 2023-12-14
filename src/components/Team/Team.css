@@ -9,6 +9,7 @@
     overflow: hidden;
     padding:30px 0;
 }
+
 /* .figure-treballador-second, .figure-treballador-last{
     opacity: 0.5;
 } */
@@ -104,3 +105,38 @@
     -moz-box-shadow: 0px 0px 30px 1px #014e97;
     box-shadow: 0px 0px 30px 1px #014e97;
 }
+
+@media screen and (width<1000px){
+    .team-section{
+        width: 100vw;
+    }
+    .div-tres-trabajadores{
+        width: 95%;
+    }
+    .figure-treballador{
+        width: 200px;
+        height: 450px;
+    }
+    .figure-treballador img{
+        width: 150px;
+        height: 200px;
+    }
+
+  }
+
+  @media screen and (width<450px){
+    .figure-treballador{
+        width: 200px;
+        height: 420px;
+    }
+    .figure-treballador-img{
+        width: 120px;
+        height: 150px;
+    }
+    .div-btn-container{
+        flex-direction: column;
+    }
+    .btn-conoce-team{
+        margin-top:0;
+    }
+  }
