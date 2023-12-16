@@ -11,7 +11,7 @@ const PrintServicio = ({title, description, image, links}) => {
             ?
             <>
             <div className="div-figure-img-tittle">
-                <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702073081/Fem%20Cami/Servicios/Terapia%20Ocupacional/terapiaOcupacionalVector_mua7ha.png" alt="logopediaServeis" />
+                 <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702073081/Fem%20Cami/Servicios/Terapia%20Ocupacional/terapiaOcupacionalVector_mua7ha.png" alt="logopediaServeis" /> 
                 <div className="div-figure-info">
                     <h2>{title}</h2>
                     <p>{description}
@@ -26,7 +26,7 @@ const PrintServicio = ({title, description, image, links}) => {
             </>
             :
             <>
-                <h2>{title}</h2>
+                <h2>Terapia ocupacional</h2>
                 {links.map((elem)=>{return (
                     <>
                     <a>{elem}</a>
