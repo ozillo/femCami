@@ -27,7 +27,7 @@ const PrintServicio = ({title, description, image, links}) => {
             :
             <>
                 <h2>Terapia ocupacional</h2>
-                {links.forEach((elem)=>{return <p>elem</p>})}
+                {links.forEach((elem)=>{return <p>{elem}</p>})}
                 <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702230893/Fem%20Cami/Icon/close_FILL0_wght400_GRAD0_opsz24_l3ofja.png" 
                 alt="img-flecha"
                 className="img-info-figure-back"
