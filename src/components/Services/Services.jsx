@@ -54,7 +54,7 @@ const Services = () => {
             <PrintServicio 
             title={"Reeducació pedagògica"}
             description={`A part de proporcionar estratègies per millorar el funcionament escolar de l’alumne/a i en la resta d’entorns, molts cops ens trobem que els aprenentatges bàsics d’infantil no acaben de estar assolits i això dificulta poder avançar amb les habilitats i aprenetatges, com la lectura i escriptura, els conceptes i continguts matemàtics que es troben més endavant.`}
-            image={"https://res.cloudinary.com/dtfugozix/image/upload/v1702073081/Fem%20Cami/Servicios/Terapia%20Ocupacional/terapiaOcupacionalVector_mua7ha.png"}
+            image={"https://res.cloudinary.com/dtfugozix/image/upload/v1702749310/Fem%20Cami/Servicios/Reeducaci%C3%B3%20pedag%C3%B2gica/reeducacionpedagogica1_y4neoe.png"}
             links={[<a href="#">Com ho apliquem?</a>, <a href="#">Objectius i metodología del servei</a>,<a href="#">Quan ho apliquem?</a>]}
             />
           </div>

@@ -26,7 +26,7 @@ const PrintServicio = ({title, description, image, links}) => {
             </>
             :
             <>
-                <h2>Terapia ocupacional</h2>
+                <h2>{title}</h2>
                 {links.map((elem)=>{return (
                     <>
                     <a>{elem}</a>
