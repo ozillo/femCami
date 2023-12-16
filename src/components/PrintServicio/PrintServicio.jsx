@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import "./PrintServicios.css"
 
 const PrintServicio = ({title, description, image, links}) => {
     const [seeFigure, setSeeFigure] = useState(true)
