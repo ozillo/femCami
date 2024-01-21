@@ -55,7 +55,7 @@ const Team = () => {
         {
           dataTeam.map((elem, index)=>{
             return(
-              <figure className="figure-treballador">
+              <figure  className="figure-treballador">
                 <h3>{elem.name}</h3>
                 <img src={elem.img} alt={`name de ${elem.name}}`} className="image-treballador" />
                 

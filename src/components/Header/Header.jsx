@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom"
 import "./Header.css"
 import React from 'react'
 
 const Header = () => {
+  const navigate = useNavigate()
   return (
   <header>
    
@@ -9,39 +11,34 @@ const Header = () => {
     <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702123411/Fem%20Cami/Logo/logoFemCamiSinletr_zgu3xv.png" 
         alt="logo-femCami" 
         className="logoHeader"
+        onClick={()=>navigate("/")}
    />
       <ul className="menu-nav-ul">
-        <li className="menu-nav-main-li"><a href="#">Qui som</a>
+        <li className="menu-nav-main-li"><a href="/qui-som">Qui som</a>
           <ul className="submenu-ul">
-            <li className="menu-li-hidden"><a href="#">Equip</a></li>
-            <li className="menu-li-hidden"><a href="#">On treballem</a></li>
-            <li className="menu-li-hidden"><a href="#">Contacte</a></li>
+            <li className="menu-li-hidden"><a href="/qui-som">Equip</a></li>
           </ul>
         </li>
-        <li className="menu-nav-main-li"><a href="#">Serveis</a>
+
+        <li className="menu-nav-main-li"><a href="/autisme">Centre específic en Autisme</a>
           <ul className="submenu-ul">
-            <li className="menu-li-hidden"><a href="#">Teràpia ocupacional</a></li>
-            <li className="menu-li-hidden"><a href="#">Logopedia</a></li>
-            <li className="menu-li-hidden"><a href="#">Practiques centrades en la familia</a></li>
-            <li className="menu-li-hidden"><a href="#">Reeducació pedagogica</a></li>
-            <li className="menu-li-hidden"><a href="#">Reforç escolar</a></li>
-            <li className="menu-li-hidden"><a href="#">Planificació i tecniques d'estudi</a></li>
-            <li className="menu-li-hidden"><a href="#">Cos i moviment</a></li>
+            <li className="menu-li-hidden"><a href="/autisme/que-es-el-autisme">Que es el autisme</a></li>
+            <li className="menu-li-hidden"><a href="/autisme/intervencio-psicoeducativa">Intervenció Psicoeducativa</a></li>
+            <li className="menu-li-hidden"><a href="/autisme/programa-habilitats-socials">Programa d'habilitats socials</a></li>
+            <li className="menu-li-hidden"><a href="/autisme/centre-recursos-CRAPG">Centre de recursos de autisme CRAPG</a></li>
           </ul>
         </li>
-        <li className="menu-nav-main-li"><a href="#">Assesorament</a>
+
+        <li className="menu-nav-main-li"><a href="/serveis">Serveis</a>
           <ul className="submenu-ul">
-            <li className="menu-li-hidden"><a href="#">Formació i tallers</a></li>
-            <li className="menu-li-hidden"><a href="#">Família i escola</a></li>
+            <li className="menu-li-hidden"><a href="/serveis/intervencio-educativa">Intervenció Educativa</a></li>
+            <li className="menu-li-hidden"><a href="/serveis/logopedia">Logopedia</a></li>
+            <li className="menu-li-hidden"><a href="/serveis/terapia-ocupacional">Teràpia ocupacional</a></li>
+            <li className="menu-li-hidden"><a href="/serveis/reeducacio-pedagogica">Reeducació pedagogica</a></li>
           </ul>
         </li>
-        <li className="menu-nav-main-li"><a href="#">Col·laboradors</a>
-          <ul className="submenu-ul">
-            <li className="menu-li-hidden"><a href="#">CRAPG</a></li>
-            <li className="menu-li-hidden"><a href="#">Autisme amb futur</a></li>
-          </ul>
-          </li>
-        <li className="menu-nav-main-li"><a href="#">Contacte</a></li>
+        
+        <li className="menu-nav-main-li"><a href="/contacte">Contacte</a></li>
       </ul>
       
     </nav>

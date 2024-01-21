@@ -105,8 +105,8 @@ header {
   } 
  */
 
- @media screen and (width<1000px){
+/* @media screen and (width<1000px){
   header{
       display:none
   }
-}
+} */

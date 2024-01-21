@@ -1,8 +1,9 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 const Serveis = () => {
   return (
-    <div>Serveis</div>
+    <Outlet/>
   )
 }
 
