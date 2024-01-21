@@ -8,23 +8,21 @@ const Footer = () => {
   <div className="div-footer-menu">
   <div className="div-general-footer">
   <div className="div-menu-footer">
-    <h4>Intervenció específica en autisme</h4>
+    <h4>Centre específic en autisme</h4>
       <ul className="footer-menu-ul">
-        <li className="footer-menu-li"><a href="#">Condició de l'espectre autista</a></li>
-        <li className="footer-menu-li"><a href="#">Intervenció psicoeducativa específica en autisme</a></li>
-        <li className="footer-menu-li"><a href="#">Tallers d'habilitats socials</a></li>  
+        <li className="footer-menu-li"><a href="/autisme/que-es-el-autisme">Que es el autisme</a></li>
+        <li className="footer-menu-li"><a href="/autisme/intervencio-psicoeducativa">Intervenció Psicoeducativa</a></li>
+        <li className="footer-menu-li"><a href="/autisme/programa-habilitats-socials">Programa d'habilitats socials</a></li>  
+        <li className="footer-menu-li"><a href="/autisme/centre-recursos-CRAPG">Centre de recursos de autisme CRAPG</a></li> 
       </ul>
   </div>
   <div className="div-menu-footer">
     <h4>Serveis</h4>
     <ul className="footer-menu-ul">
-      <li className="footer-menu-li"><a href="#">Teràpia ocupacional</a></li>
-      <li className="footer-menu-li"><a href="#">Logopèdia</a></li> 
-      <li className="footer-menu-li"><a href="#">Pràctiques centrades en la familía</a></li>
-      <li className="footer-menu-li"><a href="#">Reeducació pedagògica</a></li>
-      <li className="footer-menu-li"><a href="#">Reforç escolar</a></li>
-      <li className="footer-menu-li"><a href="#">Planificació i tècniques d'estudi</a></li>
-      <li className="footer-menu-li"><a href="#">Cos i moviment</a></li> 
+      <li className="footer-menu-li"><a href="/serveis/intervencio-educativa">Intervenció Educativa</a></li>
+      <li className="footer-menu-li"><a href="/serveis/logopedia">Logopedia</a></li> 
+      <li className="footer-menu-li"><a href="/serveis/terapia-ocupacional">Teràpia ocupacional</a></li>
+      <li className="footer-menu-li"><a href="/serveis/reeducacio-pedagogica">Reeducació pedagogica</a></li>      
     </ul>
   </div>
   <div className="div-menu-footer">
