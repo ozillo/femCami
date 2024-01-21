@@ -3,18 +3,18 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import App from './App.jsx'
 import './index.css'
-import QuiSom from './pages/QuiSom.jsx'
-import AutismoIntervencion from './pages/AutismoIntervencion.jsx'
-import AutismoPrograma from './pages/AutismoPrograma.jsx'
-import AutismoCentroCrapg from './pages/AutismoCentroCrapg.jsx'
-import Autismo from './pages/Autismo.jsx'
-import AutismoQueEs from './pages/AutismoQueEs.jsx'
-import Serveis from './pages/Serveis.jsx'
-import ServeisIntervencion from './pages/ServeisIntervencion.jsx'
-import ServeisLogopedia from './pages/ServeisLogopedia.jsx'
-import ServeisReeducacion from './pages/ServeisReeducacion.jsx'
-import ServeisTerapiaOcupacional from './pages/ServeisTerapiaOcupacional.jsx'
-import Contacto from './pages/Contacto.jsx'
+import {Autismo,
+  AutismoCentroCrapg,
+  AutismoIntervencion,
+  AutismoPrograma,
+  AutismoQueEs,
+  Contacto,
+  QuiSom,
+  Serveis,
+  ServeisIntervencion,
+  ServeisLogopedia,
+  ServeisReeducacion,
+  ServeisTerapiaOcupacional,} from './pages/index.js'
 import { Home } from './components/index.js'
 import PrintAutismo from './components/PrintAutismo/PrintAutismo.jsx'
 import PrintServeis from './components/PrintServeis/PrintServeis.jsx'
