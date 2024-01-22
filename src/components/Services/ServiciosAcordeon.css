@@ -1,0 +1,18 @@
+.section-accordion-services{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divider-Eslogan{
+    height: 4px;
+    width: 100px;
+    background-color: black;
+}
+
+.div-all-Accordion{
+    -webkit-box-shadow: 3px 0px 46px -23px rgba(45,45,45,1);
+    -moz-box-shadow: 3px 0px 46px -23px rgba(45,45,45,1);
+    box-shadow: 3px 0px 46px -23px rgba(45,45,45,1);
+    
+}

@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import "./ServiciosAcordeon.css"
 import PrintAcordeonServicios from '../PrintServicio/printAcordeonServicios'
 
 
@@ -7,6 +8,12 @@ const ServiciosAcordeon = () => {
   const [seeAllServices, setSeeAllServices] = useState(false)
   return (
     <section className='section-accordion-services'>
+        <div className='div-description-services'>
+        <h1>Els nostres serveis</h1>
+        <div className='divider-Eslogan'></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo qui sed dolorem, doloremque obcaecati ullam ex vel officia sint nam assumenda quo quibusdam itaque eligendi laudantium perspiciatis hic sit! Perferendis.</p>
+        </div>
+        <div className='div-all-Accordion'>
         <div className='div-Accordion1'>
         <PrintAcordeonServicios
             title={"Intervenció educativa"}
@@ -35,6 +42,8 @@ const ServiciosAcordeon = () => {
             icon={"https://res.cloudinary.com/dtfugozix/image/upload/v1705884879/Fem%20Cami/Icon/iconAccordion_k4u3it.png"}
             />
         </div>
+        </div>
+        
         {
           seeAllServices==false
           ?
