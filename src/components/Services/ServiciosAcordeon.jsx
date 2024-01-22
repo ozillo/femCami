@@ -11,10 +11,7 @@ const ServiciosAcordeon = () => {
         <div className='div-description-services'>
         <h1>Els nostres serveis</h1>
         <div className='divider-Eslogan'></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<span></span>
-           Explicabo qui sed dolorem,<span></span> doloremque obcaecati ullam ex vel officia
-           sint nam assumenda quo quibusdam itaque eligendi laudantium perspiciatis
-           hic sit! Perferendis.
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br> Cras a nunc venenatis, fringilla eros eget, semper orci. In a <br></br>nisi nunc. Duis maximus ligula a vehicula tempor. Proin<br></br> efficitur, ante eu lobortis posuere, elit massa.
         </p>
         </div>
         <div className='div-all-Accordion'>
