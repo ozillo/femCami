@@ -3,18 +3,39 @@ import "./PrintAcordeonServicios.css"
 
 
 const PrintAcordeonServicios = ({title,content,icon}) => {
-  // const [seeAccordion, setSeeAccordion] = useState(true)
+  const [seeAccordion, setSeeAccordion] = useState(false)
   return (
     <>
     <figure className="figure-service-home">
+      {
+
+        seeAccordion===false
+        ?
+        <>
+       
+        <div className="div-figure-info">
+        <h2>{title}</h2>
+        <img src={icon}
+            alt="img-flecha"
+            className="img-info-figure"
+            onClick={()=>setSeeAccordion(true)}
+            />
+                
+        </div>
+            </>
+            :
+            <>
+            <img src={icon}
+            alt="img-flecha"
+            className="img-info-figure-back"
+            onClick={()=>setSeeAccordion(true)}
+            />
+            <p>{content}</p>
+            </>
+      }
         
     
-            <div className="div-figure-info">
-            <img src={icon} alt="img-serveis" /> 
-                <h2>{title}</h2>
-                <p>{content}
-                </p>
-            </div>
+            
       
        
         
