@@ -18,7 +18,7 @@ const ServiciosAcordeon = () => {
         <div className='div-Accordion1'>
         <PrintAcordeonServicios
             title={"Intervenció educativa"}
-            content={`La Intervenció educativa és la disciplina que engloba l’estudi, la prevenció, la detecció, l’evaluació, diagnòtic i el tractament dels trastorns de la comunicació humana.`}
+            content={`La Intervenció educativa és la disciplina que engloba l’estudi,la prevenció, la detecció, l’evaluació, diagnòtic i el tractament dels trastorns de la comunicació humana.`}
             icon={"https://res.cloudinary.com/dtfugozix/image/upload/v1705884879/Fem%20Cami/Icon/iconAccordion_k4u3it.png"}
             />
         </div>
@@ -44,6 +44,7 @@ const ServiciosAcordeon = () => {
             />
         </div>
         </div>
+        <div class="wave"></div>
 
     </section>
   )
