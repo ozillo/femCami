@@ -14,23 +14,29 @@ const PrintAcordeonServicios = ({title,content,icon}) => {
         <>
        
         <div className="div-figure-info">
-        <h2>{title}</h2>
+        
         <img src={icon}
             alt="img-flecha"
-            className="img-info-figure"
-            onClick={()=>setSeeAccordion(true)}
+            className="img-info-figure-acordeon"
+            onClick={()=>setSeeAccordion(!seeAccordion)}
             />
-                
+            <h2>{title}</h2>    
         </div>
             </>
             :
             <>
+            <div className="div-figure-info">
             <img src={icon}
             alt="img-flecha"
-            className="img-info-figure-back"
-            onClick={()=>setSeeAccordion(true)}
+            className="img-info-figure-acordeon-rot"
+            onClick={()=>setSeeAccordion(!seeAccordion)}
             />
+                        <h2>{title}</h2>
+
+            </div>
+            <div>
             <p>{content}</p>
+            </div>
             </>
       }
         
