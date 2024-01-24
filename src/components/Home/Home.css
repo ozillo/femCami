@@ -19,19 +19,36 @@ main {
     margin:25px 0;
 }
 
-.p-title-home{
+.p-title-home-serveis, .p-title-home-equip, .p-title-home-autisme{
     height: 50px;
     min-width: 250px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     padding:10px;
-    background-color: #014e97;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     color:whitesmoke;
+}
+.p-title-home-autisme{
+    background-color: #014e97;
+}
+.p-title-home-serveis{
+    background-color: #00BF18 ;
+}
+.p-title-home-equip{
+    background-color: #FF9C19;
+}
+.title-home-serveis div{
+    background-color: #00BF18;
+}
+.title-home-equip div{
+    background-color: #FF9C19;
+}
+.title-home-autisme div{
+    background-color: #014e97;
 }
 .div-title-home{
     width: 90vw;
@@ -43,7 +60,7 @@ main {
 .div-title-home div{
     width: 90vw;
     height: 2px;
-    background-color: #014e97;
+
 }
 /* .logoFemCami{
     width: 90vw;

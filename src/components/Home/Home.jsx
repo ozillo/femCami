@@ -12,13 +12,19 @@ const Home = () => {
       <div className="div-Home-general">
           
           <Description/>
-          <div className="div-title-home">
-            <p className="p-title-home">El nostre equip</p>
+          
+          <div className="div-title-home title-home-serveis">
+            <p className="p-title-home-serveis">Els nostres serveis</p>
+            <div></div>
+          </div>
+          <ServiciosAcordeon/>
+          <div className="div-title-home title-home-equip">
+            <p className="p-title-home-equip">El nostre equip</p>
             <div></div>
           </div>
           <Team/>
-          <div className="div-title-home">
-            <p className="p-title-home">Els nostres serveis</p>
+          <div className="div-title-home title-home-autisme">
+            <p className="p-title-home-autisme">Autisme</p>
             <div></div>
           </div>
           <ServiciosAcordeon/>
