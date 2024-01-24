@@ -1,3 +1,18 @@
+:root{
+    --primary-blue:#004C9F;
+    --pastel-blue:#70B4FF;
+    --light-pastel-blue: #D8DAFF;
+    --primary-orange:#FF9C19;
+    --pastel-orange:#FFD7A3;
+    --light-pastel-orange: #FFEBD1;
+    --primary-green:#00BF18;
+    --pastel-green:#80FF90;
+    --light-pastel-green: #BDFFC5;
+    --primary-black: #2D2D2D;
+    --primary-white: #F5F5F5;
+    --primary-lima: #C6FF29;
+}
+
 *{  
     box-sizing: border-box;
     margin:0;
