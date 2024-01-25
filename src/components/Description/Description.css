@@ -79,7 +79,7 @@
     height:350px;
     width: 90vw;
     position: relative;
-    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1702160450/Fem%20Cami/manosFoto_afggng.png");
+    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1706141389/Fem%20Cami/logoBannertaza1_nqevzm.png");
     opacity: 0.4;
 }
 
@@ -101,4 +101,8 @@
     .div-image-newDescription img{
       object-fit: cover;
     }
+  }
+  .div-image-newDescription{
+    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1706142017/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/centre1_rwg45m.png");
+
   }
