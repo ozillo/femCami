@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./ServiciosAcordeon.css"
-import PrintAcordeonServicios from '../PrintServicio/printAcordeonServicios'
+import PrintAcordeonServicios from '../PrintServicio/PrintAcordeonServicios'
 
 
 const ServiciosAcordeon = () => {
