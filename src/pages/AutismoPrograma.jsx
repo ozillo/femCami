@@ -1,8 +1,9 @@
 import React from 'react'
+import BannerTitulo from '../components/BannerTitulo/BannerTitulo'
 
 const AutismoPrograma = () => {
   return (
-    <div>AutismoPrograma</div>
+    <BannerTitulo/>
   )
 }
 
