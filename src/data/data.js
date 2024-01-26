@@ -54,3 +54,4 @@ export const dataTeam = [
         img:"https://res.cloudinary.com/dtfugozix/image/upload/v1702031374/Fem%20Cami/Team/Captura_de_pantalla_2023-12-08_a_las_11.22.11_tioz5s.png"
     }
 ];
+
