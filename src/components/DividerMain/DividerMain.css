@@ -1,0 +1,27 @@
+.div-dividerMain{
+    height: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.divider-h2-titulo{
+    color:var(--primary-blue);
+}
+.divider-left-gradient{
+    width: 40%;
+    height: 5px;
+    background: rgb(255,156,25);
+    background: linear-gradient(270deg, rgba(255,156,25,1) 0%, rgba(245,245,245,1) 95%);
+}
+.divider-image{
+    width: 30px;
+    height: 20px;
+}
+.divider-right-gradient{
+    width: 40%;
+    height: 5px;
+    background: rgb(0,191,24);
+    background: linear-gradient(90deg, rgba(0,191,24,1) 0%, rgba(245,245,245,1) 95%);
+}

@@ -2,6 +2,7 @@ import "./Description.css"
 
 import React, { useState } from 'react'
 import NewDescription from "./NewDescription"
+import DividerMain from "../DividerMain/DividerMain"
 
 const Description = () => {
   const [showInfo, setShowInfo] = useState(false)
@@ -14,6 +15,7 @@ const Description = () => {
       alt="" 
       className="imgDescription"
       />
+      <DividerMain/>
       <NewDescription/>
       {/* <section className="description-section"> 
           <h1>Centre D’Intervenció Educativa</h1>

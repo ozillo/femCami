@@ -1,4 +1,5 @@
 import Description from "../Description/Description"
+import DividerMain from "../DividerMain/DividerMain"
 import Services from "../Services/Services"
 import ServiciosAcordeon from "../Services/ServiciosAcordeon"
 import Team from "../Team/Team"
@@ -6,13 +7,11 @@ import "./Home.css"
 import React from 'react'
 
 const Home = () => {
-  return (
-    <main>
- 
+  return ( 
       <div className="div-Home-general">
-          
+
           <Description/>
-          
+
           <div className="div-title-home title-home-serveis">
             <p className="p-title-home-serveis">Els nostres serveis</p>
             <div></div>
@@ -29,8 +28,6 @@ const Home = () => {
           </div>
           <ServiciosAcordeon/>
       </div>
-
-    </main>
   )
 }
 

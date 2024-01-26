@@ -1,0 +1,22 @@
+.div-page-CRAPG{
+    width: 100vw;
+    min-height: 60vh;
+}
+.section-banner-titulo{
+    width: 100%;
+    min-height: 30vh;
+}
+
+.imgDescription{
+    height: 300px;
+    width: 80vw;
+    position:absolute;
+}
+
+.div-background-img{
+    height:350px;
+    width: 90vw;
+    position: relative;
+    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1706141389/Fem%20Cami/logoBannertaza1_nqevzm.png");
+    opacity: 0.4;
+}
