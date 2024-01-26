@@ -4,16 +4,16 @@ import DividerMain from '../DividerMain/DividerMain'
 
 const BannerTitulo = ({titulo, image, option}) => {
   return (
+    <div className='div-CRAPG'>
     <section className='section-banner-titulo'>
-        <div className="div-background-img"></div>
+        <div className="div-background-img-banner"></div>
         <img 
         src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028834/Fem%20Cami/Logo/logoFemCami_eqfgop.png" 
         alt="" 
-        className="imgDescription"
+        className="imgDescription-banner"
         />
         <DividerMain/>
-
-    </section>
+    </section></div>
   )
 }
 

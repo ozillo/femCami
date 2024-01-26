@@ -1,21 +1,37 @@
+.div-CRAPG{
+    width: 100vw;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:80px;
+    margin:25px 0;
+}
+
 .div-page-CRAPG{
     width: 100vw;
     min-height: 60vh;
 }
 .section-banner-titulo{
     width: 100%;
-    min-height: 30vh;
+    height: 100%;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    gap:35px;
 }
 
-.imgDescription{
+.imgDescription-banner{
     height: 300px;
-    width: 80vw;
+    width: 90vw;
     position:absolute;
+    top:0;
 }
 
-.div-background-img{
+.div-background-img-banner{
+    z-index:0;
     height:350px;
-    width: 90vw;
+    width: 100vw;
     position: relative;
     background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1706141389/Fem%20Cami/logoBannertaza1_nqevzm.png");
     opacity: 0.4;

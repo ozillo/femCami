@@ -4,11 +4,6 @@
       { "src": "/qui-som", "dest": "/" },
       { "src": "/autisme", "dest": "/" },
       { "src": "/serveis", "dest": "/" },
-      { "src": "/srpays", "dest": "/" },
-      { "src": "/favorites", "dest": "/" },
-      { "src": "/agents/:name", "dest": "/" },
-      { "src": "/weapon/:name", "dest": "/" },
-      { "src": "/maps/:name", "dest": "/" },
       { "src": "/[^.]+", "dest": "/", "status": 200 }
     ]
   }
