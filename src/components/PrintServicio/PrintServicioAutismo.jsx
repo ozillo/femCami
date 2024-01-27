@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
+import "./PrintServicioAutismo.css"
 
-const PrintServicioAutismo = (icon,title,content) => {
+const PrintServicioAutismo = ({icon,title,content}) => {
   return (
-    <div>
+    <div className='div-section-autismo'>
     <img src={icon}
+    className='img-service-autismo'
      alt="img-icon" 
      />
     <h3>

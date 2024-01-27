@@ -115,7 +115,8 @@
     width: 180px;
     font-size:15px;
     font-weight:bold;
-    background-color: #5dbe34;
+    color:var(--primary-black);
+    background-color: var(--pastel-green);
     border-radius: 15px;
     border: 1px solid #014e97;
     margin-top:50px;
