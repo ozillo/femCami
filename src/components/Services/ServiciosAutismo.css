@@ -1,9 +1,12 @@
 .section-home-autismo{
 display:flex;
+flex:wrap;
+flex-direction: row;
 }
 
 .div-service-autismo{
-    height: 300px;
+    height: 600px;
+    width: 300px;
     display:flex;
     flex-direction: column;
     justify-content: center;

@@ -14,7 +14,7 @@ const PrintServicioAutismo = ({icon,title,content}) => {
     <p>
     {content}
     </p>
-    <button>
+    <button className='btn-section-autismo'>
       SABER MES
     </button>
     </div>
