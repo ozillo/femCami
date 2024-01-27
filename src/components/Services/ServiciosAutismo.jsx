@@ -9,9 +9,11 @@ const ServiciosAutismo = () => {
     <>
     <section className="section-home-autismo">
       <div className="div-info-autismo">
-
-
+      <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1706377602/Fem%20Cami/BannerAutisme_fe6yk6.png" 
+      alt="bannerAutismo"
+      className="bannerAutismo" />
       </div>
+      <div className="div-all-servicesAutismo">
       <div className="div-service-autismo">
       <PrintServicioAutismo
          icon={"https://res.cloudinary.com/dtfugozix/image/upload/v1706141194/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/ico-02_zazt8x.png"}
@@ -34,6 +36,8 @@ const ServiciosAutismo = () => {
         content={"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi autem expedita accusantium sapiente tenetur labore aperiam dolorem numquam harum. Eligendi, tempore asperiores ducimus esse impedit fugit aut. Totam, saepe nisi!"}
         />
       </div>
+      </div>
+      
     </section>
     </>
   )
