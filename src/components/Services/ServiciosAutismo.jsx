@@ -8,6 +8,10 @@ const ServiciosAutismo = () => {
   return (
     <>
     <section className="section-home-autismo">
+      <div className="div-info-autismo">
+
+
+      </div>
       <div className="div-service-autismo">
       <PrintServicioAutismo
          icon={"https://res.cloudinary.com/dtfugozix/image/upload/v1706141194/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/ico-02_zazt8x.png"}
@@ -20,6 +24,7 @@ const ServiciosAutismo = () => {
         icon={"https://res.cloudinary.com/dtfugozix/image/upload/v1706141194/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/Tutoring-Service_Icon_05-1_y93sqc.png"}
         title={"Programa d'activitats socials"}
         content={"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi autem expedita accusantium sapiente tenetur labore aperiam dolorem numquam harum. Eligendi, tempore asperiores ducimus esse impedit fugit aut. Totam, saepe nisi!"}
+        
         />
       </div>
       <div className="div-service-autismo">

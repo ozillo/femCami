@@ -14,6 +14,9 @@ const PrintServicioAutismo = ({icon,title,content}) => {
     <p>
     {content}
     </p>
+    <button>
+      SABER MES
+    </button>
     </div>
   )
 }

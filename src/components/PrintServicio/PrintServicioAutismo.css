@@ -1,8 +1,24 @@
 .div-section-autismo{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+}
 
+.div-section-autismo h3 {
+margin:4px;
+padding:4px;
+
+}
+
+.div-section-autismo p {
+ margin:3px;
+ padding:4px;
+
+}
+
+.div-section-autismo button {
+background-color:var(--primary-blue);
+color:var(--primary-white);
 
 }
