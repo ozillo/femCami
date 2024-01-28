@@ -22,7 +22,8 @@ flex-direction:column;
 .div-all-servicesAutismo{
 display:flex;
 flex-direction: row;
-justify-content:space-around;
+justify-content:center;
+gap:150px;
 margin: 4px;
 width: 100%;
 }
