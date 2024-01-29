@@ -11,6 +11,7 @@
     --primary-black: #2D2D2D;
     --primary-white: #F5F5F5;
     --primary-lima: #C6FF29;
+    color:var (--primary-black);
 }
 
 *{  
@@ -18,4 +19,5 @@
     margin:0;
     padding:0;
     font-family: 'Plus Jakarta Sans', sans-serif;
+  
 }   
