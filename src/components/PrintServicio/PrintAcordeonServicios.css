@@ -3,8 +3,8 @@
     height: 80px;
     align-items: first baseline;
     color:#2d2d2d;
-    background-color: var(--pastel-green);
-    border-bottom:2px solid var(--light-pastel-green);
+    background-color: var(--primary-white);
+    border-bottom:2px solid var(--light-pastel-blue);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@
     width: 100%;
     height: auto;
     padding:20px 25px;
-    background-color: var(--light-pastel-green);
+    background-color: var(--light-pastel-blue);
 }
 .figure-service-home{
     width: 100%;

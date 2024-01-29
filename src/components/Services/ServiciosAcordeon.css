@@ -58,6 +58,16 @@
     align-content: center;
 }
 
+@media screen and (width<750px){
+  .section-accordion-services{
+    flex-direction: column;
+    gap:25px;
+  }
+  .div-description-services, .div-all-Accordion{
+    width: 90vw;
+  }
+}
+
 /* .section-accordion-services {
     position: relative;
     background: #2c3e50;
