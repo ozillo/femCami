@@ -33,13 +33,13 @@
     display:none;
 } */
 .div-tres-trabajadores::-webkit-scrollbar-thumb {
-    background-color: #FF9B2E;
+    background-color: var(--primary-blue);
     border-radius:15px;
     height: 5px;
 }
 
 .div-tres-trabajadores::-webkit-scrollbar {
-    background-color: #014e97;
+    background-color:var(--light-pastel-blue);
     border-radius: 15px;
     height: 10px;
 }

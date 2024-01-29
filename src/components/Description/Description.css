@@ -82,6 +82,12 @@
     background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1706141389/Fem%20Cami/logoBannertaza1_nqevzm.png");
     opacity: 0.4;
 }
+.div-image-newDescription img{
+display:flex;
+height:700px;
+width:600px;
+
+}
 
 @media screen and (width<1000px){
     .div-general-newDescription{
@@ -101,8 +107,4 @@
     .div-image-newDescription img{
       object-fit: cover;
     }
-  }
-  .div-image-newDescription{
-    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1706269278/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/centre4background_o5zmry.png");
-
   }

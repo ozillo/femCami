@@ -92,9 +92,9 @@ const Team = () => {
       onClick={()=>choosePerson(indexArray, "mayor")}
       /> */}
       <div className="div-btn-container">
-        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1706141194/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/tutor-10_ea862b.png" alt="image arrow trabajadores" className="img-arrow-trabajadores2"/>
+        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1706540574/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/iconGotasBlOr_qjc4di.png" alt="image arrow trabajadores" className="img-arrow-trabajadores2"/>
         <button className="btn-conoce-team">Coneix el nostre equip</button>
-        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1706141194/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/tutor-10_ea862b.png" alt="image arrow trabajadores" className="img-arrow-trabajadores"/>
+        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1706540574/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/iconGotasBlOr_qjc4di.png" alt="image arrow trabajadores" className="img-arrow-trabajadores"/>
       </div>
       
 
