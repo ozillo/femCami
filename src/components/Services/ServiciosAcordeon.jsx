@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./ServiciosAcordeon.css";
 import PrintAcordeonServicios from "../PrintServicio/PrintAcordeonServicios";
+import DividerEslogan from "../DividerEslogan/DividerEslogan";
 
 const ServiciosAcordeon = () => {
     const [seeContent, setSeeContent] = useState(false);
@@ -9,8 +10,8 @@ const ServiciosAcordeon = () => {
         <section className="section-accordion-services">
             <div className="div-description-services">
                 <h1>Els nostres serveis</h1>
-                <div className="divider-Eslogan"></div>
-                <p>
+                <DividerEslogan />
+                <p className="p-description-services">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     <br></br> Cras a nunc venenatis, fringilla eros eget, semper
                     orci. In a <br></br>nisi nunc. Duis maximus ligula a
