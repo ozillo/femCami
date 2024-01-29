@@ -5,16 +5,24 @@ justify-content: center;
 align-items: center;
 margin: 4px;
 }
+.div-section-autismo img{
+    height:100px;
+    width: 100px;
+    margin-bottom: 15px;
+
+}
 
 .div-section-autismo h3 {
-margin:3px;
+margin-top: 6px;
+text-align: center;
 padding:3px;
 
 }
 
 .div-section-autismo p {
- margin:4px;
- padding:4px;
+ margin-top:10px;
+ padding:10px;
+ text-align: center;
 
 }
 
@@ -22,19 +30,19 @@ padding:3px;
 
 
 .btn-section-autismo{
-    height: 100px;
-    width: 80px;
+    height: 50px;
+    width: 110px;
     font-size:15px;
     font-weight:bold;
-    color:var(--primary-white);
-    background-color: var(--primary-blue);
+    color:var(--primary-blue);
+    background-color:var(--light-pastel-blue);
     border-radius: 15px;
-    border: 1px solid #014e97;
-    margin-top:50px;
+    border: 1px solid var(--light-pastel-blue);
+    margin-top:30px;
 }
 .btn-section-autismo:hover{
     transform: scale(1.05);
-    -webkit-box-shadow: 0px 0px 30px 1px #014e97;
-    -moz-box-shadow: 0px 0px 30px 1px #014e97;
-    box-shadow: 0px 0px 30px 1px #014e97;
+    -webkit-box-shadow: 0px 27px 85px -25px rgba(45,45,45,1);
+    -moz-box-shadow: 0px 27px 85px -25px rgba(45,45,45,1);
+    box-shadow: 0px 27px 85px -25px rgba(45,45,45,1);
 }
