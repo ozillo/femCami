@@ -26,15 +26,25 @@
     color:var(--primary-black);
     background-color: var(--primary-white);
     margin: 4px;
+    margin-top: 50px;
     -webkit-box-shadow: 3px 0px 46px -23px rgba(45,45,45,1);
     -moz-box-shadow: 3px 0px 46px -23px rgba(45,45,45,1);
     box-shadow: 3px 0px 46px -23px rgba(45,45,45,1);
 }
 .div-info-autismo{
-    height: 550px;
-    width: 100vw;
-}
-.bannerAutismo{
-    width: 100vw;
+    display:flex;
+    
     height: 500px;
+    width: 100vw;
+    background-color: var(--primary-blue);
+    align-items: center;
+    justify-content: center;
 }
+.div-info-autismo h1{
+    color:var(--primary-white);
+    font-size: 100px;
+    font-weight:thin;
+    align-content: center;
+    
+}
+
