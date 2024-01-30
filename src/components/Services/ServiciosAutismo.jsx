@@ -9,7 +9,7 @@ const ServiciosAutismo = () => {
     <>
     <section className="section-home-autismo">
       <div className="div-info-autismo">
-      <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1706377602/Fem%20Cami/BannerAutisme_fe6yk6.png" 
+      <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1706571775/Fem%20Cami/BANNER/SOMCENTRE2_neispz.png" 
       alt="bannerAutismo"
       className="bannerAutismo" />
       </div>
