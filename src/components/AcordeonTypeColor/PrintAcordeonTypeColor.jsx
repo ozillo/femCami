@@ -23,7 +23,7 @@ const PrintAcordeonTypeColor = ({ titulo, contenido, visible, onClick }) => {
                               height: contentHeight.current.scrollHeight,
                               margin: "20px 0",
                           }
-                        : { height: "0px" }
+                        : { height: "0px", color: "transparent" }
                 }
             >
                 <p>{contenido}</p>
