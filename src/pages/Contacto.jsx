@@ -1,10 +1,14 @@
-import React from 'react'
-import BannerTitulo from '../components/BannerTitulo/BannerTitulo'
+import React from "react";
+import BannerTitulo from "../components/BannerTitulo/BannerTitulo";
+import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor";
 
 const Contacto = () => {
-  return (
-    <BannerTitulo/>
-  )
-}
+    return (
+        <>
+            <BannerTitulo />
+            <AcordeonTypeColor />
+        </>
+    );
+};
 
-export default Contacto
+export default Contacto;
