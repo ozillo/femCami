@@ -1,7 +1,8 @@
 header {
-    height:10vh;
+    height:15vh;
     width: 100%; 
-    
+    color: whitesmoke;
+    background-color:#014e97;
 }
 
 /* .div-anchor-tittle{
@@ -23,8 +24,7 @@ header {
     display:flex;
     justify-content: space-evenly;
     align-items: center;
-    color: whitesmoke;
-    background-color:#014e97;
+    
     padding: 10px;
     z-index:1;
   }
@@ -110,3 +110,9 @@ header {
       display:none
   }
 } */
+
+@media screen and (width<750px){
+  .menu-nav{
+    display:none;
+  }
+}
