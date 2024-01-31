@@ -7,6 +7,9 @@ import Team from "../Team/Team";
 import "./Home.css";
 import React from "react";
 
+
+
+
 const Home = () => {
     return (
         <>
@@ -17,6 +20,8 @@ const Home = () => {
                 <div></div>
             </div>
             <ServiciosAcordeon />
+            
+            
             <div className="div-title-home title-home-equip">
                 <p className="p-title-home-equip">El nostre equip</p>
                 <div></div>
