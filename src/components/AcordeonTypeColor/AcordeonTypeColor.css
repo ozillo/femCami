@@ -5,30 +5,58 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    background-color: var(--pastel-blue);
+
     padding:50px 15px;
     border-radius: 5px;
 }
-
+.div-acordeon-option-blue{
+    background-color: var(--pastel-blue);
+}
+.div-acordeon-option-green{
+    background-color: var(--pastel-green);
+}
+.div-acordeon-option-orange{
+    background-color: var(--pastel-orange);
+}
 .div-wrapper-acordeon{
     width: 90%;
     overflow:hidden;
-    border-bottom:2px solid var(--light-pastel-blue);
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+.div-wrapper-option-blue{
+    border-bottom:2px solid var(--light-pastel-blue);
+}
+.div-wrapper-option-green{
+    border-bottom:2px solid var(--light-pastel-green);
+}
+.div-wrapper-option-orange{
+    border-bottom:2px solid var(--light-pastel-orange);
+}
 .div-wrapper-acordeon-open{
     width: 90%;
-    border-bottom:2px solid var(--light-pastel-blue);
-    background-color: var(--light-pastel-blue);
+
     border-radius:20px;
     margin:10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.div-wrapper-option-blue{
+    border-bottom:2px solid var(--light-pastel-blue);
+    background-color: var(--light-pastel-blue);
+}
+.div-wrapper-option-green{
+    border-bottom:2px solid var(--light-pastel-green);
+    background-color: var(--light-pastel-green);
+}
+.div-wrapper-option-orange{
+    border-bottom:2px solid var(--light-pastel-orange);
+    background-color: var(--light-pastel-orange);
 }
 .div-acordeon-question{
     height:70px;
@@ -43,9 +71,17 @@
     align-items: center;
     justify-content: flex-start;
 }
-.div-acordeon-question:hover{
+.div-acordeon-question-option-blue:hover{
     background: rgb(216,218,255);
-    background: linear-gradient(90deg, rgba(216,218,255,0) 0%, rgba(216,218,255,1) 20%, rgba(112,180,255,0) 100%);
+    background: linear-gradient(90deg, rgba(216,218,255,0) 0%, var(--light-pastel-blue) 20%, rgba(112,180,255,0) 100%);
+}
+.div-acordeon-question-option-green:hover{
+    background: rgb(216,218,255);
+    background: linear-gradient(90deg, rgba(216,218,255,0) 0%, var(--light-pastel-green) 20%, rgba(112,180,255,0) 100%);
+}
+.div-acordeon-question-option-orange:hover{
+    background: rgb(216,218,255);
+    background: linear-gradient(90deg, rgba(216,218,255,0) 0%, var(--light-pastel-orange) 20%, rgba(112,180,255,0) 100%);
 }
 
 .div-acordeon-content{

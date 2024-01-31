@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./AcordeonTypeColor.css";
 
-const AcordeonTypeColor = () => {
+const AcordeonTypeColor = ({ optionType }) => {
     const [isVisible, setIsVisible] = useState(null);
     const newArray = [
         {
@@ -39,7 +39,9 @@ const AcordeonTypeColor = () => {
         setIsVisible((prevIndex) => (prevIndex === index ? null : index));
     };
     return (
-        <div className="div-acordeon-type-color">
+        <div
+            className={`div-acordeon-type-color div-acordeon-option-${optionType}`}
+        >
             {newArray.map((elem, index) => {
                 return (
                     <PrintAcordeonTypeColor
@@ -48,6 +50,7 @@ const AcordeonTypeColor = () => {
                         contenido={elem.contenido}
                         visible={isVisible === index}
                         onClick={() => handleVisible(index)}
+                        option={optionType}
                     />
                 );
             })}

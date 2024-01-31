@@ -6,7 +6,9 @@ const Contacto = () => {
     return (
         <>
             <BannerTitulo />
-            <AcordeonTypeColor />
+            <AcordeonTypeColor optionType={"blue"} />
+            <AcordeonTypeColor optionType={"orange"} />
+            <AcordeonTypeColor optionType={"green"} />
         </>
     );
 };
