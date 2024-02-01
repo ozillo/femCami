@@ -28,6 +28,7 @@
 }
 .div-image-newDescription{
     width: 50%;
+
 }
 .div-image-newDescription img{
     width: 100%;
@@ -107,5 +108,20 @@ width:600px;
 @media screen and (width<700px){
     .div-image-newDescription img{
       object-fit: cover;
+      height:366px;
     }
-  }
+    .imgDescription{
+        height: 130px;
+        width: 102vw;
+        position:absolute;
+     
+    }
+    .div-background-img{
+        height:131px;
+        width: 101vw;
+        position: relative;
+     
+    }
+    
+    }
+  

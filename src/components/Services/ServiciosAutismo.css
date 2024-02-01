@@ -33,7 +33,7 @@
 }
 .div-info-autismo{
     display:flex;
-    
+    flex-wrap: wrap;
     height: 500px;
     width: 100vw;
     background-color: var(--primary-blue);
@@ -48,3 +48,19 @@
     
 }
 
+@media screen and (width<700px){
+.div-all-servicesAutismo{
+    flex-direction: column;
+    gap:20px;
+}
+.div-info-autismo{
+   height:400px;
+   width:380px;
+   text-align: center;
+
+}
+
+.div-info-autismo h1{
+    font-size: 60px;
+
+}

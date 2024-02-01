@@ -156,6 +156,10 @@
         width: calc(130% + 1.3px);
         height: 75px;
     }
+    .figure-treballador p{
+        height:93px;
+        width:200px;
+    }
 }
 
 @media screen and (width<1000px){

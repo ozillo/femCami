@@ -5,17 +5,31 @@ import "./PrintSlider.css"
 
 
 const PrintSlider = ({images}) => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [currentImage, setCurrentImage] = useState(0);
 
-  const goToPreviousSlide = () => {
-    const newIndex = (currentImageIndex - 1 + images.length) % images.length;
-    setCurrentImageIndex(newIndex);
-  };
 
-  const goToNextSlide = () => {
-    const newIndex = (currentImageIndex + 1) % images.length;
-    setCurrentImageIndex(newIndex);
-  };
+      const goToPreviousSlide = () => {
+        const newIndex = (currentImage -1 + images.length);
+        setCurrentImage(newIndex);
+      };
+    const goToNextSlide = () =>{
+        const newIndex = (currentImage +1 - images.length)
+        setCurrentImage(newIndex);
+
+    }
+console.log(PrintSlider);
+
+
+
+  // const goToPreviousSlide = () => {
+  //   const newIndex = (currentImageIndex - 1 + images.length) % images.length;
+  //   setCurrentImageIndex(newIndex);
+  // };
+
+  // const goToNextSlide = () => {
+  //   const newIndex = (currentImageIndex + 1) % images.length;
+  //   setCurrentImageIndex(newIndex);
+  // };
 
   return (
     <div className='div-previous-next'>

@@ -3,6 +3,7 @@ import DividerMain from "../DividerMain/DividerMain";
 import Services from "../Services/Services";
 import ServiciosAcordeon from "../Services/ServiciosAcordeon";
 import ServiciosAutismo from "../Services/ServiciosAutismo";
+import SliderBanner from "../SliderBanner/SliderBanner";
 import Team from "../Team/Team";
 import "./Home.css";
 import React from "react";
@@ -19,6 +20,7 @@ const Home = () => {
                 <p className="p-title-home-serveis">Els nostres serveis</p>
                 <div></div>
             </div>
+            <SliderBanner/>
             <ServiciosAcordeon />
             
             

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import "./Description.css"
 
 const NewDescription = () => {
     const [moreInfo, setMoreInfo] = useState(false)
