@@ -54,7 +54,7 @@
     height: 80px;
     width: 100%;
     background-color: var(--light-pastel-blue);
-    color: var(--primary-black);
+    color: var(--primary-blue);
     display: flex;
     align-items: center;
     border-radius:10px;
@@ -75,6 +75,11 @@
 }
 .ul-menu-burger-hidden a{
     color:var(--primary-blue);
+    font-weight: 800;
+}
+.li-menu-burger-hidden{
+    height: 35px;
+    color: var(--primary-blue);
 }
 
 
