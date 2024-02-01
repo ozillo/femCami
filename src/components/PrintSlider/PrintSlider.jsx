@@ -6,30 +6,32 @@ import "./PrintSlider.css"
 
 const PrintSlider = ({images}) => {
   const [currentImage, setCurrentImage] = useState(0);
+  const goToPreviousSlide =()=>{
+    // const newPosition = (currentImage -1)?(currentImage===0):(images.length);
+    currentImage==0 ? setCurrentImage(0) : setCurrentImage(currentImage -1)
+//     if (currentImage==0){
+// setCurrentImage(0)
+//     }else{
+// setCurrentImage(currentImage -1)
+//     }
+ 
+  }
+
+  const goToNextSlide =()=>{
+// const newPosition = (currentImage+1);
+// if (currentImage==images.length-1){
+//   setCurrentImage(images.length-1)
+//       }else{
+//   setCurrentImage(currentImage +1)
+currentImage==images.length-1 ? setCurrentImage(images.length-1) : setCurrentImage(currentImage+1)
+      }
 
 
-      const goToPreviousSlide = () => {
-        const newIndex = (currentImage -1 + images.length);
-        setCurrentImage(newIndex);
-      };
-    const goToNextSlide = () =>{
-        const newIndex = (currentImage +1 - images.length)
-        setCurrentImage(newIndex);
-
-    }
-console.log(PrintSlider);
 
 
 
-  // const goToPreviousSlide = () => {
-  //   const newIndex = (currentImageIndex - 1 + images.length) % images.length;
-  //   setCurrentImageIndex(newIndex);
-  // };
 
-  // const goToNextSlide = () => {
-  //   const newIndex = (currentImageIndex + 1) % images.length;
-  //   setCurrentImageIndex(newIndex);
-  // };
+
 
   return (
     <div className='div-previous-next'>
@@ -40,7 +42,7 @@ console.log(PrintSlider);
         Next
       </button>
       <img
-        src={images}
+        src={images[currentImage]}
       />
     </div>
   );
