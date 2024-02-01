@@ -31,7 +31,14 @@ const MenuBurger = () => {
                 <div className="div-menu-burger">
                     <ul className="ul-main-menu-burger">
                         <li className="li-menu-burger">
-                            <a href="/qui-som">Qui som?</a>
+                            <h3 onClick={() => toggleList(1)}>Qui Som?</h3>
+                            {showList === 1 && (
+                                <ul className="ul-menu-burger-hidden">
+                                    <li className="li-menu-burger-hidden">
+                                        <a href="/qui-som">Equip</a>
+                                    </li>
+                                </ul>
+                            )}
                         </li>
                         <li className="li-menu-burger">
                             <h3 onClick={() => toggleList(2)}>
@@ -40,76 +47,61 @@ const MenuBurger = () => {
                             {showList === 2 && (
                                 <ul className="ul-menu-burger-hidden">
                                     <li className="li-menu-burger-hidden">
-                                        <a href="">Qué es el autisme?</a>
-                                    </li>
-                                    <li className="li-menu-burger-hidden">
-                                        <a href="">
-                                            Intervenció psicoeducativa
+                                        <a href="/autisme/que-es-el-autisme">
+                                            Que es el autisme
                                         </a>
                                     </li>
                                     <li className="li-menu-burger-hidden">
-                                        <a href="">
+                                        <a href="/autisme/intervencio-psicoeducativa">
+                                            Intervenció Psicoeducativa
+                                        </a>
+                                    </li>
+                                    <li className="li-menu-burger-hidden">
+                                        <a href="/autisme/programa-habilitats-socials">
                                             Programa d'habilitats socials
                                         </a>
                                     </li>
                                     <li className="li-menu-burger-hidden">
-                                        <a href="">
-                                            Center de recursos de autisme CRAPG
+                                        <a href="/autisme/centre-recursos-CRAPG">
+                                            Centre de recursos de autisme CRAPG
                                         </a>
                                     </li>
                                 </ul>
                             )}
                         </li>
                         <li className="li-menu-burger">
-                            <h3 onClick={() => toggleList(3)}>
-                                Center específic en Autisme
-                            </h3>
+                            <h3 onClick={() => toggleList(3)}>Serveis</h3>
                             {showList === 3 && (
                                 <ul className="ul-menu-burger-hidden">
                                     <li className="li-menu-burger-hidden">
-                                        <a href="">Qué es el autisme?</a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Intervenció psicoeducativa
+                                        <a href="/serveis/intervencio-educativa">
+                                            Intervenció Educativa
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="">
-                                            Programa d'habilitats socials
+                                        <a href="/serveis/logopedia">
+                                            Logopedia
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="">
-                                            Center de recursos de autisme CRAPG
+                                        <a href="/serveis/terapia-ocupacional">
+                                            Teràpia ocupacional
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/serveis/reeducacio-pedagogica">
+                                            Reeducació pedagogica
                                         </a>
                                     </li>
                                 </ul>
                             )}
                         </li>
                         <li className="li-menu-burger">
-                            <h3 onClick={() => toggleList(4)}>
-                                Center específic en Autisme
-                            </h3>
+                            <h3 onClick={() => toggleList(4)}>Contacte</h3>
                             {showList === 4 && (
                                 <ul className="ul-menu-burger-hidden">
                                     <li className="li-menu-burger-hidden">
-                                        <a href="">Qué es el autisme?</a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Intervenció psicoeducativa
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Programa d'habilitats socials
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Center de recursos de autisme CRAPG
-                                        </a>
+                                        <a href="/contacte">Contacte</a>
                                     </li>
                                 </ul>
                             )}

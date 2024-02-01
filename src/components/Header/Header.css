@@ -2,7 +2,10 @@ header {
     height:15vh;
     width: 100%; 
     color: whitesmoke;
-    background-color:#014e97;
+    background-color:var(--primary-blue);
+    position:fixed;
+    top:0%;
+    z-index:12;
 }
 
 /* .div-anchor-tittle{
