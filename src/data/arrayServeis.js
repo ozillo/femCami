@@ -1,20 +1,22 @@
 export const intervencionEducativa = [
     {
         mainDescription: "POR AMPLIAR",
-        content: "POR AMPLIAR",
+        content: ["POR AMPLIAR"],
     },
 ];
 
-export const logopedia = [
+export const arrayLogopedia = [
     {
         mainDescription:
             "La Logopèdia és la disciplina que engloba l’estudi, la prevenció, la detecció, l’avaluació, diagnòstic i el tractament dels trastorns de la comunicació humana: les alteracions de la veu, de l’audició, de la parla, del llenguatge (oral, escrit, gestual); i de les funcions orofacials i deglutòries.",
         content: [
             {
                 titulo: "En què es basa les sessions de logopèdia?",
-                contenido: `A les sessions de Logopèdia treballem la comunicació (parla i llenguatge) i les habilitats implicades en l’adquisició d’aprenentatges com la lectoescriptura a través de la motivació de l’infant i sota un pla de treball coordinat i plantejat per tot l’equip del centre.
+                contenido: [
+                    `A les sessions de Logopèdia treballem la comunicació (parla i llenguatge) i les habilitats implicades en l’adquisició d’aprenentatges com la lectoescriptura a través de la motivació de l’infant i sota un pla de treball coordinat i plantejat per tot l’equip del centre.
                 La nostra intervenció es duu a terme al nostre centre com a l’entorn natural per afavorir la generalització vivencial de les estratègies que treballem i sempre des de la motivació de l’infant i les necessitats de la família que són el nucli del nostre treball en equip.
                 `,
+                ],
             },
             {
                 titulo: "Funcions",
@@ -31,7 +33,7 @@ export const logopedia = [
     },
 ];
 
-export const terapiaOcupacional = [
+export const arrayTerapiaOcupacional = [
     {
         mainDescription: "",
         content: [
@@ -62,7 +64,7 @@ export const terapiaOcupacional = [
             },
             {
                 titulo: "Quan és necessària la teràpia ocupacional?",
-                contenido: "POR AMPLIAR///IMAGEN",
+                contenido: ["POR AMPLIAR///IMAGEN"],
             },
             {
                 titulo: "Com treballem?",

@@ -1,10 +1,26 @@
-import React from 'react'
-import BannerTitulo from '../components/BannerTitulo/BannerTitulo'
+import React from "react";
+import BannerTitulo from "../components/BannerTitulo/BannerTitulo";
+import "./Autismo.css";
+import { intervencionEducativa } from "../data/arrayServeis";
 
 const ServeisIntervencion = () => {
-  return (
-    <BannerTitulo/>
-  )
-}
+    return (
+        <>
+            <BannerTitulo />
+            <section className="section-principal-page-description-acordeon">
+                <div className="div-page-main-description">
+                    <h2>Intervenció Psicoeducativa</h2>
+                    <p>{intervencionPsicoeducativa[0].mainDescription}</p>
+                </div>
+                <div className="div-page-main-acordeon">
+                    <AcordeonTypeColor
+                        optionType={"blue"}
+                        arrayData={intervencionPsicoeducativa[0].content}
+                    />
+                </div>
+            </section>
+        </>
+    );
+};
 
-export default ServeisIntervencion
+export default ServeisIntervencion;
