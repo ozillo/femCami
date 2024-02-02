@@ -43,6 +43,7 @@ currentImage==images.length-1 ? setCurrentImage(images.length-1) : setCurrentIma
       </button>
       <img
         src={images[currentImage]}
+        className='img-banner-tallers'
       />
     </div>
   );
