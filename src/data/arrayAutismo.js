@@ -51,18 +51,20 @@ export const intervencionPsicoeducativa = [
             {
                 titulo: "Pràctiques Centrades en família",
                 contenido: [
-                    `És un model on l’evidència científica corrobora que en l’actualitat, les intervencions amb major eficàcia i eficiència són les que tenen per objectiu millorar la qualitat de vida de les persones neurodivergents o amb diversitat funcional i les seves famílies. Les pràctiques professionals han anat experimentant una transformació cap a intervencions en eles quals la família participen de manera activa durant tot el pla d'intervenció, aportant el seu rol com a coneixedors i amb llarga continuïtat en la vida dels seus fills.
-                Aquest model ens permet un treball conjuntament amb la família, un acompanyament i coordinació molt propera on s’intervé des de les necessitats i demandes de la família, influint al dia a dia, promovent la inclusió i lluitant pels drets de les famílies i de l’infant en concret. Es treballa a partir d’una entrevista per rutines i es crea conjuntament el PIAF (Pla Individual de Suport a la Família); incidim en el seu dia a dia, encarem les preocupacions i necessitats, i les transformem amb objectius específics, quantificatius i d’eficàcia.
-                `,
+                    "És un model on l’evidència científica corrobora que en l’actualitat, les intervencions amb major eficàcia i eficiència són les que tenen per objectiu millorar la qualitat de vida de les persones neurodivergents o amb diversitat funcional i les seves famílies.",
+
+                    "Les pràctiques professionals han anat experimentant una transformació cap a intervencions en eles quals la família participen de manera activa durant tot el pla d'intervenció, aportant el seu rol com a coneixedors i amb llarga continuïtat en la vida dels seus fills.",
+
+                    "Aquest model ens permet un treball conjuntament amb la família, un acompanyament i coordinació molt propera on s’intervé des de les necessitats i demandes de la família, influint al dia a dia, promovent la inclusió i lluitant pels drets de les famílies i de l’infant en concret. Es treballa a partir d’una entrevista per rutines i es crea conjuntament el PIAF (Pla Individual de Suport a la Família); incidim en el seu dia a dia, encarem les preocupacions i necessitats, i les transformem amb objectius específics, quantificatius i d’eficàcia.",
                 ],
             },
             {
                 titulo: "Suport Conductual Positiu",
-                contenido: "POR AMPLIAR",
+                contenido: ["POR AMPLIAR"],
             },
             {
                 titulo: "Ensenyament Estructurat basat en metodología Teacch",
-                contenido: "POR AMPLIAR",
+                contenido: ["POR AMPLIAR"],
             },
         ],
     },
@@ -94,7 +96,9 @@ export const habilidadesSociales = [
             },
             {
                 titulo: "Altres consideracions ",
-                contenido: `A part del taller grupal d’habilitats socials, dins de la intervenció individual de l’infant i/o jove treballem aquests aspectes, al centre amb altres infants, a l’escola portem programes de lleure i patis inclusius, als extraescolars, i conjuntament amb la família duem a terme sessions al parc, al carrer, al supermercat…intentant donar resposta en entorn natural el major temps possible.`,
+                contenido: [
+                    `A part del taller grupal d’habilitats socials, dins de la intervenció individual de l’infant i/o jove treballem aquests aspectes, al centre amb altres infants, a l’escola portem programes de lleure i patis inclusius, als extraescolars, i conjuntament amb la família duem a terme sessions al parc, al carrer, al supermercat…intentant donar resposta en entorn natural el major temps possible.`,
+                ],
             },
         ],
     },

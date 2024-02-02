@@ -1,0 +1,17 @@
+.section-principal-page-description-acordeon{
+    width: 90vw;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:50px;
+}
+.div-page-main-description{
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:35px;
+}

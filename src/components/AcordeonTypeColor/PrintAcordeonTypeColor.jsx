@@ -34,7 +34,11 @@ const PrintAcordeonTypeColor = ({
                         : { height: "0px", color: "transparent" }
                 }
             >
-                <p>{contenido}</p>
+                {contenido.length === 1 ? (
+                    <p>{contenido}</p>
+                ) : (
+                    contenido.map((elem, index) => <p>· {elem}</p>)
+                )}
             </div>
         </div>
     );
