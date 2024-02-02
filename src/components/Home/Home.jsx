@@ -8,22 +8,18 @@ import Team from "../Team/Team";
 import "./Home.css";
 import React from "react";
 
-
-
-
 const Home = () => {
     return (
         <>
             <Description />
-
+            <SliderBanner />
             <div className="div-title-home title-home-serveis">
                 <p className="p-title-home-serveis">Els nostres serveis</p>
                 <div></div>
             </div>
-            <SliderBanner/>
+
             <ServiciosAcordeon />
-            
-            
+
             <div className="div-title-home title-home-equip">
                 <p className="p-title-home-equip">El nostre equip</p>
                 <div></div>
