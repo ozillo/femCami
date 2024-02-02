@@ -12,6 +12,7 @@ const AutismoQueEs = () => {
                 <div className="div-page-main-description">
                     <h2>Qué es l'autisme?</h2>
                     <p>{autismoQueEs[0].mainDescription}</p>
+                    <img src={autismoQueEs[0].icon} alt="iconQueEs" />
                 </div>
                 <div className="div-page-main-acordeon">
                     <AcordeonTypeColor

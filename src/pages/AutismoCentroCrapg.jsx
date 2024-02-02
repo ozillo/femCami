@@ -12,6 +12,8 @@ const AutismoCentroCrapg = () => {
                 <div className="div-page-main-description">
                     <h2>Centre de recurses de autisme CRAPG</h2>
                     <p>{centroCrapg[0].mainDescription}</p>
+                    <img src={centroCrapg[0].icon} alt="iconQueEs" />
+
                 </div>
                 <div className="div-page-main-acordeon">
                     <AcordeonTypeColor

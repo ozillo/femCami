@@ -11,6 +11,8 @@ const ServeisReeducacion = () => {
                 <div className="div-page-main-description">
                     <h2>Reeducació pedagógica</h2>
                     <p>{reeducacionPedagogica[0].mainDescription}</p>
+                    <img src={reeducacionPedagogica[0].icon} alt="iconQueEs" />
+
                 </div>
                 <div className="div-page-main-acordeon">
                     <AcordeonTypeColor

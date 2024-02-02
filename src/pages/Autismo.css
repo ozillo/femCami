@@ -14,4 +14,24 @@
     flex-direction: column;
     align-items: center;
     gap:35px;
+
+}
+.div-page-main-description h2{
+    font-size: 55px;
+    margin-right:1000px;
+  
+    
+
+}
+.div-page-main-description p{
+    font-size: 25px;
+    font-weight:200;
+    text-align:left;
+    padding-right: 350px;
+}
+.div-page-main-description img{
+    margin-left: 450px;
+    height:300px;
+    width: 400px;
+    border-radius: 8px 8px 8px 8px;
 }

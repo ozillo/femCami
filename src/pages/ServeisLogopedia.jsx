@@ -11,6 +11,7 @@ const ServeisLogopedia = () => {
                 <div className="div-page-main-description">
                     <h2>Logopedia</h2>
                     <p>{arrayLogopedia[0].mainDescription}</p>
+                    <img src={arrayLogopedia[0].icon} alt="iconQueEs" />
                 </div>
                 <div className="div-page-main-acordeon">
                     <AcordeonTypeColor

@@ -11,6 +11,7 @@ const AutismoPrograma = () => {
                 <div className="div-page-main-description">
                     <h2>Programa d'habilitats socials</h2>
                     <p>{habilidadesSociales[0].mainDescription}</p>
+                    <img src={habilidadesSociales[0].icon} alt="iconIntervencio" />
                 </div>
                 <div className="div-page-main-acordeon">
                     <AcordeonTypeColor

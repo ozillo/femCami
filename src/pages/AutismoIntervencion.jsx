@@ -11,6 +11,7 @@ const AutismoIntervencion = () => {
                 <div className="div-page-main-description">
                     <h2>Intervenció Psicoeducativa</h2>
                     <p>{intervencionPsicoeducativa[0].mainDescription}</p>
+                    <img src={intervencionPsicoeducativa[0].icon} alt="iconQueEs" />
                 </div>
                 <div className="div-page-main-acordeon">
                     <AcordeonTypeColor

@@ -5,10 +5,10 @@ width: 100%;
 }
 
 .div-previous-next img{
-height: 500px;
+height: 468px;
 width:1920px;
 object-fit:cover;
-padding-bottom: 200px;
+
 }
 
 .btn-previous{
@@ -25,6 +25,14 @@ z-index: 1;
 }
 
 
-/* style={{ position: 'absolute', top: '50%', right: '10px', zIndex: '1' }} */
+@media (max-width: 700px){
+.div-previous-next img{
+    height:180px;
+    width:350px;   
+
+    
+
+}
 
 
+}
