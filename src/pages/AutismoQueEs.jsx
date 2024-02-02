@@ -1,20 +1,25 @@
 import React from "react";
 import BannerTitulo from "../components/BannerTitulo/BannerTitulo";
-
+import { autismoQueEs } from "../data/arrayAutismo";
+import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor";
+import "./Autismo.css";
 const AutismoQueEs = () => {
+    console.log(autismoQueEs[0].content);
     return (
         <>
             <BannerTitulo />
-            <p>
-                L’autisme és una variant neurològica natural que pot comportar
-                alteracions en el desenvolupament de diverses funcions del
-                sistema nerviós central. Es manifesta en una diversitat d’estils
-                cognitius i formes d’experimentar, sentir i percebre el món. Les
-                persones en l’espectre autista poden tenir diferent habilitats,
-                interessos i maneres de processar la informació. Es important
-                reconèixer i respectar la neurodivergència, entenen que
-                l’autisme és una condició de vida.{" "}
-            </p>
+            <section className="section-principal-page-description-acordeon">
+                <div className="div-page-main-description">
+                    <h2>Qué es l'autisme?</h2>
+                    <p>{autismoQueEs[0].mainDescription}</p>
+                </div>
+                <div className="div-page-main-acordeon">
+                    <AcordeonTypeColor
+                        optionType={"blue"}
+                        arrayData={autismoQueEs[0].content}
+                    />
+                </div>
+            </section>
         </>
     );
 };
