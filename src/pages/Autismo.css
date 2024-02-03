@@ -41,18 +41,20 @@
     .div-page-main-description img{
         height:300px;
         width: 300px;
-        border-radius: 8px 8px 8px 8px;
+        border-radius: 8px;
     }
     .div-page-main-description h2{
+        width:80vw;
         font-size: 45px;
         text-align: center;
     }
 
 
     .div-page-main-description p{
+        width:80vw;
         font-size: 25px;
         font-weight:200;
-        text-align: center;
+
 
     }
 }
