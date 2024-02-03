@@ -26,12 +26,28 @@
 .div-page-main-description p{
     font-size: 25px;
     font-weight:200;
-    text-align:left;
-    padding-right: 350px;
 }
 .div-page-main-description img{
     margin-left: 450px;
     height:300px;
     width: 400px;
     border-radius: 8px 8px 8px 8px;
+}
+@media (max-width: 700px){
+    .div-page-main-description{
+        align-items: center;
+        width:300px;
+    }
+    .div-page-main-description h2{
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    .div-page-main-description p{
+        font-size: 25px;
+        font-weight:200;
+        text-align: center;
+
+    }
 }
