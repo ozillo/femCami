@@ -10,10 +10,12 @@
     border-radius: 5px;
 }
 .div-acordeon-option-blue{
-    background-color: var(--pastel-blue);
+    background: rgb(112,180,255);
+    background: radial-gradient(circle, rgba(112,180,255,1) 0%, rgba(216,218,255,1) 82%, rgba(245,245,245,1) 100%);
 }
 .div-acordeon-option-green{
-    background-color: var(--pastel-green);
+    background: rgb(128,255,144);
+    background: radial-gradient(circle, rgba(128,255,144,1) 0%, rgba(189,255,197,1) 75%, rgba(245,245,245,1) 100%);
 }
 .div-acordeon-option-orange{
     background-color: var(--pastel-orange);
