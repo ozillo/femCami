@@ -7,10 +7,11 @@ const AutismoQueEs = () => {
     console.log(autismoQueEs[0].content);
     return (
         <>
-            <BannerTitulo />
+            <section className="section-title-description-page">
+            <h1>Qué es l'autisme?</h1>
+            </section>
             <section className="section-principal-page-description-acordeon">
                 <div className="div-page-main-description">
-                    <h2>Qué es l'autisme?</h2>
                     <p>{autismoQueEs[0].mainDescription}</p>
                     <img src={autismoQueEs[0].icon} alt="iconQueEs" />
                 </div>

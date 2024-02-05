@@ -1,3 +1,20 @@
+.section-title-description-page{
+    display:flex;
+    width:100vw;
+    min-height:35vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background: rgb(255,184,1);
+    background: radial-gradient(circle, rgba(255,184,1,1) 0%, rgba(0,48,255,1) 14%, rgba(0,255,21,1) 28%, rgba(255,213,0,1) 40%, rgba(0,65,255,1) 52%, rgba(0,255,21,1) 64%, rgba(255,192,0,1) 76%, rgba(0,31,255,1) 88%, rgba(0,255,21,1) 100%);
+}
+.section-title-description-page h1{
+    font-size: 60px;
+    color:var(--primary-black)
+}
+
+
+
 .section-principal-page-description-acordeon{
     width: 90vw;
     min-height: 60vh;
