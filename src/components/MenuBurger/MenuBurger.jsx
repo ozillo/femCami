@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 import "./MenuBurger.css";
 import { useNavigate } from "react-router-dom";
-
+import { GrFormDown, GrFormUp } from "react-icons/gr";
 const MenuBurger = () => {
     const [openBurger, setOpenBurger] = useState(false);
     const [showList, setShowList] = useState(0);
+
+    const closeMenu = (rute) => {
+        setOpenBurger(!openBurger);
+        navigate(rute);
+    };
 
     const toggleList = (num) => {
         setShowList((prevNum) => (prevNum === num ? 0 : num));
@@ -31,7 +36,34 @@ const MenuBurger = () => {
                 <div className="div-menu-burger">
                     <ul className="ul-main-menu-burger">
                         <li className="li-menu-burger">
-                            <h3 onClick={() => toggleList(1)}>Qui Som?</h3>
+                            <div className="div-title-icon-display">
+                                <h3 onClick={() => closeMenu("/qui-som")}>
+                                    Qui Som?
+                                </h3>
+                                {showList === null ? (
+                                    <div
+                                        className="div-r-icon-space"
+                                        onClick={() => toggleList(1)}
+                                    >
+                                        <GrFormDown />
+                                    </div>
+                                ) : showList === 1 ? (
+                                    <div
+                                        className="div-r-icon-space"
+                                        onClick={() => toggleList(1)}
+                                    >
+                                        <GrFormUp />
+                                    </div>
+                                ) : (
+                                    <div
+                                        className="div-r-icon-space"
+                                        onClick={() => toggleList(1)}
+                                    >
+                                        <GrFormDown />
+                                    </div>
+                                )}
+                            </div>
+
                             {showList === 1 && (
                                 <ul className="ul-menu-burger-hidden">
                                     <li className="li-menu-burger-hidden">
@@ -41,9 +73,33 @@ const MenuBurger = () => {
                             )}
                         </li>
                         <li className="li-menu-burger">
-                            <h3 onClick={() => toggleList(2)}>
-                                Center específic en Autisme
-                            </h3>
+                            <div className="div-title-icon-display">
+                                <h3 onClick={() => closeMenu("/autisme")}>
+                                    Center específic en Autisme
+                                </h3>
+                                {showList === null ? (
+                                    <div
+                                        className="div-r-icon-space"
+                                        onClick={() => toggleList(2)}
+                                    >
+                                        <GrFormDown />
+                                    </div>
+                                ) : showList === 2 ? (
+                                    <div
+                                        className="div-r-icon-space"
+                                        onClick={() => toggleList(2)}
+                                    >
+                                        <GrFormUp />
+                                    </div>
+                                ) : (
+                                    <div
+                                        className="div-r-icon-space"
+                                        onClick={() => toggleList(2)}
+                                    >
+                                        <GrFormDown />
+                                    </div>
+                                )}
+                            </div>
                             {showList === 2 && (
                                 <ul className="ul-menu-burger-hidden">
                                     <li className="li-menu-burger-hidden">
@@ -71,7 +127,33 @@ const MenuBurger = () => {
                             )}
                         </li>
                         <li className="li-menu-burger">
-                            <h3 onClick={() => toggleList(3)}>Serveis</h3>
+                            <div className="div-title-icon-display">
+                                <h3 onClick={() => closeMenu("/serveis")}>
+                                    Serveis
+                                </h3>
+                                {showList === null ? (
+                                    <div
+                                        className="div-r-icon-space"
+                                        onClick={() => toggleList(2)}
+                                    >
+                                        <GrFormDown />
+                                    </div>
+                                ) : showList === 2 ? (
+                                    <div
+                                        className="div-r-icon-space"
+                                        onClick={() => toggleList(2)}
+                                    >
+                                        <GrFormUp />
+                                    </div>
+                                ) : (
+                                    <div
+                                        className="div-r-icon-space"
+                                        onClick={() => toggleList(2)}
+                                    >
+                                        <GrFormDown />
+                                    </div>
+                                )}
+                            </div>
                             {showList === 3 && (
                                 <ul className="ul-menu-burger-hidden">
                                     <li className="li-menu-burger-hidden">
@@ -98,7 +180,34 @@ const MenuBurger = () => {
                             )}
                         </li>
                         <li className="li-menu-burger">
-                            <h3 onClick={() => toggleList(4)}>Contacte</h3>
+                            <div className="div-title-icon-display">
+                                <h3 onClick={() => closeMenu("/contacte")}>
+                                    Contacte
+                                </h3>
+                                {showList === null ? (
+                                    <div
+                                        className="div-r-icon-space"
+                                        onClick={() => toggleList(2)}
+                                    >
+                                        <GrFormDown />
+                                    </div>
+                                ) : showList === 2 ? (
+                                    <div
+                                        className="div-r-icon-space"
+                                        onClick={() => toggleList(2)}
+                                    >
+                                        <GrFormUp />
+                                    </div>
+                                ) : (
+                                    <div
+                                        className="div-r-icon-space"
+                                        onClick={() => toggleList(2)}
+                                    >
+                                        <GrFormDown />
+                                    </div>
+                                )}
+                            </div>
+
                             {showList === 4 && (
                                 <ul className="ul-menu-burger-hidden">
                                     <li className="li-menu-burger-hidden">
