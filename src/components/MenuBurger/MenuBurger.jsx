@@ -134,21 +134,21 @@ const MenuBurger = () => {
                                 {showList === null ? (
                                     <div
                                         className="div-r-icon-space"
-                                        onClick={() => toggleList(2)}
+                                        onClick={() => toggleList(3)}
                                     >
                                         <GrFormDown />
                                     </div>
                                 ) : showList === 2 ? (
                                     <div
                                         className="div-r-icon-space"
-                                        onClick={() => toggleList(2)}
+                                        onClick={() => toggleList(3)}
                                     >
                                         <GrFormUp />
                                     </div>
                                 ) : (
                                     <div
                                         className="div-r-icon-space"
-                                        onClick={() => toggleList(2)}
+                                        onClick={() => toggleList(3)}
                                     >
                                         <GrFormDown />
                                     </div>
@@ -187,21 +187,21 @@ const MenuBurger = () => {
                                 {showList === null ? (
                                     <div
                                         className="div-r-icon-space"
-                                        onClick={() => toggleList(2)}
+                                        onClick={() => toggleList(4)}
                                     >
                                         <GrFormDown />
                                     </div>
                                 ) : showList === 2 ? (
                                     <div
                                         className="div-r-icon-space"
-                                        onClick={() => toggleList(2)}
+                                        onClick={() => toggleList(4)}
                                     >
                                         <GrFormUp />
                                     </div>
                                 ) : (
                                     <div
                                         className="div-r-icon-space"
-                                        onClick={() => toggleList(2)}
+                                        onClick={() => toggleList(4)}
                                     >
                                         <GrFormDown />
                                     </div>
