@@ -95,9 +95,11 @@
 .ul-menu-burger-hidden a{
     color:var(--light-pastel-blue);
     font-weight: 800;
+    font-size: 20px;
+    text-align: center;
 }
 .li-menu-burger-hidden{
-    height: 50px;
+    min-height: 65px;
     width: auto;
     display: flex;
     align-items: center;
