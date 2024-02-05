@@ -11,7 +11,7 @@
     width: 100%;
     min-height: 150px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap:35px;
 
@@ -36,6 +36,7 @@
     .div-page-main-description{
         align-items: center;
         width:300px;
+        flex-direction: column;
     }
 
     .div-page-main-description img{

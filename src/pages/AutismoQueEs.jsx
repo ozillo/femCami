@@ -21,6 +21,7 @@ const AutismoQueEs = () => {
                     />
                 </div>
             </section>
+            <BannerTitulo />
         </>
     );
 };
