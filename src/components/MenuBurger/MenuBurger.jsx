@@ -161,17 +161,17 @@ const MenuBurger = () => {
                                             Intervenció Educativa
                                         </a>
                                     </li>
-                                    <li>
+                                    <li className="li-menu-burger-hidden">
                                         <a href="/serveis/logopedia">
                                             Logopedia
                                         </a>
                                     </li>
-                                    <li>
+                                    <li className="li-menu-burger-hidden">
                                         <a href="/serveis/terapia-ocupacional">
                                             Teràpia ocupacional
                                         </a>
                                     </li>
-                                    <li>
+                                    <li className="li-menu-burger-hidden">
                                         <a href="/serveis/reeducacio-pedagogica">
                                             Reeducació pedagogica
                                         </a>
