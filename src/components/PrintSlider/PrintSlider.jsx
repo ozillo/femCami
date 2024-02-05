@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FcPrevious,FcNext } from "react-icons/fc";
 import "./PrintSlider.css"
 
 
@@ -36,10 +37,10 @@ currentImage==images.length-1 ? setCurrentImage(images.length-1) : setCurrentIma
   return (
     <div className='div-previous-next'>
       <button className='btn-previous' onClick={goToPreviousSlide} >
-        Prev
+      <FcPrevious className='btn-previous-slider'/>
       </button>
       <button className='btn-next' onClick={goToNextSlide}>
-        Next
+      <FcNext className='btn-next-slider'/>
       </button>
       <img
         src={images[currentImage]}
