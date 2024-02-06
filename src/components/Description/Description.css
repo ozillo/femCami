@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: center;
     padding:25px;
+    background-color: var(--primary-white);
 }
 .div-info-newDescription{
     width: 40%;

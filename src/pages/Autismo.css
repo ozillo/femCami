@@ -1,12 +1,15 @@
 .section-title-description-page{
     display:flex;
     width:100vw;
-    min-height:35vh;
+    min-height:45vh;
     justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    background: rgb(255,184,1);
-    background: radial-gradient(circle, rgba(255,184,1,1) 0%, rgba(0,48,255,1) 14%, rgba(0,255,21,1) 28%, rgba(255,213,0,1) 40%, rgba(0,65,255,1) 52%, rgba(0,255,21,1) 64%, rgba(255,192,0,1) 76%, rgba(0,31,255,1) 88%, rgba(0,255,21,1) 100%);
+    align-items: flex-start;
+    padding-top:15px;
+    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1707212621/Fem%20Cami/Background/jess-bailey-l3N9Q27zULw-unsplash_zuwmk4.jpg");
+
+    background-size: contain;
+    background-attachment:scroll;
+    background-position: 0%;
 }
 .section-title-description-page h1{
     font-size: 60px;
@@ -29,7 +32,7 @@
     min-height: 150px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     gap:35px;
 
 }
@@ -40,14 +43,55 @@
     
 
 }
-.div-page-main-description p{
-    font-size: 25px;
+.p-page-main-description{
+    width: 55%;
+    font-size: 20px;
     font-weight:200;
+    border-right:1px solid var(--primary-black);
+    padding-right:30px;
 }
-.div-page-main-description img{
-    height:300px;
-    width: 400px;
+.img-page-main-description{
+    height:350px;
+    width: 300px;
     border-radius: 8px 8px 8px 8px;
+}
+.section-page-main-divider-images{
+    width: 100vw;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top:30px;
+    background-color: var(--primary-white);
+}
+.div-divider-images{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0;
+}
+.section-principal-page-more-info{
+    width: 90vw;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:65px;
+}
+.div-principal-page-more-info{
+
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+}
+.div-principal-page-more-info div{
+    width: 50%;
+    min-height: 100%;
+    border-right:1px solid var(--primary-black);
+    padding: 50px;
 }
 @media (max-width: 700px){
     .div-page-main-description{
