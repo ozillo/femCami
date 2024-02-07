@@ -1,4 +1,6 @@
-
+.section-initial-transition{
+    transition: all 1s ease;
+}
 
 .div-Home-general{
     width: 80vw;

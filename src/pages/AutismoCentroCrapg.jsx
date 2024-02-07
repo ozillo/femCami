@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BannerTitulo from "../components/BannerTitulo/BannerTitulo";
 import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor";
 import "./Autismo.css";
 import { centroCrapg } from "../data/arrayAutismo";
+import { controlScroll } from "../utils/controlScroll";
 
 const AutismoCentroCrapg = () => {
+    useEffect(() => {
+        controlScroll();
+    }, []);
     return (
         <>
             <BannerTitulo />
@@ -13,7 +17,6 @@ const AutismoCentroCrapg = () => {
                     <h2>Centre de recurses de autisme CRAPG</h2>
                     <p>{centroCrapg[0].mainDescription}</p>
                     <img src={centroCrapg[0].icon} alt="iconQueEs" />
-
                 </div>
                 <div className="div-page-main-acordeon">
                     <AcordeonTypeColor

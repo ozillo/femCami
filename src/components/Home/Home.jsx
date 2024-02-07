@@ -6,30 +6,61 @@ import ServiciosAutismo from "../Services/ServiciosAutismo";
 import SliderBanner from "../SliderBanner/SliderBanner";
 import Team from "../Team/Team";
 import "./Home.css";
-import React from "react";
+import React, { useEffect } from "react";
 
 const Home = () => {
+    const controlScroll = () => {
+        const sections = document.querySelectorAll(
+            ".section-initial-transition",
+        );
+        const scrollTop = document.documentElement.scrollTop;
+
+        console.log({ sections });
+        sections.forEach((elem, index) => {
+            let altura = sections[index].offsetTop;
+            if (altura - 500 < scrollTop) {
+                sections[index].style.opacity = 1;
+            } else {
+                sections[index].style.opacity = 0;
+            }
+        });
+    };
+    window.addEventListener("scroll", controlScroll);
+    useEffect(() => {
+        controlScroll();
+    }, []);
+
     return (
         <>
             <Description />
-            <SliderBanner />
+
+            <section className="section-initial-transition">
+                <SliderBanner />
+            </section>
+
             <div className="div-title-home title-home-serveis">
                 <p className="p-title-home-serveis">Els nostres serveis</p>
                 <div></div>
             </div>
-
-            <ServiciosAcordeon />
+            <section className="section-initial-transition">
+                <ServiciosAcordeon />
+            </section>
 
             <div className="div-title-home title-home-equip">
                 <p className="p-title-home-equip">El nostre equip</p>
                 <div></div>
             </div>
-            <Team />
+            <section className="section-initial-transition">
+                <Team />
+            </section>
+
             <div className="div-title-home title-home-autisme">
                 <p className="p-title-home-autisme">Autisme</p>
                 <div></div>
             </div>
-            <ServiciosAutismo />
+            <section className="section-initial-transition">
+                <ServiciosAutismo />
+            </section>
         </>
     );
 };

@@ -1,23 +1,25 @@
-import "./Description.css"
+import "./Description.css";
 
-import React, { useState } from 'react'
-import NewDescription from "./NewDescription"
-import DividerMain from "../DividerMain/DividerMain"
+import React, { useState } from "react";
+import NewDescription from "./NewDescription";
+import DividerMain from "../DividerMain/DividerMain";
 
 const Description = () => {
-  const [showInfo, setShowInfo] = useState(false)
-  return (
-      <>
-      <div className="div-background-img"> 
-      </div>
-      <img 
-      src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028834/Fem%20Cami/Logo/logoFemCami_eqfgop.png" 
-      alt="" 
-      className="imgDescription"
-      />
-      <DividerMain/>
-      <NewDescription/>
-      {/* <section className="description-section"> 
+    const [showInfo, setShowInfo] = useState(false);
+    return (
+        <>
+            <div className="div-background-img"></div>
+            <img
+                src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028834/Fem%20Cami/Logo/logoFemCami_eqfgop.png"
+                alt=""
+                className="imgDescription"
+            />
+            <DividerMain />
+            <section className="section-initial-transition">
+                <NewDescription />
+            </section>
+
+            {/* <section className="description-section"> 
           <h1>Centre D’Intervenció Educativa</h1>
           <p>Fem Camí és un centre d’intervenció educativa amb professionals de l’educació, amb un treball multidisciplinar i una línia metodologica on es basa en aprenentatges funcionals i adaptatius, habilitats personals, socials i d’autonomia, on es prioritza al major treball en entorn natural o un enfoc i un espai molt semblant el que es troben dia a dia, un espai obert.</p>
           <button 
@@ -37,10 +39,8 @@ const Description = () => {
           className="btn-mes-info">Amagar info</button>
       </section>
       } */}
-      </>
+        </>
+    );
+};
 
-
-  )
-}
-
-export default Description
+export default Description;
