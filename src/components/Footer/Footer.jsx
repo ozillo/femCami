@@ -38,15 +38,15 @@ const Footer = () => {
     <h4>CIE FEM CAMÍ 2023 - Carrer Alguer, 16 - Vilafranca del Penedès - 637 059 313</h4>
   </div>
   <div className="div-social-footer">
-    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702214925/Fem%20Cami/Icon/instagram_icon_138461_fakkj3.png" 
+    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1707307244/Fem%20Cami/Icon/iconmonstr-instagram-13-64_b87kji.png" 
         alt="instagram" 
         className="logo-social"
     />
-    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702214849/Fem%20Cami/Icon/Facebook_Square_icon-icons.com_49948_h5y8gx.png" 
+    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1707303816/Fem%20Cami/Icon/iconmonstr-facebook-3-64_1_qdzzno.png" 
         alt="facebook" 
         className="logo-social"
     />
-    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702214689/Fem%20Cami/Icon/youtube_logo_icon_214667_imtmqt.png" 
+    <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1707303816/Fem%20Cami/Icon/iconmonstr-youtube-6-64_zb9kmq.png" 
         alt="youtube" 
         className="logo-social"
     />

@@ -8,7 +8,7 @@ const AutismoQueEs = () => {
     return (
         <>
             <section className="section-title-description-page">
-            <h1>Qué es l'autisme?</h1>
+            <h1 className="title-page">Qué es l'autisme?</h1>
             </section>
             <section className="section-principal-page-description-acordeon">
                 <div className="div-page-main-description">

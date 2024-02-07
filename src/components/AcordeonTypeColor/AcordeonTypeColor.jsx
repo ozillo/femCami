@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./AcordeonTypeColor.css";
+import PrintAcordeonTypeColor from "./PrintAcordeonTypeColor";
 
 const AcordeonTypeColor = ({ optionType, arrayData }) => {
     const [isVisible, setIsVisible] = useState(null);
@@ -27,6 +28,5 @@ const AcordeonTypeColor = ({ optionType, arrayData }) => {
         </div>
     );
 };
-import "./AcordeonTypeColor.css";
-import PrintAcordeonTypeColor from "./PrintAcordeonTypeColor";
+
 export default AcordeonTypeColor;

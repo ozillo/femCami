@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     padding:25px;
-    background-color: var(--primary-white);
+    background-color: transparent;
 }
 .div-info-newDescription{
     width: 40%;
@@ -29,6 +29,7 @@
 }
 .div-image-newDescription{
     width: 50%;
+    background-color: transparent;
 
 }
 .div-image-newDescription img{

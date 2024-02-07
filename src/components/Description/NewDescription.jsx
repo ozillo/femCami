@@ -28,7 +28,7 @@ const NewDescription = () => {
                 }
             </div>
             <div className='div-image-newDescription'>
-                <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1706542647/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/backgroundPera_o7zktx.png" alt="image centro fem cami" />
+                <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1707301436/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/backgroundPeraTrans_qkiuya.png" alt="image centro fem cami" />
             </div>
         </div>
     
