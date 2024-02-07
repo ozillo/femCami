@@ -12,17 +12,18 @@
     background-position: 0%;
 }
 .section-title-description-page h1{
-    font-size: 80px;
+    font-size: 100px;
+    font-family: 'Chicle', serif;
     font-weight: bold;
     color:var(--primary-black)
 }
 
-.title-page{
+/* .title-page{
 background: url(https://res.cloudinary.com/dtfugozix/image/upload/v1707246955/textura1_vovdtm.png) 0 0 / cover no-repeat;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 text-shadow: 5px 5px var(--primary-green)
-}
+} */
 
 
 
