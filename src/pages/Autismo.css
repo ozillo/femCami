@@ -15,7 +15,16 @@
     font-size: 100px;
     font-family: 'Chicle', serif;
     font-weight: bold;
-    color:var(--primary-black)
+    color:var(--primary-green);
+}
+
+.title-page{
+   
+        color: white; /* color del texto */
+        text-shadow: -1px -1px 0 #000,  
+                      1px -1px 0 #000,
+                     -1px  1px 0 #000,
+                      1px  1px 0 #000; 
 }
 
 /* .title-page{

@@ -5,7 +5,8 @@ import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor
 const Contacto = () => {
     return (
         <>
-            <BannerTitulo />
+        <h1>Contacte</h1>
+       
             <AcordeonTypeColor optionType={"blue"} />
             <AcordeonTypeColor optionType={"orange"} />
             <AcordeonTypeColor optionType={"green"} />
