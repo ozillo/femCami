@@ -1,4 +1,4 @@
-export const controlScroll = () => {
+export const initialScrollTop = () => {
     window.scroll({
         top: 0,
         left: 0,

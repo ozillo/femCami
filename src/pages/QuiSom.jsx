@@ -1,10 +1,12 @@
-import React from 'react'
-import BannerTitulo from '../components/BannerTitulo/BannerTitulo'
+import React, { useEffect } from "react";
+import BannerTitulo from "../components/BannerTitulo/BannerTitulo";
+import { initialScrollTop } from "../utils/controlScroll";
 
 const QuiSom = () => {
-  return (
-    <BannerTitulo/>
-  )
-}
+    useEffect(() => {
+        initialScrollTop();
+    }, []);
+    return <BannerTitulo />;
+};
 
-export default QuiSom
+export default QuiSom;

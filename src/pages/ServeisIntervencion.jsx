@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BannerTitulo from "../components/BannerTitulo/BannerTitulo";
 import "./Autismo.css";
 import { intervencionEducativa } from "../data/arrayServeis";
+import { initialScrollTop } from "../utils/controlScroll";
 
 const ServeisIntervencion = () => {
     return (

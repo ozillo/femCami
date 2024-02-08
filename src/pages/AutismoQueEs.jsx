@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BannerTitulo from "../components/BannerTitulo/BannerTitulo";
 import { autismoQueEs } from "../data/arrayAutismo";
 import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor";
 import "./Autismo.css";
+import { initialScrollTop } from "../utils/controlScroll";
+
 const AutismoQueEs = () => {
+    useEffect(() => {
+        initialScrollTop();
+    }, []);
     console.log(autismoQueEs[0].content);
     return (
         <>
             <section className="section-title-description-page">
-            <h1 className="title-page">Qué es l'autisme?</h1>
+                <h1 className="title-page">Qué es l'autisme?</h1>
             </section>
             <section className="section-principal-page-description-acordeon">
                 <div className="div-page-main-description">

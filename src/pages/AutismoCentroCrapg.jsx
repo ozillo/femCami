@@ -3,11 +3,11 @@ import BannerTitulo from "../components/BannerTitulo/BannerTitulo";
 import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor";
 import "./Autismo.css";
 import { centroCrapg } from "../data/arrayAutismo";
-import { controlScroll } from "../utils/controlScroll";
+import { initialScrollTop } from "../utils/controlScroll";
 
 const AutismoCentroCrapg = () => {
     useEffect(() => {
-        controlScroll();
+        initialScrollTop();
     }, []);
     return (
         <>
