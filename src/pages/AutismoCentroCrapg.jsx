@@ -11,7 +11,9 @@ const AutismoCentroCrapg = () => {
     }, []);
     return (
         <>
-            <BannerTitulo />
+            <section className="section-title-description-page">
+            <h1 className="title-page">Centre de recursos d'autisme CRAPG</h1>
+            </section>
             <section className="section-principal-page-description-acordeon">
                 <div className="div-page-main-description">
                     <h2>Centre de recurses de autisme CRAPG</h2>
