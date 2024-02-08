@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BannerTitulo from "../components/BannerTitulo/BannerTitulo";
 import { habilidadesSociales } from "../data/arrayAutismo";
 import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor";
 import "./Autismo.css";
 import DividerEslogan from "../components/DividerEslogan/DividerEslogan";
 import DividerMain from "../components/DividerMain/DividerMain";
+import { initialScrollTop } from "../utils/controlScroll";
+
 const AutismoPrograma = () => {
+    useEffect(() => {
+        initialScrollTop();
+    }, []);
     return (
         <>
             <section className="section-title-description-page">

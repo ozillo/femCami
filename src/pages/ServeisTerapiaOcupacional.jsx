@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BannerTitulo from "../components/BannerTitulo/BannerTitulo";
 import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor";
 import { arrayTerapiaOcupacional } from "../data/arrayServeis";
 import "./Autismo.css";
+import { initialScrollTop } from "../utils/controlScroll";
+
 const ServeisTerapiaOcupacional = () => {
+    useEffect(() => {
+        initialScrollTop();
+    }, []);
     return (
         <>
             <BannerTitulo />
@@ -11,7 +16,10 @@ const ServeisTerapiaOcupacional = () => {
                 <div className="div-page-main-description">
                     <h2>Terapia ocupacional</h2>
                     <p>{arrayTerapiaOcupacional[0].mainDescription}</p>
-                    <img src={arrayTerapiaOcupacional[0].icon} alt="iconQueEs" />
+                    <img
+                        src={arrayTerapiaOcupacional[0].icon}
+                        alt="iconQueEs"
+                    />
                 </div>
                 <div className="div-page-main-acordeon">
                     <AcordeonTypeColor

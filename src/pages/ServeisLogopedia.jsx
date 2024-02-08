@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import BannerTitulo from "../components/BannerTitulo/BannerTitulo";
 import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor";
 import { arrayLogopedia } from "../data/arrayServeis";
+import { initialScrollTop } from "../utils/controlScroll";
 
 const ServeisLogopedia = () => {
+    useEffect(() => {
+        initialScrollTop();
+    }, []);
     return (
         <>
             <BannerTitulo />

@@ -1,10 +1,12 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
+import React, { useEffect } from "react";
+import { Outlet } from "react-router-dom";
+import { initialScrollTop } from "../utils/controlScroll";
 
 const Autismo = () => {
-  return (
-    <Outlet/>
-  )
-}
+    useEffect(() => {
+        initialScrollTop();
+    }, []);
+    return <Outlet />;
+};
 
-export default Autismo
+export default Autismo;
