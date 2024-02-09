@@ -5,16 +5,16 @@
     justify-content: center;
     align-items: flex-start;
     padding-top:15px;
-    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1707311351/Fem%20Cami/Background/BackgroundLapicesTransDif_t4kcq7.png");
+    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1707435751/Fem%20Cami/Background/pencils-1_rzsw5j.png");
 
     background-size: contain;
     background-attachment:scroll;
     background-position: 0%;
 }
 .section-title-description-page h1{
-    font-size: 100px;
-    font-family: 'Chicle', serif;
-    font-weight: bold;
+    font-size: 160px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:100;
     color:var(--primary-blue);
 }
 
@@ -115,6 +115,10 @@ text-shadow: 5px 5px var(--primary-green)
         align-items: center;
         width:300px;
         flex-direction: column;
+    }
+    .section-title-description-page h1{
+        font-size: 110px;
+      
     }
 
     .div-page-main-description img{

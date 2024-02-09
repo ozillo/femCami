@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./AcordeonSlider.css"
 import {intervencionEducativa,arrayLogopedia,arrayTerapiaOcupacional,reeducacionPedagogica} from "../../data"
-const {intervencionEducativa,arrayLogopedia,arrayTerapiaOcupacional,reeducacionPedagogica}=dataServices;
+
+
 
 const AcordeonSlider =()=>{
 const[ServicesArray,SetServicesArray]=useState(0)
@@ -16,7 +17,7 @@ const chooseService = (index, btn) => {
       : SetServicesArray(4)
 
 }
-const allServices = document.querySelectorAll(".figure-service-second")
+const allServices = document.querySelectorAll("figure-service-second")
       allServices[index].classList.remove("figure-service-second")
       allServices[index].classList.add("figure-service-principal")
       console.log(allServices)
