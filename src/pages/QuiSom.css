@@ -33,8 +33,6 @@
 .div-page-treballadors{
     display:flex;
     flex-direction:row;
-    height:35vh;
-    width: 100%;
     gap:15px;
    align-content: center;
    align-items: center;
