@@ -35,15 +35,15 @@ const QuiSom = () => {
                     </div>
                     
                     <div class="quote">
-            <p class="text"> I know quite certainly that I myself have no special talent; curiosity,
-                <span class="highlight">obsession
+            <p class="text"> {dataTeam[0].mention}
+                <span class="highlight">{dataTeam[0].highlight}
                     <span class="definition-box">
-                        <span class="pronounce">[əbˈseʃ(ə)n]<i class="fas fa-volume-up"></i></span>
-                        <span class="definition"><span class="bold">Obsession, </span> a persistent disturbing preoccupation with an often unreasonable idea or feeling.</span>
+                        <span class="pronounce">{dataTeam[0].pronounce}<i class="fas fa-volume-up"></i></span>
+                        <span class="definition"><span class="bold">{dataTeam[0].bold}, </span>{dataTeam[0].definition}</span>
                     </span>
-                </span> and dogged endurance, combined with self-criticism have brought me to my ideas.
+                </span>{dataTeam[0].postmention}.
             </p>
-            <p class="author">Albert Einstein</p>
+            <p class="author">{dataTeam[0].name} {dataTeam[0].subname}</p>
         </div>
       
 

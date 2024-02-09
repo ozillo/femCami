@@ -3,7 +3,13 @@ export const dataTeam = [
         name:'Mònica',
         subname:'Cardús Torné',
         job:'Directora CIE FEM CAMÍ Mestra d’Educació Especial',
-        img:"https://res.cloudinary.com/dtfugozix/image/upload/v1702031375/Fem%20Cami/Team/Captura_de_pantalla_2023-12-08_a_las_11.17.59_ohl4eb.png"
+        img:"https://res.cloudinary.com/dtfugozix/image/upload/v1702031375/Fem%20Cami/Team/Captura_de_pantalla_2023-12-08_a_las_11.17.59_ohl4eb.png",
+        mention:'Autisme també conegut com a trastorn de espectre autista',
+        highlight:'TEA',
+        definition:'és una condició neurològica que afecta la comunicació, el comportament i la interacció social d´una persona.',
+        pronounce: 'T-E-A',
+        bold:'TEA',
+        postmention:'és una condició neurobiològica complexa que es manifesta en la infància i es caracteritza per dificultats en la comunicació social patrons de comportament repetitiu i restricció interessos'
     },
     {
         name:'Núria',
