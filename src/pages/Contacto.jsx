@@ -10,9 +10,13 @@ const Contacto = () => {
     }, []);
     return (
         <>
-            <section className="section-contacte-general-info"></section>
-            <section className="section-contacte-ubication-map">
-            
+            <section className="section-contacte-general-info">
+                <h1>Adreça: Carrer de l'Alguer </h1>
+                <p>Població:Vilafranca del Penedès</p>
+                <p>CP: 08720</p>
+                <p>Provincia: Barcelona</p>
+            </section>
+        <section className="section-contacte-ubication-map">  
         <div class="center">
           <input type="checkbox" name="flipped" id="flipped"/>
           <svg class="land" viewBox="0 0 100 100">
@@ -33,13 +37,12 @@ const Contacto = () => {
               <p>08720 Vilafranca del Penedès</p>
             </div>
             <div class="btn-group">
-              <a>Com anar</a>
+              <a>Com arribar</a>
               <a>Veure</a>
             </div>
           </label>
         </div>
-   
-            </section>
+        </section>
             <section className="section-contacte-formulario"></section>
         </>
     );

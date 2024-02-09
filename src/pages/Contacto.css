@@ -7,9 +7,15 @@
     justify-content: center;
 }
 .section-contacte-general-info{
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 500px;
     border:1px solid red;
+    background-color: var(--light-pastel-green);
+    align-items: center;
+    justify-content: center;
+
 }
 .section-contacte-ubication-map{
     position:relative;
