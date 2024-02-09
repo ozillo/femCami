@@ -110,6 +110,16 @@ text-shadow: 5px 5px var(--primary-green)
     border-right:1px solid var(--primary-black);
     padding: 50px;
 }
+
+.div-page-treballadors{
+    display:flex;
+    flex-direction:row;
+    gap:15px;
+   align-content: center;
+   align-items: center;
+   background-color: var(--light-pastel-green);
+   margin: 10px;
+}
 @media (max-width: 700px){
     .div-page-main-description{
         align-items: center;

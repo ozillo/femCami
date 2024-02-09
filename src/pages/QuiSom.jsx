@@ -17,7 +17,7 @@ const QuiSom = () => {
     <h1>Qui Som</h1>
  </section>
  <DividerMain/>
- <section className="section-principal-page-description-acordeon">
+ <section className="section-principal-page-treballadors">
                 <div className="div-page-treballadors">
                 <img
                         src={dataTeam[0].img}
