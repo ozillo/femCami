@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { initialScrollTop } from "../utils/controlScroll";
-import "./Autismo.css"
+import "./QuiSom.css"
 import { dataTeam } from "../data/data";
 import DividerMain from "../components/DividerMain/DividerMain";
 
@@ -24,6 +24,7 @@ const QuiSom = () => {
                         alt="iconTreballadors"
                         className="img-page-treballadors"
                     />
+                    <div className="div-description-treballadors">
                     <h1 className="h1-page-name">{dataTeam[0].name}</h1>
                     <p className="p-page-subname">
                         {dataTeam[0].subname}
@@ -31,14 +32,30 @@ const QuiSom = () => {
                     <p className="p-page-job">
                         {dataTeam[0].job}
                     </p>
+                    </div>
+                    
+                    <div class="quote">
+            <p class="text"> I know quite certainly that I myself have no special talent; curiosity,
+                <span class="highlight">obsession
+                    <span class="definition-box">
+                        <span class="pronounce">[əbˈseʃ(ə)n]<i class="fas fa-volume-up"></i></span>
+                        <span class="definition"><span class="bold">Obsession, </span> a persistent disturbing preoccupation with an often unreasonable idea or feeling.</span>
+                    </span>
+                </span> and dogged endurance, combined with self-criticism have brought me to my ideas.
+            </p>
+            <p class="author">Albert Einstein</p>
+        </div>
+      
 
                     </div>
+                    
                     <div className="div-page-treballadors">
                 <img
                         src={dataTeam[1].img}
                         alt="iconTreballadors"
                         className="img-page-treballadors"
                     />
+                    <div className="div-description-treballadors">
                     <h1 className="h1-page-name">{dataTeam[1].name}</h1>
                     <p className="p-page-subname">
                         {dataTeam[1].subname}
@@ -47,12 +64,26 @@ const QuiSom = () => {
                         {dataTeam[1].job}
                     </p>
                     </div>
+                    
+                    <div class="quote">
+            <p class="text"> I know quite certainly that I myself have no special talent; curiosity,
+                <span class="highlight">obsession
+                    <span class="definition-box">
+                        <span class="pronounce">[əbˈseʃ(ə)n]<i class="fas fa-volume-up"></i></span>
+                        <span class="definition"><span class="bold">Obsession, </span> a persistent disturbing preoccupation with an often unreasonable idea or feeling.</span>
+                    </span>
+                </span> and dogged endurance, combined with self-criticism have brought me to my ideas.
+            </p>
+            <p class="author">Albert Einstein</p>
+        </div>
+                    </div>
                     <div className="div-page-treballadors">
                 <img
                         src={dataTeam[2].img}
                         alt="iconTreballadors"
                         className="img-page-treballadors"
                     />
+                    <div className="div-description-treballadors">
                     <h1 className="h1-page-name">{dataTeam[2].name}</h1>
                     <p className="p-page-subname">
                         {dataTeam[2].subname}
@@ -61,12 +92,15 @@ const QuiSom = () => {
                         {dataTeam[2].job}
                     </p>
                     </div>
+                    
+                    </div>
                     <div className="div-page-treballadors">
                 <img
                         src={dataTeam[3].img}
                         alt="iconTreballadors"
                         className="img-page-treballadors"
                     />
+                    <div className="div-description-treballadors">
                     <h1 className="h1-page-name">{dataTeam[3].name}</h1>
                     <p className="p-page-subname">
                         {dataTeam[3].subname}
@@ -75,12 +109,15 @@ const QuiSom = () => {
                         {dataTeam[3].job}
                     </p>
                     </div>
+                    
+                    </div>
                     <div className="div-page-treballadors">
                 <img
                         src={dataTeam[4].img}
                         alt="iconTreballadors"
                         className="img-page-treballadors"
                     />
+                    <div className="div-description-treballadors">
                     <h1 className="h1-page-name">{dataTeam[4].name}</h1>
                     <p className="p-page-subname">
                         {dataTeam[4].subname}
@@ -88,6 +125,9 @@ const QuiSom = () => {
                     <p className="p-page-job">
                         {dataTeam[4].job}
                     </p>
+
+                    </div>
+                    
                     </div>
                     <div className="div-page-treballadors">
                 <img
@@ -95,6 +135,7 @@ const QuiSom = () => {
                         alt="iconTreballadors"
                         className="img-page-treballadors"
                     />
+                    <div className="div-description-treballadors">
                     <h1 className="h1-page-name">{dataTeam[5].name}</h1>
                     <p className="p-page-subname">
                         {dataTeam[5].subname}
@@ -102,6 +143,9 @@ const QuiSom = () => {
                     <p className="p-page-job">
                         {dataTeam[5].job}
                     </p>
+
+                    </div>
+                    
                     </div>
                     <div className="div-page-treballadors">
                 <img
@@ -109,6 +153,7 @@ const QuiSom = () => {
                         alt="iconTreballadors"
                         className="img-page-treballadors"
                     />
+                    <div className="div-description-treballadors">
                     <h1 className="h1-page-name">{dataTeam[6].name}</h1>
                     <p className="p-page-subname">
                         {dataTeam[6].subname}
@@ -117,12 +162,15 @@ const QuiSom = () => {
                         {dataTeam[6].job}
                     </p>
                     </div>
+                    
+                    </div>
                     <div className="div-page-treballadors">
                 <img
                         src={dataTeam[7].img}
                         alt="iconTreballadors"
                         className="img-page-treballadors"
                     />
+                    <div className="div-description-treballadors">
                     <h1 className="h1-page-name">{dataTeam[7].name}</h1>
                     <p className="p-page-subname">
                         {dataTeam[7].subname}
@@ -131,12 +179,15 @@ const QuiSom = () => {
                         {dataTeam[7].job}
                     </p>
                     </div>
+                    
+                    </div>
                     <div className="div-page-treballadors">
                 <img
                         src={dataTeam[8].img}
                         alt="iconTreballadors"
                         className="img-page-treballadors"
                     />
+                    <div className="div-description-treballadors">
                     <h1 className="h1-page-name">{dataTeam[8].name}</h1>
                     <p className="p-page-subname">
                         {dataTeam[8].subname}
@@ -144,6 +195,9 @@ const QuiSom = () => {
                     <p className="p-page-job">
                         {dataTeam[8].job}
                     </p>
+
+                    </div>
+                    
 
                     </div>
 </section>
