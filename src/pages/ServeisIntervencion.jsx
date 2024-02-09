@@ -7,7 +7,9 @@ import { initialScrollTop } from "../utils/controlScroll";
 const ServeisIntervencion = () => {
     return (
         <>
-            <BannerTitulo />
+            <section className="section-title-services-page">
+                <h1 className="title-page">Intervenció psicoeducativa</h1>
+            </section>
             <section className="section-principal-page-description-acordeon">
                 <div className="div-page-main-description">
                     <h2>Intervenció Psicoeducativa</h2>

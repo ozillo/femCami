@@ -14,7 +14,7 @@ const QuiSom = () => {
     return(
       <>
  <section className="section-title-description-page">
-    <h1>Qui Som</h1>
+    <h1 className="title-page">Qui Som</h1>
  </section>
  <DividerMain/>
  <section className="section-principal-page-treballadors">

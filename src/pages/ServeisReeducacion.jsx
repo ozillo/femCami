@@ -11,10 +11,11 @@ const ServeisReeducacion = () => {
     }, []);
     return (
         <>
-            <BannerTitulo />
+            <section className="section-title-services-page">
+                <h1 className="title-page">Reeducació pedagógica</h1>
+            </section>
             <section className="section-principal-page-description-acordeon">
                 <div className="div-page-main-description">
-                    <h2>Reeducació pedagógica</h2>
                     <p>{reeducacionPedagogica[0].mainDescription}</p>
                     <img src={reeducacionPedagogica[0].icon} alt="iconQueEs" />
                 </div>

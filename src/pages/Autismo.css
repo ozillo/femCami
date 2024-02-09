@@ -17,6 +17,25 @@
     font-weight:100;
     color:var(--primary-blue);
 }
+.section-title-services-page{
+    display:flex;
+    width:100vw;
+    min-height:45vh;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top:15px;
+    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1707435751/Fem%20Cami/Background/pencils-1_rzsw5j.png");
+
+    background-size: contain;
+    background-attachment:scroll;
+    background-position: 0%;
+}
+.section-title-services-page h1{
+    font-size: 160px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:100;
+    color:var(--primary-green);
+}
 
 .title-page{
    
@@ -119,6 +138,11 @@ text-shadow: 5px 5px var(--primary-green)
    align-items: center;
    background-color: var(--light-pastel-green);
    margin: 10px;
+}
+
+.img-page-treballadors{
+    height:300px;
+    width:260px;
 }
 @media (max-width: 700px){
     .div-page-main-description{

@@ -11,10 +11,11 @@ const ServeisTerapiaOcupacional = () => {
     }, []);
     return (
         <>
-            <BannerTitulo />
+            <section className="section-title-services-page">
+                <h1 className="title-page">Terapia Ocupacional</h1>
+            </section>
             <section className="section-principal-page-description-acordeon">
                 <div className="div-page-main-description">
-                    <h2>Terapia ocupacional</h2>
                     <p>{arrayTerapiaOcupacional[0].mainDescription}</p>
                     <img
                         src={arrayTerapiaOcupacional[0].icon}

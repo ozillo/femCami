@@ -11,10 +11,12 @@ const AutismoIntervencion = () => {
     }, []);
     return (
         <>
-            <BannerTitulo />
+             <section className="section-title-description-page">
+                <h1 className="title-page">Intervenció Psicoeducativa</h1>
+            </section>
             <section className="section-principal-page-description-acordeon">
                 <div className="div-page-main-description">
-                    <h2>Intervenció Psicoeducativa</h2>
+                    
                     <p>{intervencionPsicoeducativa[0].mainDescription}</p>
                     <img
                         src={intervencionPsicoeducativa[0].icon}
