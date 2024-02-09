@@ -37,7 +37,7 @@
    align-content: center;
    align-items: center;
    background-color: var(--light-pastel-green);
-   margin: 10px;
+   margin: 20px;
 }
 
 .h1-page-name{
@@ -75,7 +75,7 @@
   font-family: arial;
   font-size: 15em;
   font-weight: 500;
-  color: #6AC2E3;
+  color: var(--pastel-blue);
   position: absolute;
   top: -5px;
   left: 9px;
@@ -94,7 +94,7 @@
 .quote .highlight {
   position: relative;
   display: inline-block;
-  background: #286F8A;
+  background: var(--pastel-blue);
   padding: 0 8px 5px 8px;
   margin: -10px 0;
   cursor: pointer;
@@ -116,7 +116,7 @@
   bottom: 53px;
   left: -85px;
   width: 300px;
-  background: #286F8A;
+  background: var(--pastel-blue);
   font-size: 16px;
   line-height: 24px;
   -webkit-transform: translate(0, -20px);
@@ -143,13 +143,13 @@
   left: 50%;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  background: #286F8A;
+  background: var(--pastel-blue);
 }
 
 .definition-box .pronounce {
   display: block;
-  background: #fff;
-  color: #286F8A;
+  background: var(--primary-white);
+  color: var(--pastel-blue);
   padding: 8px 17px 10px 17px;
   line-height: 15px;
   cursor: text;
