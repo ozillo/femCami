@@ -12,28 +12,26 @@ object-fit:cover;
 }
 
 .btn-previous{
-position:relative;
+position:absolute;
 top:50%;
 left:10px;
 z-index: 1;
+height:50px;
+width: 15px;
+background-color:var(--primary-white);
+
 }
 .btn-next{
 position:absolute;
 top:50%;
 right:10px;
 z-index: 1;
-}
-.btn-previous-slider{
-height:50px;
- width: 15px;
-background-color:var(--primary-white);
-}
-.btn-next-slider{
 height:50px;
 width: 15px;
 background-color:var(--primary-white);
-
 }
+
+
 
 
 @media (max-width: 700px){

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./AcordeonSlider.css"
-import {intervencionEducativa,arrayLogopedia,arrayTerapiaOcupacional,reeducacionPedagogica} from "../../data"
+import { arrayLogopedia } from "../../data/arrayServeis";
 
 
 
-const AcordeonSlider =()=>{
+const AcordeonSlider =({arrayData})=>{
 const[ServicesArray,SetServicesArray]=useState(0)
 
 const chooseService = (index, btn) => {
@@ -22,13 +22,7 @@ const allServices = document.querySelectorAll("figure-service-second")
       allServices[index].classList.remove("figure-service-second")
       allServices[index].classList.add("figure-service-principal")
       console.log(allServices)
-}
 
-useEffect(()=>{
-    console.log(ServicesArray)
-    console.log(dataServices.length)
-  }
-  ,[ServicesArray])
 
   return(
     <div className="div-tres-services">
@@ -46,3 +40,5 @@ useEffect(()=>{
         }
       </div>
   )
+}
+export default AcordeonSlider

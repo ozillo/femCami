@@ -39,13 +39,14 @@ currentImage==images.length-1 ? setCurrentImage(images.length-1) : setCurrentIma
       <button className='btn-previous' onClick={goToPreviousSlide} >
       <FcPrevious className='btn-previous-slider'/>
       </button>
-      <button className='btn-next' onClick={goToNextSlide}>
-      <FcNext className='btn-next-slider'/>
-      </button>
       <img
         src={images[currentImage]}
         className='img-banner-tallers'
       />
+      <button className='btn-next' onClick={goToNextSlide}>
+      <FcNext className='btn-next-slider'/>
+      </button>
+   
     </div>
   );
 };

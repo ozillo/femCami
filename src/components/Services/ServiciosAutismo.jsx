@@ -2,6 +2,9 @@ import { useState } from "react";
 import React from 'react'
 import PrintServicioAutismo from "../PrintServicio/PrintServicioAutismo";
 import "./ServiciosAutismo.css"
+import AcordeonSlider from "../AcordeonSlider/AcordeonSlider";
+
+
 
 
 const ServiciosAutismo = () => {
@@ -45,6 +48,7 @@ const ServiciosAutismo = () => {
       </div>
       
     </section>
+    {/* <AcordeonSlider arrayData={arrayLogpedia}/> */}
     </>
   )
 }
