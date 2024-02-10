@@ -8,20 +8,49 @@
 }
 .section-contacte-general-info{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     width: 100vw;
     height: 500px;
     border:1px solid red;
     background-color: var(--light-pastel-green);
+    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1706141199/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/Tutoring-Service_Footer_rlargr.png");
+
     align-items: center;
     justify-content: center;
 
 }
+
+.div-contacte-adress h1{
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.div-contacte-adress p{
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.logo-social-contacte{
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
+.logo-social-contacte:hover{
+  background-color:var(--light-pastel-green);
+  border-radius: 50%;
+  padding:5px;
+}
+
+
 .section-contacte-ubication-map{
     position:relative;
     width: 60vw;
     height: 500px;
     border:1px solid blue;
+   
+
 }
 .section-contacte-formulario{
     width: 80vw;
@@ -160,4 +189,18 @@
     transform: rotateY(0deg);
     opacity: 1;
     transition: transform 0.25s linear 0.4s, opacity 0.25s linear 0.4s;
+  }
+
+  /* FIN SECTION MAPA */
+
+
+  @media (max-width: 700px){
+
+  .section-contacte-general-info h1,p{
+  background-color: var(--light-pastel-green);
+  }
+  .logo-social-contacte{
+  background-color: var(--light-pastel-green);
+  }
+
   }

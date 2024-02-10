@@ -1,5 +1,6 @@
 .section-title-description-page{
     display:flex;
+    flex-wrap: wrap;
     width:100vw;
     min-height:45vh;
     justify-content: center;
@@ -28,6 +29,12 @@
 
 .section-title-description-page{
     width:100vw;
+}
+
+.section-principal-page-treballadors{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .div-page-treballadors{

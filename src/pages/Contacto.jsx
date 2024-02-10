@@ -11,10 +11,30 @@ const Contacto = () => {
     return (
         <>
             <section className="section-contacte-general-info">
-                <h1>Adreça: Carrer de l'Alguer </h1>
-                <p>Població:Vilafranca del Penedès</p>
-                <p>CP: 08720</p>
-                <p>Provincia: Barcelona</p>
+              <div className="div-contacte-adress">
+              <h1>Carrer de l'Alguer </h1>
+                <p>Vilafranca del Penedès</p>
+                <p>08720</p>
+                <p>Barcelona</p>
+              </div>
+              <div className="div-contacte-social">
+              <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1707307244/Fem%20Cami/Icon/iconmonstr-instagram-13-64_b87kji.png" 
+              alt="instagram" 
+              className="logo-social-contacte"
+              />
+              <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1707303816/Fem%20Cami/Icon/iconmonstr-facebook-3-64_1_qdzzno.png" 
+              alt="facebook" 
+              className="logo-social-contacte"
+              />
+              <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1707303816/Fem%20Cami/Icon/iconmonstr-youtube-6-64_zb9kmq.png" 
+              alt="youtube" 
+              className="logo-social-contacte"
+              />
+              </div>
+
+              
+                
+
             </section>
         <section className="section-contacte-ubication-map">  
         <div class="center">
