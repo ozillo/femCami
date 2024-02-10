@@ -62,6 +62,9 @@ const Contacto = () => {
             </div>
           </label>
         </div>
+        {/* <div className="link-mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.6009674137167!2d1.693868126581495!3d41.3392895989765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a47a2760bc3ecf%3A0xe41446028836b110!2zRmVtIENhbcOt!5e0!3m2!1ses!2ses!4v1707525921745!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> */}
         </section>
             <section className="section-contacte-formulario"></section>
         </>
