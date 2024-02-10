@@ -5,6 +5,7 @@ import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor
 import "./Autismo.css";
 import { initialScrollTop } from "../utils/controlScroll";
 
+
 const AutismoQueEs = () => {
     useEffect(() => {
         initialScrollTop();
@@ -21,13 +22,14 @@ const AutismoQueEs = () => {
                     <img src={autismoQueEs[0].icon} alt="iconQueEs" />
                 </div>
                 <div className="div-page-main-acordeon">
-                    <AcordeonTypeColor
+                    <AcordeonTypeColor 
                         optionType={"blue"}
                         arrayData={autismoQueEs[0].content}
                     />
                 </div>
             </section>
-            <BannerTitulo />
+      
+            
         </>
     );
 };

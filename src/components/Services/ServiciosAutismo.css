@@ -34,7 +34,7 @@
 .div-info-autismo{
     display:flex;
     flex-wrap: wrap;
-    height: 500px;
+    height: 300px;
     width: 100vw;
     background-color: var(--primary-blue);
     align-items: center;
@@ -48,6 +48,71 @@
     
 }
 
+/* INICIO SECCION AUTISMO DIV */
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    background-color: var(--primary-blue);
+    color:var(--primary-white);
+    text-transform: uppercase;
+    font-size:50px;
+    font-weight:bold;
+    padding-top:200px;  
+    text-align: center;
+    bottom:45%;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+  
+  .flip {
+    height:50px;
+    overflow:hidden;
+  }
+  
+  .flip > div > div {
+    display:flex;
+    color:#fff;
+    padding:4px 12px;
+    height:55px;
+    margin-bottom:45px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flip div:first-child {
+    animation: show 8s linear infinite;
+  }
+  
+  .flip div div {
+    background:var(--primary-black);
+  }
+  .flip div:first-child div {
+    background:var(--primary-green);
+  }
+  .flip div:last-child div {
+    background:var(--primary-orange);
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+  
+
+
+/* FIN SECCION AUTISMO DIV */
+
 @media screen and (width<700px){
 .div-all-servicesAutismo{
     flex-direction: column;
@@ -59,8 +124,5 @@
    text-align: center;
 
 }
-
-.div-info-autismo h1{
-    font-size: 60px;
 
 }

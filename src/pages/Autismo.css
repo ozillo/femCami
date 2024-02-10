@@ -75,6 +75,12 @@ text-shadow: 5px 5px var(--primary-green)
     gap:35px;
 
 }
+.div-page-main-description p{
+    font-size: 30px;
+    font-weight: 300;
+    text-align:left;
+
+}
 .div-page-main-description h2{
     font-size: 55px;
   

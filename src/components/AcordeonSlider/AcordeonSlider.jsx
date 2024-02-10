@@ -16,6 +16,7 @@ const chooseService = (index, btn) => {
       ? SetServicesArray(index+1)
       : SetServicesArray(4)
 
+
 }
 const allServices = document.querySelectorAll("figure-service-second")
       allServices[index].classList.remove("figure-service-second")

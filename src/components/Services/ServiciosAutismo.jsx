@@ -9,10 +9,15 @@ const ServiciosAutismo = () => {
     <>
     <section className="section-home-autismo">
       <div className="div-info-autismo">
-      {/* <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1706571775/Fem%20Cami/BANNER/SOMCENTRE2_neispz.png" 
-      alt="bannerAutismo"
-      className="bannerAutismo" /> */}
-      <h1>SOM CENTRE ESPECÍFIC EN AUTISME</h1>
+      <div className="container">
+      SOM CENTRE
+      <div className="flip">
+      <div><div>ESPECÍFIC</div></div>
+      <div><div>ESPECÍFIC</div></div>
+      <div><div>ESPECÍFIC</div></div>
+      </div>
+      EN AUTISME
+      </div>
       </div>
       <div className="div-all-servicesAutismo">
       <div className="div-service-autismo">
