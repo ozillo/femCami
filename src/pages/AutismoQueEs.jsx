@@ -28,6 +28,30 @@ const AutismoQueEs = () => {
                     />
                 </div>
             </section>
+            <section className="section-principal-page-more-info">
+                {autismoQueEs[0].content.map((elem, index) => {
+                    return (
+                        <div
+                            className="div-principal-page-more-info"
+                            key={index}
+                        >
+                            <div>
+                                <h2 className="title-autisme">{elem.titulo}</h2>
+                                {elem.contenido.length >= 1 ? (
+                                    elem.contenido.map((element, index) => (
+                                        <p key={index}>{element}</p>
+                                    ))
+                                ) : (
+                                    <p>{elem.contenido}</p>
+                                )}
+                            </div>
+                            <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702255755/Fem%20Cami/Vectores/logopedia_xhkedr.png"
+                             alt="" 
+                             className="img-autisme"/>
+                        </div>
+                    );
+                })}
+            </section>
       
             
         </>

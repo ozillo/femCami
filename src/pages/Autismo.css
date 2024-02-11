@@ -5,8 +5,6 @@
     justify-content: center;
     align-items: flex-start;
     padding-top:15px;
-    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1707435751/Fem%20Cami/Background/pencils-1_rzsw5j.png");
-
     background-size: contain;
     background-attachment:scroll;
     background-position: 0%;
@@ -17,25 +15,7 @@
     font-weight:100;
     color:var(--primary-blue);
 }
-.section-title-services-page{
-    display:flex;
-    width:100vw;
-    min-height:45vh;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top:15px;
-    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1707435751/Fem%20Cami/Background/pencils-1_rzsw5j.png");
 
-    background-size: contain;
-    background-attachment:scroll;
-    background-position: 0%;
-}
-.section-title-services-page h1{
-    font-size: 160px;
-    font-family: 'Shadows Into Light', cursive;
-    font-weight:100;
-    color:var(--primary-green);
-}
 
 .title-page{
    
@@ -44,6 +24,8 @@
                      -1px  1px 0 var(--primary-white),
                       1px  1px 0 var(--primary-white); 
 }
+
+
 
 .section-title-description-page{
     width:100vw;
@@ -55,6 +37,12 @@ background: url(https://res.cloudinary.com/dtfugozix/image/upload/v1707246955/te
 text-shadow: 5px 5px var(--primary-green)
 } */
 
+.img-autisme{
+height:400px;
+width:380px;
+margin-left:4rem;
+
+}
 
 
 .section-principal-page-description-acordeon{
@@ -127,16 +115,32 @@ text-shadow: 5px 5px var(--primary-green)
     gap:65px;
 }
 .div-principal-page-more-info{
-
     width: 100%;
     min-height: 300px;
     display: flex;
+    align-items:center;
+    
 }
 .div-principal-page-more-info div{
     width: 50%;
     min-height: 100%;
-    border-right:1px solid var(--primary-black);
+    border-right:2px solid var(--primary-blue);
     padding: 50px;
+}
+
+.div-principal-page-more-info h2{
+    font-size: 90px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:100;
+    color:var(--primary-blue);
+
+}
+
+.title-autisme{
+    text-shadow: -1px -1px 0 var(--primary-white),  
+    1px -1px 0 var(--primary-white),
+   -1px  1px 0 var(--primary-white),
+    1px  1px 0 var(--primary-white); 
 }
 
 
