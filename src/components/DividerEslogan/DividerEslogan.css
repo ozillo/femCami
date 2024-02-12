@@ -1,19 +1,20 @@
 .div-all-divider-eslogan{
-    height: 10px;
+    width: 12px;
+    height: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 .divider-Eslogan {
-    height: 3px;
-    width: 80px;
+    height: 60vh;
+    width: 3px;
     background-color: var(--primary-lima);
     box-shadow: inset 30px 0px 0px 0px var(--primary-lima);
 }
 .p-divider-eslogan{
-    width: 60px;
+    width: 12px;
     text-align: center;
     
-    height: 12px;
+    height: 150px;
     font-weight: 800;
     background-color: var(--primary-lima);
 

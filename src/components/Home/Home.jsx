@@ -1,3 +1,4 @@
+import { initialScrollTop } from "../../utils/controlScroll";
 import Description from "../Description/Description";
 import DividerMain from "../DividerMain/DividerMain";
 import Services from "../Services/Services";
@@ -28,6 +29,9 @@ const Home = () => {
     window.addEventListener("scroll", controlScroll);
     useEffect(() => {
         controlScroll();
+    }, []);
+    useEffect(() => {
+        initialScrollTop();
     }, []);
 
     return (

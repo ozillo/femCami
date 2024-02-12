@@ -4,21 +4,13 @@ import PrintAcordeonServicios from "../PrintServicio/PrintAcordeonServicios";
 import DividerEslogan from "../DividerEslogan/DividerEslogan";
 
 const ServiciosAcordeon = () => {
-    const [seeContent, setSeeContent] = useState(false);
+    const [seeContent, setSeeContent] = useState(1);
+    const toggleState = (index) => {
+        setSeeContent((prevIndex) => (prevIndex === index ? null : index));
+    };
 
     return (
         <section className="section-accordion-services">
-            <div className="div-description-services">
-                <h1>Els nostres serveis</h1>
-                <DividerEslogan />
-                <p className="p-description-services">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    <br></br> Cras a nunc venenatis, fringilla eros eget, semper
-                    orci. In a <br></br>nisi nunc. Duis maximus ligula a
-                    vehicula tempor. Proin<br></br> efficitur, ante eu lobortis
-                    posuere, elit massa.
-                </p>
-            </div>
             <div className="div-all-Accordion">
                 <div className="div-Accordion">
                     <PrintAcordeonServicios
@@ -27,8 +19,8 @@ const ServiciosAcordeon = () => {
                         icon={
                             "https://res.cloudinary.com/dtfugozix/image/upload/v1705884879/Fem%20Cami/Icon/iconAccordion_k4u3it.png"
                         }
-                        state={!seeContent}
-                        setter={setSeeContent}
+                        onClick={() => toggleState(1)}
+                        visible={seeContent === 1}
                     />
                 </div>
                 <div className="div-Accordion">
@@ -38,8 +30,8 @@ const ServiciosAcordeon = () => {
                         icon={
                             "https://res.cloudinary.com/dtfugozix/image/upload/v1705884879/Fem%20Cami/Icon/iconAccordion_k4u3it.png"
                         }
-                        state={seeContent}
-                        setter={setSeeContent}
+                        onClick={() => toggleState(2)}
+                        visible={seeContent === 2}
                     />
                 </div>
                 <div className="div-Accordion">
@@ -49,8 +41,8 @@ const ServiciosAcordeon = () => {
                         icon={
                             "https://res.cloudinary.com/dtfugozix/image/upload/v1705884879/Fem%20Cami/Icon/iconAccordion_k4u3it.png"
                         }
-                        state={seeContent}
-                        setter={setSeeContent}
+                        onClick={() => toggleState(3)}
+                        visible={seeContent === 3}
                     />
                 </div>
                 <div className="div-Accordion">
@@ -60,11 +52,30 @@ const ServiciosAcordeon = () => {
                         icon={
                             "https://res.cloudinary.com/dtfugozix/image/upload/v1705884879/Fem%20Cami/Icon/iconAccordion_k4u3it.png"
                         }
-                        state={seeContent}
-                        setter={setSeeContent}
+                        onClick={() => toggleState(4)}
+                        visible={seeContent === 4}
                     />
                 </div>
             </div>
+            <DividerEslogan />
+            <div className="div-description-services">
+                <p className="p-description-services">
+                    Somos un centro especializado en <strong>Autismo</strong>.
+                    Los principales servicios que ofrecemos son la intervencion
+                    psicoeducativa, terapia ocupacional, logopedia y reeducacion
+                    pedagogica.
+                </p>
+                <p className="p-description-services">
+                    Como profesionales especializadas en este campo, tratamos
+                    con gran empeño cada uno de los servicios que ofrecemos.
+                </p>
+                <p className="p-description-services">
+                    Gracias a los diferentes servicios con los que contamos
+                    podemos desempeñar un gran papel en el desarrollo de las
+                    personas.
+                </p>
+            </div>
+
             {/*         <div class="wave"></div> */}
         </section>
     );
