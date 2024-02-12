@@ -8,9 +8,9 @@
     padding-top:15px;
     background-color:var(--primary-lima);
     background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1707701970/Fem%20Cami/Background/pizarralarga1_tui1dy.png");
-    background-size: contain;
+    background-size: cover;
     background-attachment:scroll;
-    background-position: 0%;
+
 }
 .section-title-description-page h1{
     font-size: 200px;
