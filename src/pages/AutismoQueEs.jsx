@@ -3,6 +3,7 @@ import { autismoQueEs } from "../data/arrayAutismo";
 import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor";
 import "./Autismo.css";
 import { initialScrollTop } from "../utils/controlScroll";
+import Postits from "../components/Postits/Postits";
 
 const AutismoQueEs = () => {
     useEffect(() => {
@@ -20,7 +21,7 @@ const AutismoQueEs = () => {
                     <img src={autismoQueEs[0].icon} alt="iconQueEs" />
                 </div>
                 <div className="div-page-main-acordeon">
-                    <AcordeonTypeColor 
+                    <Postits
                         optionType={"blue"}
                         arrayData={autismoQueEs[0].content}
                     />
