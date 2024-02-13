@@ -6,6 +6,8 @@ import "./Autismo.css";
 import DividerEslogan from "../components/DividerEslogan/DividerEslogan";
 import DividerMain from "../components/DividerMain/DividerMain";
 import { initialScrollTop } from "../utils/controlScroll";
+import Postits from "../components/Postits/Postits";
+
 
 const AutismoPrograma = () => {
     useEffect(() => {
@@ -22,8 +24,8 @@ const AutismoPrograma = () => {
                     <p className="p-page-main-description">
                         {habilidadesSociales[0].mainDescription}
                     </p>
-                    <AcordeonTypeColor
-                        optionType={"blue"}
+                    <Postits
+                        
                         arrayData={habilidadesSociales[0].content}
                     />
                 </div>

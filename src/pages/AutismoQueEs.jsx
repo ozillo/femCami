@@ -22,7 +22,6 @@ const AutismoQueEs = () => {
                 </div>
                 <div className="div-page-main-acordeon">
                     <Postits
-                        optionType={"blue"}
                         arrayData={autismoQueEs[0].content}
                     />
                 </div>

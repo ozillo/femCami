@@ -4,6 +4,8 @@ import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor
 import "./Autismo.css";
 import { centroCrapg } from "../data/arrayAutismo";
 import { initialScrollTop } from "../utils/controlScroll";
+import Postits from "../components/Postits/Postits";
+
 
 const AutismoCentroCrapg = () => {
     useEffect(() => {
@@ -21,8 +23,7 @@ const AutismoCentroCrapg = () => {
                     <img src={centroCrapg[0].icon} alt="iconQueEs" />
                 </div>
                 <div className="div-page-main-acordeon">
-                    <AcordeonTypeColor
-                        optionType={"blue"}
+                    <Postits
                         arrayData={centroCrapg[0].content}
                     />
                 </div>

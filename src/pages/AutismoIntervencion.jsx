@@ -4,6 +4,8 @@ import { intervencionPsicoeducativa } from "../data/arrayAutismo";
 import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor";
 import "./Autismo.css";
 import { initialScrollTop } from "../utils/controlScroll";
+import Postits from "../components/Postits/Postits";
+
 
 const AutismoIntervencion = () => {
     useEffect(() => {
@@ -24,8 +26,8 @@ const AutismoIntervencion = () => {
                     />
                 </div>
                 <div className="div-page-main-acordeon">
-                    <AcordeonTypeColor
-                        optionType={"blue"}
+                    <Postits
+                       
                         arrayData={intervencionPsicoeducativa[0].content}
                     />
                 </div>
