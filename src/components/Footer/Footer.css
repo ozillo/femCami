@@ -107,6 +107,7 @@ footer {
    font-size: 18px;
 }
 
+
 @media screen and (width<600px){
     .div-general-footer{
         flex-direction: column;

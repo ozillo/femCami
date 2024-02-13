@@ -1,10 +1,15 @@
+import WaveBackground from "../WaveBackground/WaveBackground"
 import "./Footer.css"
-
 import React from 'react'
+
 
 const Footer = () => {
   return (
     <footer>
+      <div className="div-wave-component">
+      <WaveBackground/>
+      </div>
+     
   <div className="div-footer-menu">
   <div className="div-general-footer">
   <div className="div-menu-footer">

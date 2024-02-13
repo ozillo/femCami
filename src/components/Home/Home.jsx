@@ -9,6 +9,7 @@ import Team from "../Team/Team";
 import "./Home.css";
 import React, { useEffect } from "react";
 
+
 const Home = () => {
     const controlScroll = () => {
         const sections = document.querySelectorAll(
@@ -64,6 +65,8 @@ const Home = () => {
             </div>
             <section className="section-initial-transition">
                 <ServiciosAutismo />
+            </section>
+            <section className="section-wave">  
             </section>
         </>
     );
