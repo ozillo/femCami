@@ -5,6 +5,8 @@ import "./Autismo.css";
 import { centroCrapg } from "../data/arrayAutismo";
 import { initialScrollTop } from "../utils/controlScroll";
 import Postits from "../components/Postits/Postits";
+import { Board } from "../components/Board/Board";
+
 
 
 const AutismoCentroCrapg = () => {
@@ -28,6 +30,7 @@ const AutismoCentroCrapg = () => {
                     />
                 </div>
             </section>
+            <Board/>
         </>
     );
 };
