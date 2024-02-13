@@ -8,14 +8,11 @@ const Footer = () => {
   <div className="div-footer-menu">
   <div className="div-general-footer">
   <div className="div-menu-footer">
-    <h4>Centre específic en autisme</h4>
-      <ul className="footer-menu-ul">
-        <li className="footer-menu-li"><a href="/autisme/que-es-el-autisme">Que es el autisme</a></li>
-        <li className="footer-menu-li"><a href="/autisme/intervencio-psicoeducativa">Intervenció Psicoeducativa</a></li>
-        <li className="footer-menu-li"><a href="/autisme/programa-habilitats-socials">Programa d'habilitats socials</a></li>  
-        <li className="footer-menu-li"><a href="/autisme/centre-recursos-CRAPG">Centre de recursos de autisme CRAPG</a></li> 
-      </ul>
-  </div>
+    <h4>Assessorament i col·laboració</h4>
+    <ul className="footer-menu-ul">
+      <li className="footer-menu-li"><a href="#">Formacions i tallers</a></li>  
+    </ul>
+  </div>  
   <div className="div-menu-footer">
     <h4>Serveis</h4>
     <ul className="footer-menu-ul">
@@ -26,12 +23,14 @@ const Footer = () => {
     </ul>
   </div>
   <div className="div-menu-footer">
-    <h4>Assessorament i col·laboració</h4>
-    <ul className="footer-menu-ul">
-      <li className="footer-menu-li"><a href="#">Formacions i tallers</a></li>
-      <li className="footer-menu-li"><a href="#">Família i escola</a></li>       
-    </ul>
-  </div>  
+    <h4>Centre específic en autisme</h4>
+      <ul className="footer-menu-ul">
+        <li className="footer-menu-li"><a href="/autisme/que-es-el-autisme">Que es el autisme</a></li>
+        <li className="footer-menu-li"><a href="/autisme/intervencio-psicoeducativa">Intervenció Psicoeducativa</a></li>
+        <li className="footer-menu-li"><a href="/autisme/programa-habilitats-socials">Programa d'habilitats socials</a></li>  
+        <li className="footer-menu-li"><a href="/autisme/centre-recursos-CRAPG">Centre de recursos de autisme CRAPG</a></li> 
+      </ul>
+  </div>
   </div>  
   <div className="div-general2-footer">
   <div className="div-contact-footer">

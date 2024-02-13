@@ -13,7 +13,9 @@ function App() {
                     <Outlet />
                 </LayoutFlex>
             </main>
-            <Footer />
+            <Footer 
+            
+            />
         </>
     );
 }

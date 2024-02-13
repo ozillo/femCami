@@ -199,9 +199,7 @@
 
   @media (max-width: 700px){
 
-  .section-contacte-general-info h1,p{
-  background-color: var(--light-pastel-green);
-  }
+
   .logo-social-contacte{
   background-color: var(--light-pastel-green);
   }
