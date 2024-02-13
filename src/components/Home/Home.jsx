@@ -68,6 +68,7 @@ const Home = () => {
             </section>
             <section className="section-wave">  
             </section>
+           
         </>
     );
 };
