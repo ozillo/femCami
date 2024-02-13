@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="div-wave-component">
-      <WaveBackground/>
+      {/* <WaveBackground/> */}
       </div>
      
   <div className="div-footer-menu">

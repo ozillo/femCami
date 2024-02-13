@@ -116,6 +116,17 @@ footer {
         min-height: 0;
         
     }
+    .logo-social{
+        width: 40px;
+        height: 40px;
+        margin:10px;
+    }
+    .logo-social:hover{
+        background-color:var(--primary-green);
+        border-radius: 50%;
+        padding:5px;
+        
+    }
 
 
 }
