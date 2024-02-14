@@ -3,6 +3,7 @@ import BannerTitulo from "../components/BannerTitulo/BannerTitulo";
 import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor";
 import "./Contacto.css";
 import { initialScrollTop } from "../utils/controlScroll";
+import ContactForm from "../components/ContactForm/ContactForm";
 
 const Contacto = () => {
     useEffect(() => {
@@ -54,18 +55,33 @@ const Contacto = () => {
                     />
                 </div>
             </section>
-
+            <section className="section-contacte-formulario">
+                <div className="div-contact-message-form">
+                    <h2 className="h2-contact-message-form">
+                        Send us a message!
+                    </h2>
+                    <p>
+                        No dudes en contactarnos ante cualquier duda que puedas
+                        tener. Te responderemos tan pronto como podamos!
+                    </p>
+                    <img
+                        src="https://res.cloudinary.com/dtfugozix/image/upload/v1706141246/Fem%20Cami/logoBanner4_dhmltd.png"
+                        alt="logo fem cami formulario"
+                        className="img-contact-message-form"
+                    />
+                </div>
+                <ContactForm />
+            </section>
             <section className="section-contacte-ubication-map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.6395295783273!2d1.6966529!3d41.3384512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a47992a1c98405%3A0xc158007af0fd0bd8!2sCarrer%20de%20l&#39;Alguer%2C%2016%2C%2008720%20Vilafranca%20del%20Pened%C3%A8s%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1707558869522!5m2!1ses!2ses"
                     width="600"
                     height="450"
-                    allowfullscreen=""
+                    allowFullScreen=""
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
+                    referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
             </section>
-            <section className="section-contacte-formulario"></section>
         </>
     );
 };

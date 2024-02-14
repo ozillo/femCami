@@ -3,13 +3,18 @@ footer {
     width: 100%;
     background-color:var(--primary-green);
     display: flex;  
+    position:relative;
 }
 
 .logo-social{
     height:60px;
 }
 
-
+.div-wave-component{
+    position:relative;
+    height: 300px;
+    width: 100vw;
+}
 .div-footer-menu{
     min-height:50vh;
     width: 100%;
