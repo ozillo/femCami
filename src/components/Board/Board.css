@@ -117,3 +117,9 @@
 
   }
   
+  @media screen and (width<600px){
+  .wrapper{
+    height:900px;
+    width:350px;
+  }
+  }
