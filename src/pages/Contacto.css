@@ -8,26 +8,42 @@
 }
 .section-contacte-general-info{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     width: 100vw;
-    height: 500px;
-    border:1px solid red;
-    background-color: var(--light-pastel-green);
-    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1706141199/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/Tutoring-Service_Footer_rlargr.png");
-
+    min-height: 500px;
+    background-color: var(--pastel-orange);
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-around;
+    position:relative;
+    gap:3rem;
 }
-
-.div-contacte-adress h1{
-  font-size: 45px;
+.section-contacte-img-flower{
+width: 400px;
+height: 400px;
+position:absolute;
+right:0;
+bottom:0;
+opacity: 0.7;
+}
+.contacte-img-invert{
+  transform:rotate(180deg);
+  left:0;
+  top:0;
+}
+.section-contacte-h1{
+  font-size: 3rem;
   font-weight: 800;
+  text-transform: uppercase;
 }
-
-.div-contacte-adress p{
-  font-size: 25px;
+.section-contacte-div-general-info{
+  width: 90%;
+  min-height: 50px;
+}
+.section-contacte-div-general-info h3{
+  margin-left:25vw;
+}
+.section-contacte-div-general-info p{
+  font-size: 1rem;
   font-weight: 300;
   text-align: center;
 }
