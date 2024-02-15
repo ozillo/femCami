@@ -1,9 +1,10 @@
 import React from "react";
 import "./ContactForm.css";
 const ContactForm = () => {
+    const onSubmit = () => {};
     return (
         <div className="div-contact-form-wrapper">
-            <form action="" className="main-form-contacte">
+            <form action={onSubmit} className="main-form-contacte">
                 <label htmlFor="nombre" className="label-form-column">
                     Nombre
                     <input

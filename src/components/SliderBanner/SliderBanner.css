@@ -1,4 +1,14 @@
 .div-slider-banner-home-page{
     width: 100vw;
     min-height: 300px;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:35px;
+}
+.div-slider-banner-home-page img{
+width: 100vw;
+height: 500px;
 }
