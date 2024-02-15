@@ -71,10 +71,6 @@ margin-left:4rem;
 }
 .div-page-main-description h2{
     font-size: 55px;
-  
-  
-    
-
 }
 .p-page-main-description{
     width: 55%;
@@ -148,6 +144,10 @@ margin-left:4rem;
 .div-board-autismo{
     display:flex;
     flex-wrap: wrap;
+}
+.div-page-main-container h1{
+    font-size: 20px;
+
 }
 
 @media (max-width: 700px){

@@ -15,8 +15,8 @@ const AutismoQueEs = () => {
             <section className="section-title-description-page">
                 <h1 className="title-page">Què és l'autisme?</h1>
             </section>
-            <section className="section-principal-page-description-acordeon">
-                <div className="div-page-main-description">
+            <section className="section-principal-page-container">
+                <div className="div-page-main-container">
                     <p>{autismoQueEs[0].mainDescription}</p>
                     <img src={autismoQueEs[0].icon} alt="iconQueEs" />
                 </div>
