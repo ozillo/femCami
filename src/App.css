@@ -17,3 +17,7 @@ main {
 
 }
 
+textarea{
+    resize: none;
+    padding:15px;
+}

@@ -4,27 +4,31 @@ import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor
 import "./Contacto.css";
 import { initialScrollTop } from "../utils/controlScroll";
 import ContactForm from "../components/ContactForm/ContactForm";
+import DividerMain from "../components/DividerMain/DividerMain";
+import { useNavigate } from "react-router-dom";
 
 const Contacto = () => {
+    const navigate = useNavigate();
     useEffect(() => {
         initialScrollTop();
     }, []);
     return (
         <>
             <section className="section-contacte-general-info">
-                <img
+                {/* <img
                     src="https://res.cloudinary.com/dtfugozix/image/upload/v1707897610/Fem%20Cami/Contacto/Pngtree_watercolor_flowers_3391392_swed1b.png"
                     alt="image watercolor flowers"
                     className="section-contacte-img-flower contacte-img-invert"
-                />
+                /> */}
                 <img
-                    src="https://res.cloudinary.com/dtfugozix/image/upload/v1707897610/Fem%20Cami/Contacto/Pngtree_watercolor_flowers_3391392_swed1b.png"
+                    src="https://res.cloudinary.com/dtfugozix/image/upload/v1708020771/Fem%20Cami/Contacto/Pngtree_contact_our_front_desk_5412876_ddv53c.png"
                     alt="image watercolor flowers"
                     className="section-contacte-img-flower"
                 />
                 <h1 className="section-contacte-h1">On pots trobarnos?</h1>
                 <div className="section-contacte-div-general-info">
                     <h3>ADRAÇA:</h3>
+                    <p>Carrer de l'Alguer, 16</p>
                     <p>Vilafranca del Penedès</p>
                     <p>08720</p>
                     <p>Barcelona</p>
@@ -38,21 +42,60 @@ const Contacto = () => {
                     <p>info@femcami.cat</p>
                 </div>
                 <div className="div-contacte-social">
-                    <img
-                        src="https://res.cloudinary.com/dtfugozix/image/upload/v1707307244/Fem%20Cami/Icon/iconmonstr-instagram-13-64_b87kji.png"
-                        alt="instagram"
-                        className="logo-social-contacte"
-                    />
-                    <img
-                        src="https://res.cloudinary.com/dtfugozix/image/upload/v1707303816/Fem%20Cami/Icon/iconmonstr-facebook-3-64_1_qdzzno.png"
-                        alt="facebook"
-                        className="logo-social-contacte"
-                    />
-                    <img
-                        src="https://res.cloudinary.com/dtfugozix/image/upload/v1707303816/Fem%20Cami/Icon/iconmonstr-youtube-6-64_zb9kmq.png"
-                        alt="youtube"
-                        className="logo-social-contacte"
-                    />
+                    <div
+                        className="div-contacte-social-wrapper"
+                        onClick={() =>
+                            window.open(
+                                "https://www.instagram.com/centrefemcami/",
+                                "rel=noopener noreferrer",
+                            )
+                        }
+                    >
+                        <img
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708022408/Fem%20Cami/Icon/instagram_vqzg7a.png"
+                            alt="logo instagram"
+                            className="logo-social-contacte"
+                        />
+                        <p className="p-contacte-social-display">
+                            /centrefemcami
+                        </p>
+                    </div>
+                    <div
+                        className="div-contacte-social-wrapper"
+                        onClick={() =>
+                            window.open(
+                                "https://www.instagram.com/centrefemcami/",
+                                "rel=noopener noreferrer",
+                            )
+                        }
+                    >
+                        <img
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708022689/Fem%20Cami/Icon/facebook_wjbt5x.png"
+                            alt="logo facebook"
+                            className="logo-social-contacte"
+                        />
+                        <p className="p-contacte-social-display">
+                            /centrefemcami
+                        </p>
+                    </div>
+                    <div
+                        className="div-contacte-social-wrapper"
+                        onClick={() =>
+                            window.open(
+                                "https://www.instagram.com/centrefemcami/",
+                                "rel=noopener noreferrer",
+                            )
+                        }
+                    >
+                        <img
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708022692/Fem%20Cami/Icon/youtube_ojamsr.png"
+                            alt="logo youtube"
+                            className="logo-social-contacte"
+                        />
+                        <p className="p-contacte-social-display">
+                            centre fem cami
+                        </p>
+                    </div>
                 </div>
             </section>
             <section className="section-contacte-formulario">
@@ -72,6 +115,7 @@ const Contacto = () => {
                 </div>
                 <ContactForm />
             </section>
+            <DividerMain />
             <section className="section-contacte-ubication-map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.6395295783273!2d1.6966529!3d41.3384512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a47992a1c98405%3A0xc158007af0fd0bd8!2sCarrer%20de%20l&#39;Alguer%2C%2016%2C%2008720%20Vilafranca%20del%20Pened%C3%A8s%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1707558869522!5m2!1ses!2ses"
