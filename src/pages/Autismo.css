@@ -71,10 +71,6 @@ margin-left:4rem;
 }
 .div-page-main-description h2{
     font-size: 55px;
-  
-  
-    
-
 }
 .p-page-main-description{
     width: 55%;
@@ -126,8 +122,6 @@ margin-left:4rem;
     min-height: 100%;
     border-right:2px solid var(--primary-blue);
     padding: 50px;
-    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1707700399/Fem%20Cami/Background/postit_wi5hwj.png");
-    background-repeat: no-repeat; 
 }
 
 .div-principal-page-more-info h2{
@@ -148,6 +142,54 @@ margin-left:4rem;
 .div-board-autismo{
     display:flex;
     flex-wrap: wrap;
+}
+.div-page-main-quees{
+    display: flex;
+   flex-direction: row;
+
+}
+.div-align-svg-p{
+    display: flex;
+    height:400px;
+    width: 200px;
+}
+.div-align-svg-p p{
+    font-size: 22px;
+    font-weight: 300;
+    flex: 1; 
+    left: 30px;
+    position: absolute; 
+    z-index: 1;
+}
+.div-align-svg-p svg{
+    position: relative;
+    flex: 0 0 auto;
+    bottom: 170px;
+    right: 120px;
+    
+}
+.div-page-main-quees img {
+    height:400px;
+    width: 450px;
+    flex: 0 0 auto; /* La imagen no crece ni encoge */
+    margin-left: 10px;
+}
+.div-all-groups{
+    display:flex;
+    height:100px;
+    width:100%;
+}
+.div-all-groups svg{
+    position:relative;
+    height:300px;
+    width:100%;
+}
+.div-all-groups p{
+    position:absolute;
+    font-size: 22px;
+    font-weight: 300;
+    
+    
 }
 
 @media (max-width: 700px){
