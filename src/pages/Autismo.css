@@ -118,10 +118,7 @@ margin-left:4rem;
     
 }
 .div-principal-page-more-info div{
-    width: 60%;
-    min-height: 100%;
-    border-right:2px solid var(--primary-blue);
-    padding: 50px;
+  
 }
 
 .div-principal-page-more-info h2{
@@ -159,7 +156,7 @@ margin-left:4rem;
     width: 50%;
 }
 .div-align-img-p p{
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
     flex: 1; 
     left: 30px;
@@ -190,19 +187,23 @@ margin-left:4rem;
     display:flex;
     position:relative;
     flex-direction: column;
-    height:100px;
-    width:100%;
+    width: 60%;
+    min-height: 100%;
+    border-right:2px solid var(--primary-blue);
+    padding: 50px;
+    z-index: 1;
 }
 
 .div-all-groups p{
     position: relative;
-    font-size: 22px;
-    font-weight: 300;    
+    font-size: 18px;
+    font-weight: 500;    
 }
 .img-sections{
     height:300px;
-    width:200px;
+    width:418px;
     position: absolute;
+    z-index:-1
 }
 
 @media (max-width: 700px){

@@ -1,10 +1,11 @@
 .div-acordeon-type-color{
     min-height: 300px;
-    width: 45vw;
+    width: 90vw;
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
     padding:50px 15px;
     border-radius: 5px;
 }
@@ -94,8 +95,9 @@
 
 /* SECCION POST IT */
 .postit1,.postit2,.postit3,.postit4 {
+    min-height:80px;
+    width:500px;
     display:flex;
-    flex-wrap: wrap;
 	position:relative;
 	padding: 25px;
 	display: inline-block;
