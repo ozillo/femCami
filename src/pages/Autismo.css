@@ -146,50 +146,63 @@ margin-left:4rem;
 .div-page-main-quees{
     display: flex;
    flex-direction: row;
+   height:600px;
+   width:100vw;
+   justify-content: center;
+
 
 }
-.div-align-svg-p{
+.div-align-img-p{
     display: flex;
+    position:relative;
     height:400px;
-    width: 200px;
+    width: 50%;
 }
-.div-align-svg-p p{
-    font-size: 22px;
-    font-weight: 300;
+.div-align-img-p p{
+    font-size: 32px;
+    font-weight: 400;
     flex: 1; 
     left: 30px;
-    position: absolute; 
     z-index: 1;
 }
-.div-align-svg-p svg{
-    position: relative;
-    flex: 0 0 auto;
-    bottom: 170px;
-    right: 120px;
+
+.div-align-img-p img{
+    position:absolute;
+    height:500px;
+    width:300px;
+    top:-20;
+}
+
+
+.div-page-main-quees img {
+    height:500px;
+    width: 550px;
     
 }
-.div-page-main-quees img {
-    height:400px;
-    width: 450px;
-    flex: 0 0 auto; /* La imagen no crece ni encoge */
-    margin-left: 10px;
+
+.div-page-main-postit{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .div-all-groups{
     display:flex;
+    position:relative;
+    flex-direction: column;
     height:100px;
     width:100%;
 }
-.div-all-groups svg{
-    position:relative;
-    height:300px;
-    width:100%;
-}
+
 .div-all-groups p{
-    position:absolute;
+    position: relative;
     font-size: 22px;
-    font-weight: 300;
-    
-    
+    font-weight: 300;    
+}
+.img-sections{
+    height:300px;
+    width:200px;
+    position: absolute;
 }
 
 @media (max-width: 700px){
