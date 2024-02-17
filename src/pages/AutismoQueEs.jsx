@@ -11,6 +11,7 @@ const AutismoQueEs = () => {
     }, []);
     console.log(autismoQueEs[0].content);
     return (
+        
         <>
             <section className="section-title-description-page">
                 <h1 className="title-page">Què és l'autisme?</h1>

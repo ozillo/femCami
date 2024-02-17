@@ -41,7 +41,7 @@ export const arrayLogopedia = [
 
 export const arrayTerapiaOcupacional = [
     {
-        mainDescription: "",
+        mainDescription: "POR AMPLIAR",
         icon:'https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg',
         background:'https://res.cloudinary.com/dtfugozix/image/upload/v1708040582/Fem%20Cami/Background/burbujaVerde_avgani.png',
 
