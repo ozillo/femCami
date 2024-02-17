@@ -163,9 +163,9 @@ margin-left:4rem;
     z-index: 1;
 }
 
-.div-align-img-p img{
+.img-back-p{
     position:absolute;
-    height:500px;
+    height:400px;
     width:300px;
     top:-20;
 }
@@ -207,16 +207,24 @@ margin-left:4rem;
 }
 
 @media (max-width: 700px){
+    .section-title-description-page{
+        min-height: 47vh;
+        width:667px;
+        padding-top: 132px;
+    }
+
+    .img-back-p{
+        position:absolute;
+        min-height:300px;
+        width:300px;
+        top:-20;
+    }
     .div-page-main-description{
         align-items: center;
         width:300px;
         flex-direction: column;
     }
-    .section-title-description-page h1{
-        font-size: 110px;
-      
-    }
-
+  
     .div-page-main-description img{
         height:300px;
         width: 300px;
