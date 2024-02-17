@@ -25,16 +25,16 @@ const Contacto = () => {
                     alt="image watercolor flowers"
                     className="section-contacte-img-flower"
                 />
-                <h1 className="section-contacte-h1">On pots trobarnos?</h1>
+                <h1 className="section-contacte-h1">On pots trobar-nos?</h1>
                 <div className="section-contacte-div-general-info">
-                    <h3>ADRAÇA:</h3>
+                    <h3>ADREÇA:</h3>
                     <p>Carrer de l'Alguer, 16</p>
                     <p>Vilafranca del Penedès</p>
                     <p>08720</p>
                     <p>Barcelona</p>
                 </div>
                 <div className="section-contacte-div-general-info">
-                    <h3>TELEFON:</h3>
+                    <h3>TELÈFON:</h3>
                     <p>+34 789 098 399</p>
                 </div>
                 <div className="section-contacte-div-general-info">
@@ -101,12 +101,12 @@ const Contacto = () => {
             <section className="section-contacte-formulario">
                 <div className="div-contact-message-form">
                     <h2 className="h2-contact-message-form">
-                        Send us a message!
+                        Pots enviar el teu missatge!
                     </h2>
                     <p>
-                        No dudes en contactarnos ante cualquier duda que puedas
-                        tener. Te responderemos tan pronto como podamos!
-                    </p>
+                        No dubtis en contactar-nos davant qualsevol dubte que puguis tenir.
+                        Et respondrem tan aviat com podem!
+                        </p>
                     <img
                         src="https://res.cloudinary.com/dtfugozix/image/upload/v1706141246/Fem%20Cami/logoBanner4_dhmltd.png"
                         alt="logo fem cami formulario"

@@ -6,7 +6,7 @@ const ContactForm = () => {
         <div className="div-contact-form-wrapper">
             <form action={onSubmit} className="main-form-contacte">
                 <label htmlFor="nombre" className="label-form-column">
-                    Nombre
+                    Nom
                     <input
                         type="text"
                         name="nombre"
@@ -24,7 +24,7 @@ const ContactForm = () => {
                     />
                 </label>
                 <label htmlFor="mensaje" className="label-form-column">
-                    Mensaje
+                    Missatge
                     <textarea
                         type="text"
                         name="mensaje"
