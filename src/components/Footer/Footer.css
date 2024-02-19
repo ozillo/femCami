@@ -5,7 +5,14 @@ footer {
     display: flex;  
     position:relative;
 }
-
+.custom-shape-divider-top-1708371836 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 .logo-social{
     height:60px;
 }
