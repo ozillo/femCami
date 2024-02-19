@@ -17,14 +17,16 @@ const PrintAutismo = () => {
             </section>
             <section className="section-all-pages-main-page">
                 <section className="section-individual-page-info">
-                    <h3 className="h3-individual-page-info">
-                        Que es el autismo?
+                    <div className="div-h3-logo-individual-page">
+                        <h3 className="h3-individual-page-info">
+                            Reeducacio Pedagogica
+                        </h3>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363072/Fem%20Cami/Vectores/icons8-tools-64_1_a3hsqb.png"
-                            alt="logo titulo"
-                            className="h3-individual-page-icon"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-garden-100_mnaflb.png"
+                            alt="logo seccion servicios"
+                            className="img-individual-page-icon"
                         />
-                    </h3>
+                    </div>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
                             L’autisme és una variant neurològica natural que pot
@@ -40,7 +42,7 @@ const PrintAutismo = () => {
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708369893/Fem%20Cami/Vectores/Autismo222_ypyrgu.png"
+                            src=""
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -50,14 +52,16 @@ const PrintAutismo = () => {
             </section>
             <section className="section-all-pages-main-page">
                 <section className="section-individual-page-info">
-                    <h3 className="h3-individual-page-info">
-                        Que es el autismo?
+                    <div className="div-h3-logo-individual-page">
+                        <h3 className="h3-individual-page-info">
+                            Reeducacio Pedagogica
+                        </h3>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363072/Fem%20Cami/Vectores/icons8-tools-64_1_a3hsqb.png"
-                            alt="logo titulo"
-                            className="h3-individual-page-icon"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-garden-100_mnaflb.png"
+                            alt="logo seccion servicios"
+                            className="img-individual-page-icon"
                         />
-                    </h3>
+                    </div>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
                             L’autisme és una variant neurològica natural que pot
@@ -73,7 +77,7 @@ const PrintAutismo = () => {
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708369893/Fem%20Cami/Vectores/Autismo222_ypyrgu.png"
+                            src=""
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -83,14 +87,16 @@ const PrintAutismo = () => {
             </section>
             <section className="section-all-pages-main-page">
                 <section className="section-individual-page-info">
-                    <h3 className="h3-individual-page-info">
-                        Que es el autismo?
+                    <div className="div-h3-logo-individual-page">
+                        <h3 className="h3-individual-page-info">
+                            Reeducacio Pedagogica
+                        </h3>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363072/Fem%20Cami/Vectores/icons8-tools-64_1_a3hsqb.png"
-                            alt="logo titulo"
-                            className="h3-individual-page-icon"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-garden-100_mnaflb.png"
+                            alt="logo seccion servicios"
+                            className="img-individual-page-icon"
                         />
-                    </h3>
+                    </div>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
                             L’autisme és una variant neurològica natural que pot
@@ -106,7 +112,7 @@ const PrintAutismo = () => {
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708369893/Fem%20Cami/Vectores/Autismo222_ypyrgu.png"
+                            src=""
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
