@@ -45,7 +45,7 @@ const PrintAutismo = () => {
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702255755/Fem%20Cami/Vectores/logopedia_xhkedr.png"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708369893/Fem%20Cami/Vectores/Autismo222_ypyrgu.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -79,7 +79,7 @@ const PrintAutismo = () => {
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028811/cld-sample-4.jpg"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708369977/Fem%20Cami/Vectores/Autismo444_gkurjq.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -119,7 +119,7 @@ const PrintAutismo = () => {
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028811/cld-sample-4.jpg"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708370913/Fem%20Cami/Vectores/AutismoPhoto1_wcmywp.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -147,7 +147,7 @@ const PrintAutismo = () => {
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028811/cld-sample-4.jpg"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708370586/Fem%20Cami/Vectores/Autismo888_zo5kyk.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />

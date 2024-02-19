@@ -35,7 +35,7 @@
     width: 95vw;
     min-height: 400px;
     display: flex;
-background-color: var(--light-pastel-green);
+background-color: var(--primary-green);
     align-items: flex-start;
     justify-content: space-evenly;
     gap:50px;
@@ -49,27 +49,34 @@ background-color: var(--light-pastel-green);
     justify-content: center;
     display:flex;
     align-items: center;
-    background-color: var(--primary-green);
-    color:var(--primary-black)
+    background-color: var(--light-pastel-green);
+    border:2px solid var(--primary-green);
+    color:var(--primary-black);
+    font-family: 'Shadows Into Light', cursive;
+font-size: 50px;
+    color:var(--primary-green);
+    text-shadow: -1px -1px 0 var(--primary-black),-1px  1px 0 var(--primary-black),1px  1px 0 var(--primary-black); 
+    letter-spacing: 5px;
 }
 .h3-individual-page-icon{
     width: 80px;
     height: 80px;
     margin-left:75px;
 }
-.p-idividual-page-info{
+.p-idividual-page-info-serveis{
     font-size:18px;
     margin:50px 0 0 50px;
     width: 50%;
     height: 300px;
     padding-right: 40px;
+    color:var(--primary-black);
 
 }
 .div-individual-page-divider-serveis{
     margin:10px 0;
     width: 1px;
     height: 400px;
-    background-color:var(--primary-green);
+    background-color:var(--light-pastel-green);
 }
 .img-individual-page-info{
     padding:20px;
@@ -90,5 +97,6 @@ background-color: var(--light-pastel-green);
     -webkit-box-shadow: 0px 0px 15px 5px var(--pastel-green);
 -moz-box-shadow: 0px 0px 15px 5px var(--pastel-green);
 box-shadow: 0px 0px 15px 5px var(--pastel-green);
-color:var(--primary-white);
+background-color: var(--light-pastel-green);
+color:var(--primary-green);
 }

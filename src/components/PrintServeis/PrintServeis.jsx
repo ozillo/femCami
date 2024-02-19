@@ -25,10 +25,12 @@ const PrintServeis = () => {
                         />
                     </h3>
                     <div className="div-individual-page-info-serveis">
-                        <p className="p-idividual-page-info">POR AMPLIAR</p>
+                        <p className="p-idividual-page-info-serveis">
+                            POR AMPLIAR
+                        </p>
                         <div className="div-individual-page-divider-serveis"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702118110/Fem%20Cami/portadaprova_uxuhpp.png"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708370766/Fem%20Cami/Vectores/Autismo101010_pfcqwn.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -49,7 +51,7 @@ const PrintServeis = () => {
                         />
                     </h3>
                     <div className="div-individual-page-info-serveis">
-                        <p className="p-idividual-page-info">
+                        <p className="p-idividual-page-info-serveis">
                             La Logopèdia és la disciplina que engloba l’estudi,
                             la prevenció, la detecció, l’avaluació, diagnòstic i
                             el tractament dels trastorns de la comunicació
@@ -59,7 +61,7 @@ const PrintServeis = () => {
                         </p>
                         <div className="div-individual-page-divider-serveis"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702118110/Fem%20Cami/portadaprova_uxuhpp.png"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708370673/Fem%20Cami/Vectores/Autismo999_hmu0qq.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -80,10 +82,12 @@ const PrintServeis = () => {
                         />
                     </h3>
                     <div className="div-individual-page-info-serveis">
-                        <p className="p-idividual-page-info">POR AMPLIAR</p>
+                        <p className="p-idividual-page-info-serveis">
+                            POR AMPLIAR
+                        </p>
                         <div className="div-individual-page-divider-serveis"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702118110/Fem%20Cami/portadaprova_uxuhpp.png"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708370142/Fem%20Cami/Vectores/Autismo66_xnvunq.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -104,7 +108,7 @@ const PrintServeis = () => {
                         />
                     </h3>
                     <div className="div-individual-page-info-serveis">
-                        <p className="p-idividual-page-info">
+                        <p className="p-idividual-page-info-serveis">
                             La reeducació és una intervenció psicopedagògica
                             personalitzada d’aquelles dificultats que presenta
                             l’infant en relació els aprenentatges i el rendiment
@@ -112,7 +116,7 @@ const PrintServeis = () => {
                         </p>
                         <div className="div-individual-page-divider-serveis"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702118110/Fem%20Cami/portadaprova_uxuhpp.png"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708370913/Fem%20Cami/Vectores/AutismoPhoto1_wcmywp.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />

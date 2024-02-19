@@ -35,7 +35,7 @@
     width: 95vw;
     min-height: 400px;
     display: flex;
-background-color: var(--light-pastel-blue);
+background-color: var(--primary-blue);
     align-items: flex-start;
     justify-content: space-evenly;
     gap:50px;
@@ -50,8 +50,13 @@ background-color: var(--light-pastel-blue);
     justify-content: center;
     display:flex;
     align-items: center;
-    background-color: var(--primary-blue);
-    color:var(--primary-white)
+    background-color: var(--light-pastel-blue);
+    border:2px solid var(--primary-blue);
+    font-family: 'Shadows Into Light', cursive;
+font-size: 50px;
+    color:var(--primary-blue);
+    text-shadow: -1px -1px 0 var(--primary-black),-1px  1px 0 var(--primary-black),1px  1px 0 var(--primary-black); 
+    letter-spacing: 5px;
 }
 .p-idividual-page-info{
     font-size:18px;
@@ -59,13 +64,14 @@ background-color: var(--light-pastel-blue);
     width: 50%;
     height: 400px;
     padding: 15px 15px 40px 15px;
+    color: var(--primary-white);
 
 }
 .div-individual-page-divider{
     margin:10px 0;
     width: 1px;
     height: 400px;
-    background-color:var(--primary-blue);
+    background-color:var(--light-pastel-blue);
 }
 .img-individual-page-info{
     padding:20px;
@@ -86,5 +92,7 @@ background-color: var(--light-pastel-blue);
     -webkit-box-shadow: 0px 0px 15px 5px var(--pastel-blue);
 -moz-box-shadow: 0px 0px 15px 5px var(--pastel-blue);
 box-shadow: 0px 0px 15px 5px var(--pastel-blue);
+background-color: var(--light-pastel-blue);
+color: var(--primary-blue)
 
 }
