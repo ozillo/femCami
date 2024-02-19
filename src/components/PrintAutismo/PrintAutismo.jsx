@@ -24,6 +24,11 @@ const PrintAutismo = () => {
                 <section className="section-individual-page-info">
                     <h3 className="h3-individual-page-info">
                         Que es el autismo?
+                        <img
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363072/Fem%20Cami/Vectores/icons8-tools-64_1_a3hsqb.png"
+                            alt="logo titulo"
+                            className="h3-individual-page-icon"
+                        />
                     </h3>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
@@ -40,7 +45,7 @@ const PrintAutismo = () => {
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702118110/Fem%20Cami/portadaprova_uxuhpp.png"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702255755/Fem%20Cami/Vectores/logopedia_xhkedr.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -52,6 +57,11 @@ const PrintAutismo = () => {
                 <section className="section-individual-page-info">
                     <h3 className="h3-individual-page-info">
                         Intervencio Psicoeducativa
+                        <img
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363074/Fem%20Cami/Vectores/icons8-brick-80_tojhwz.png"
+                            alt="logo titulo"
+                            className="h3-individual-page-icon"
+                        />
                     </h3>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
@@ -69,7 +79,7 @@ const PrintAutismo = () => {
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702118110/Fem%20Cami/portadaprova_uxuhpp.png"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028811/cld-sample-4.jpg"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -81,6 +91,11 @@ const PrintAutismo = () => {
                 <section className="section-individual-page-info">
                     <h3 className="h3-individual-page-info">
                         Programa d'habilitats socials
+                        <img
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363074/Fem%20Cami/Vectores/icons8-bird-64_hjneu5.png"
+                            alt="logo titulo"
+                            className="h3-individual-page-icon"
+                        />
                     </h3>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
@@ -104,7 +119,7 @@ const PrintAutismo = () => {
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702118110/Fem%20Cami/portadaprova_uxuhpp.png"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028811/cld-sample-4.jpg"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -116,6 +131,11 @@ const PrintAutismo = () => {
                 <section className="section-individual-page-info">
                     <h3 className="h3-individual-page-info">
                         Centre de recurses CRAPG
+                        <img
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-garden-100_mnaflb.png"
+                            alt="logo titulo"
+                            className="h3-individual-page-icon"
+                        />
                     </h3>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
@@ -127,7 +147,7 @@ const PrintAutismo = () => {
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
-                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702118110/Fem%20Cami/portadaprova_uxuhpp.png"
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028811/cld-sample-4.jpg"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />

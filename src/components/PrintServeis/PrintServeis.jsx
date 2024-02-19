@@ -18,6 +18,11 @@ const PrintServeis = () => {
                 <section className="section-individual-page-info">
                     <h3 className="h3-individual-page-info-serveis">
                         Intervenció educativa
+                        <img
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-garden-100_mnaflb.png"
+                            alt="logo titulo"
+                            className="h3-individual-page-icon"
+                        />
                     </h3>
                     <div className="div-individual-page-info-serveis">
                         <p className="p-idividual-page-info">POR AMPLIAR</p>
@@ -37,6 +42,11 @@ const PrintServeis = () => {
                 <section className="section-individual-page-info">
                     <h3 className="h3-individual-page-info-serveis">
                         Logopedia
+                        <img
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363076/Fem%20Cami/Vectores/icons8-tools-64_2_hua7om.png"
+                            alt="logo titulo"
+                            className="h3-individual-page-icon"
+                        />
                     </h3>
                     <div className="div-individual-page-info-serveis">
                         <p className="p-idividual-page-info">
@@ -63,6 +73,11 @@ const PrintServeis = () => {
                 <section className="section-individual-page-info">
                     <h3 className="h3-individual-page-info-serveis">
                         Terapia ocupacional
+                        <img
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-strategy-64_bozesi.png"
+                            alt="logo titulo"
+                            className="h3-individual-page-icon"
+                        />
                     </h3>
                     <div className="div-individual-page-info-serveis">
                         <p className="p-idividual-page-info">POR AMPLIAR</p>
@@ -82,6 +97,11 @@ const PrintServeis = () => {
                 <section className="section-individual-page-info">
                     <h3 className="h3-individual-page-info-serveis">
                         Reeducació pedagogica
+                        <img
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-maths-teacher-teaching-algebra-quadratic-equations-to-students-96_njbu53.png"
+                            alt="logo titulo"
+                            className="h3-individual-page-icon"
+                        />
                     </h3>
                     <div className="div-individual-page-info-serveis">
                         <p className="p-idividual-page-info">

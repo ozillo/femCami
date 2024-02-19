@@ -10,6 +10,7 @@ main {
     justify-content: flex-start;
     align-items: center;
     margin-top:15vh;
+    overflow-x: hidden;
     background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1707209589/Fem%20Cami/Background/drew-beamer-kUHfMW8awpE-unsplash_sdmvbz.jpg");
     background-attachment: fixed;
     background-size: cover;
