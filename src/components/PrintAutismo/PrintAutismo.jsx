@@ -55,16 +55,17 @@ const PrintAutismo = () => {
                     </h3>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
-                            L’autisme és una variant neurològica natural que pot
-                            comportar alteracions en el desenvolupament de
-                            diverses funcions del sistema nerviós central. Es
-                            manifesta en una diversitat d’estils cognitius i
-                            formes d’experimentar, sentir i percebre el món. Les
-                            persones en l’espectre autista poden tenir diferent
-                            habilitats, interessos i maneres de processar la
-                            informació. Es important reconèixer i respectar la
-                            neurodivergència, entenen que l’autisme és una
-                            condició de vida.
+                            La intervenció consisteix en treballar totes les
+                            àrees del desenvolupament tenint en compte les
+                            necessitats de l’infant i la família, sobretot en
+                            l’àrea comunicativa i social, les habilitats
+                            personals, d’aprenentatge i d’autonomia. Ens basem
+                            en intervencions focalitzades i programes integrals
+                            basats en evidència científica com estratègies,
+                            tècniques, mètodes i enfocs específics per persones
+                            autistes, basant-se en la psicoeducació. Duem a
+                            terme intervencions combinades per atendre la
+                            persona com ésser únic.
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
@@ -83,16 +84,23 @@ const PrintAutismo = () => {
                     </h3>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
-                            L’autisme és una variant neurològica natural que pot
-                            comportar alteracions en el desenvolupament de
-                            diverses funcions del sistema nerviós central. Es
-                            manifesta en una diversitat d’estils cognitius i
-                            formes d’experimentar, sentir i percebre el món. Les
-                            persones en l’espectre autista poden tenir diferent
-                            habilitats, interessos i maneres de processar la
-                            informació. Es important reconèixer i respectar la
-                            neurodivergència, entenen que l’autisme és una
-                            condició de vida.
+                            Les habilitats socials són un conjunt de
+                            competències conductuals que possibiliten que la
+                            persona mantingui relacions socials positives amb
+                            els altres i que afronti, de manera efectiva i
+                            adaptativa, les demandes del seu entorn social,
+                            aspectes que contribueixen significativament, per
+                            una part, a l’acceptació per part dels companys i,
+                            per altra, a un ajut i adaptació social adequat. Una
+                            de les condicions que presenten les persones amb
+                            autisme és la dificultat de comprensió i la gestió
+                            de les relacions socials. És per això que des de Fem
+                            Camí duem a terme sessions grupals per treballar les
+                            habilitats socials i personals amb professionals
+                            especialistes en autisme. A través de la interacció,
+                            comunicació i el joc treballem aspectes necessaris
+                            per el desenvolupament de la persona i la inclusió
+                            social.
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
@@ -111,16 +119,11 @@ const PrintAutismo = () => {
                     </h3>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
-                            L’autisme és una variant neurològica natural que pot
-                            comportar alteracions en el desenvolupament de
-                            diverses funcions del sistema nerviós central. Es
-                            manifesta en una diversitat d’estils cognitius i
-                            formes d’experimentar, sentir i percebre el món. Les
-                            persones en l’espectre autista poden tenir diferent
-                            habilitats, interessos i maneres de processar la
-                            informació. Es important reconèixer i respectar la
-                            neurodivergència, entenen que l’autisme és una
-                            condició de vida.
+                            Fem Camí és centre col·laborador amb l’Associació
+                            Autisme amb Futur Penedès-Garraf des de l’any 2021,
+                            compartint projectes i actualment formant part del
+                            CRAPG (Centre de Recursos d’Autisme Penedès –
+                            Garraf).
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
