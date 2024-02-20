@@ -1,11 +1,12 @@
 import React from "react";
 import "./PrintServeis.css";
 import "../PrintAutismo/PrintAutismo.css";
+import { Board } from "../Board/Board";
 const PrintServeis = () => {
     return (
         <>
             <section className="section-title-main-page section-title-main-page-serveis">
-                <h1 className="title-page">SERVEIS</h1>
+                <h1 className="title-page-serveis">SERVEIS</h1>
             </section>
             <section className="section-description-main-page">
                 <p>FEM CAMI es centro especializado en el mundo del autismo.</p>
@@ -127,6 +128,7 @@ const PrintServeis = () => {
                     <button className="btn-individual-page">SABER MES</button>
                 </section>
             </section>
+            <Board />
         </>
     );
 };

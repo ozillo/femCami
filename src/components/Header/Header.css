@@ -2,7 +2,10 @@ header {
     height:15vh;
     width: 100%; 
     color: whitesmoke;
-    background-color:var(--primary-blue);
+/*     background-color:var(--primary-blue);
+    border-bottom:5px solid var(--pastel-blue); */
+    background: rgb(0,76,159);
+background: linear-gradient(180deg, rgba(0,76,159,1) 85%, rgba(112,180,255,1) 100%);
     position:fixed;
     top:0%;
     z-index:12;

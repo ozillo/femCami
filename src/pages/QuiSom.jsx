@@ -15,11 +15,7 @@ const QuiSom = () => {
                 <h1 className="title-page">Qui Som</h1>
             </section>
 
-<<<<<<< HEAD
-            <section className="section-principal-page-treballadors">
-=======
             {/* <section className="section-principal-page-treballadors">
->>>>>>> 9fc2b743c4009104f4e9df4142c83ea6472347ec
                 <div className="div-page-treballadors">
                     <img
                         src={dataTeam[0].img}
@@ -180,11 +176,7 @@ const QuiSom = () => {
                         <p className="p-page-job">{dataTeam[8].job}</p>
                     </div>
                 </div>
-<<<<<<< HEAD
-            </section>
-=======
             </section> */}
->>>>>>> 9fc2b743c4009104f4e9df4142c83ea6472347ec
 
             <TeamCard />
         </>
