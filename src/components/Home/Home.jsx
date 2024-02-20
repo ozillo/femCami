@@ -9,7 +9,6 @@ import Team from "../Team/Team";
 import "./Home.css";
 import React, { useEffect } from "react";
 
-
 const Home = () => {
     const controlScroll = () => {
         const sections = document.querySelectorAll(
@@ -17,7 +16,6 @@ const Home = () => {
         );
         const scrollTop = document.documentElement.scrollTop;
 
-        console.log({ sections });
         sections.forEach((elem, index) => {
             let altura = sections[index].offsetTop;
             if (altura - 500 < scrollTop) {
@@ -28,9 +26,7 @@ const Home = () => {
         });
     };
     window.addEventListener("scroll", controlScroll);
-    useEffect(() => {
-        controlScroll();
-    }, []);
+
     useEffect(() => {
         initialScrollTop();
     }, []);
@@ -66,9 +62,7 @@ const Home = () => {
             <section className="section-initial-transition">
                 <ServiciosAutismo />
             </section>
-            <section className="section-wave">  
-            </section>
-           
+            <section className="section-wave"></section>
         </>
     );
 };

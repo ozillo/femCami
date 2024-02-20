@@ -1,7 +1,8 @@
 .section-title-main-page{
     width: 100vw;
     min-height: 35vh;
-    background-color: var(--pastel-blue);
+    background-color: var(--light-pastel-green);
+    border-bottom:5px solid var(--pastel-green);
     display:flex;
     justify-content: center;
     align-items: flex-start;
@@ -11,11 +12,31 @@
     background-position: 50%;
 }
 .section-title-main-page-serveis{
-    background-color: var(--pastel-green);
+    background-color: var(--light-pastel-blue);
+    border-bottom:5px solid var(--pastel-blue);
 }
-.section-title-main-page-serveis{
-    background-color: var(--pastel-green);
+.title-page{
+    font-size: 160px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:100;
+    color:var(--primary-green);
 }
+.title-page-serveis{
+    font-size: 160px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:100;
+    color:var(--primary-blue);
+}
+
+.title-page, .title-page-serveis{
+   
+        text-shadow: -1px -1px 0 var(--primary-white),  
+                      1px -1px 0 var(--primary-white),
+                     -1px  1px 0 var(--primary-white),
+                      1px  1px 0 var(--primary-white); 
+}
+
+
 .section-description-main-page{
     width: 80vw;
     min-height: 30vh;
@@ -42,14 +63,14 @@
     width: 95vw;
     min-height: 400px;
     display: flex;
-    background-color: var(--primary-blue);
+    background-color: var(--primary-green);
     align-items: center;
     justify-content: space-evenly;
     gap:50px;
     position:relative;
 }
 .div-individual-page-info-serveis{
-    background-color: var(--primary-green);
+    background-color: var(--primary-blue);
 }
 .div-h3-logo-individual-page{
     width: 80vw;
@@ -57,13 +78,13 @@
     justify-content: center;
     display:flex;
     align-items: center;
-    background-color: var(--light-pastel-blue);
-    border:2px solid var(--primary-blue);
+    background-color: var(--light-pastel-green);
+    border:2px solid var(--primary-green);
     color:var(--primary-black);
 }
 .div-h3-logo-individual-page-serveis{
-    background-color: var(--light-pastel-green);
-    border:2px solid var(--primary-green);
+    background-color: var(--light-pastel-blue);
+    border:2px solid var(--primary-blue);
     color:var(--primary-black);
 }
 .h3-individual-page-info{
@@ -72,12 +93,12 @@
     text-transform: uppercase;
      font-family: 'Shadows Into Light', cursive;
 font-size: 50px;
-    color:var(--primary-blue);
+    color:var(--primary-green);
     text-shadow: -1px -1px 0 var(--primary-black),-1px  1px 0 var(--primary-black),1px  1px 0 var(--primary-black); 
     letter-spacing: 5px; 
 }
 .h3-individual-page-info-serveis{
-    color:var(--primary-green);
+    color:var(--primary-blue);
 }
 .img-individual-page-icon{
     width: 95px;
@@ -90,11 +111,11 @@ font-size: 50px;
     width: 50%;
     min-height: 400px;
     padding: 15px 15px 40px 15px;
-    color: var(--primary-white);
+    color: var(--primary-black);
     line-height: 40px;
 }
 .p-idividual-page-info-serveis{
-    color:var(--primary-black);
+    color:var(--primary-white);
 
 }
 .div-individual-page-divider{
