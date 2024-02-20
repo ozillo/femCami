@@ -4,17 +4,17 @@
 main {
     min-height:80vh;
     width:100%;
-    background-color:whitesmoke;
+    background-color:var(--primary-white);
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     margin-top:15vh;
     overflow-x: hidden;
-    background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1707209589/Fem%20Cami/Background/drew-beamer-kUHfMW8awpE-unsplash_sdmvbz.jpg");
+/*     background-image: url("https://res.cloudinary.com/dtfugozix/image/upload/v1707209589/Fem%20Cami/Background/drew-beamer-kUHfMW8awpE-unsplash_sdmvbz.jpg");
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 
 }
 
