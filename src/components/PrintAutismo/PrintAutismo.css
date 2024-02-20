@@ -10,11 +10,18 @@
     background-attachment:scroll;
     background-position: 50%;
 }
+.section-title-main-page-serveis{
+    background-color: var(--pastel-green);
+}
+.section-title-main-page-serveis{
+    background-color: var(--pastel-green);
+}
 .section-description-main-page{
     width: 80vw;
     min-height: 30vh;
-    background-color: var(--primary-white);
+    background-color: var(--light-pastel-orange);
 }
+
 .section-all-pages-main-page{
     width: 80vw;
     min-height: 60vh;
@@ -24,7 +31,7 @@
     flex-direction: column;
 }
 .section-individual-page-info{
-    width: 100%;
+    width: 95vw;
     min-height: 500px;
     display: flex;
     flex-direction: column;
@@ -35,15 +42,18 @@
     width: 95vw;
     min-height: 400px;
     display: flex;
-background-color: var(--primary-blue);
-    align-items: flex-start;
+    background-color: var(--primary-blue);
+    align-items: center;
     justify-content: space-evenly;
     gap:50px;
     position:relative;
 }
+.div-individual-page-info-serveis{
+    background-color: var(--primary-green);
+}
 .div-h3-logo-individual-page{
-    width: 100%;
-    height: 100px;
+    width: 80vw;
+    min-height: 100px;
     justify-content: center;
     display:flex;
     align-items: center;
@@ -51,7 +61,13 @@ background-color: var(--primary-blue);
     border:2px solid var(--primary-blue);
     color:var(--primary-black);
 }
+.div-h3-logo-individual-page-serveis{
+    background-color: var(--light-pastel-green);
+    border:2px solid var(--primary-green);
+    color:var(--primary-black);
+}
 .h3-individual-page-info{
+    width: 60%;
     letter-spacing: 5px;
     text-transform: uppercase;
      font-family: 'Shadows Into Light', cursive;
@@ -60,19 +76,31 @@ font-size: 50px;
     text-shadow: -1px -1px 0 var(--primary-black),-1px  1px 0 var(--primary-black),1px  1px 0 var(--primary-black); 
     letter-spacing: 5px; 
 }
+.h3-individual-page-info-serveis{
+    color:var(--primary-green);
+}
+.img-individual-page-icon{
+    width: 95px;
+    height: 80px;
+    margin-left:75px;
+}
 .p-idividual-page-info{
-    font-size:18px;
-    margin:50px 0 0 50px;
+    font-size:16px;
+    margin:30px 0 0 50px;
     width: 50%;
-    height: 400px;
+    min-height: 400px;
     padding: 15px 15px 40px 15px;
     color: var(--primary-white);
+    line-height: 40px;
+}
+.p-idividual-page-info-serveis{
+    color:var(--primary-black);
 
 }
 .div-individual-page-divider{
     margin:10px 0;
     width: 1px;
-    height: 400px;
+    min-height: 400px;
     background-color:var(--light-pastel-blue);
 }
 .img-individual-page-info{
@@ -83,18 +111,70 @@ font-size: 50px;
 .btn-individual-page{
     width: 400px;
     height: 60px;
-    border:1px solid var(--pastel-blue);
-    background-color: var(--primary-blue);
-    color:var(--primary-white);
+    border:1px solid var(--primary-blue);
+    background-color: var(--pastel-blue);
+    color:var(--primary-black);
     font-size: 20px;
     border-radius: 5px;
     margin-top:20px;
 }
+/* .btn-individual-page-serveis{
+    border:1px solid var(--pastel-green);
+    background-color: var(--primary-green);
+    color:var(--primary-black);
+} */
 .btn-individual-page:hover{
-    -webkit-box-shadow: 0px 0px 15px 5px var(--pastel-blue);
--moz-box-shadow: 0px 0px 15px 5px var(--pastel-blue);
-box-shadow: 0px 0px 15px 5px var(--pastel-blue);
-background-color: var(--light-pastel-blue);
-color: var(--primary-blue)
+    transform: scale(1.05);
+}
 
+@media screen and (width<992px){
+    .p-idividual-page-info{
+        margin:15px 0 0 25px;
+        line-height: 30px;
+    }
+    .img-individual-page-info{
+        padding:20px;
+        width: 300px;
+        height: 250px;
+    }
+}
+@media screen and (width<768px){
+    .div-individual-page-info{
+        flex-direction: column;
+        gap:20px;
+    }
+    .p-idividual-page-info{
+        margin:30px 15px;
+        padding:0;
+        width: 80vw;
+        min-height: 100px;
+    }
+    .div-individual-page-divider{
+        margin:10px 0;
+        width: 80%;
+        min-height: 0;
+        height: 1px;
+        background-color:var(--light-pastel-blue);
+    }
+}
+@media screen and (width<601px){
+    .h3-individual-page-info{
+        font-size: 30px;
+
+    }
+    .div-h3-logo-individual-page{
+        width: 95vw;
+        justify-content: space-between;
+        padding:0 10px;
+    }
+    .img-individual-page-icon{
+        width: 75px;
+        height: 60px;
+        margin-left:0;
+    }
+    .btn-individual-page{
+        width: 250px;
+        height: 60px;
+
+    }
 }

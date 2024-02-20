@@ -1,9 +1,10 @@
 import React from "react";
 import "./PrintServeis.css";
+import "../PrintAutismo/PrintAutismo.css";
 const PrintServeis = () => {
     return (
         <>
-            <section className="section-title-main-page-serveis">
+            <section className="section-title-main-page section-title-main-page-serveis">
                 <h1 className="title-page">SERVEIS</h1>
             </section>
             <section className="section-description-main-page">
@@ -16,8 +17,8 @@ const PrintServeis = () => {
             </section>
             <section className="section-all-pages-main-page">
                 <section className="section-individual-page-info">
-                    <div className="div-h3-logo-individual-page-serveis">
-                        <h3 className="h3-individual-page-info-serveis">
+                    <div className="div-h3-logo-individual-page div-h3-logo-individual-page-serveis">
+                        <h3 className="h3-individual-page-info h3-individual-page-info-serveis">
                             Intervenció educativa
                         </h3>
                         <img
@@ -26,8 +27,8 @@ const PrintServeis = () => {
                             className="img-individual-page-icon"
                         />
                     </div>
-                    <div className="div-individual-page-info-serveis">
-                        <p className="p-idividual-page-info-serveis">
+                    <div className="div-individual-page-info div-individual-page-info-serveis">
+                        <p className="p-idividual-page-info p-idividual-page-info-serveis">
                             POR AMPLIAR
                         </p>
                         <div className="div-individual-page-divider-serveis"></div>
@@ -37,15 +38,13 @@ const PrintServeis = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page-serveis">
-                        Coneix més
-                    </button>
+                    <button className="btn-individual-page">Coneix més</button>
                 </section>
             </section>
             <section className="section-all-pages-main-page">
                 <section className="section-individual-page-info">
-                    <div className="div-h3-logo-individual-page-serveis">
-                        <h3 className="h3-individual-page-info-serveis">
+                    <div className="div-h3-logo-individual-page div-h3-logo-individual-page-serveis">
+                        <h3 className="h3-individual-page-info h3-individual-page-info-serveis">
                             Logopedia
                         </h3>
                         <img
@@ -54,8 +53,8 @@ const PrintServeis = () => {
                             className="img-individual-page-icon"
                         />
                     </div>
-                    <div className="div-individual-page-info-serveis">
-                        <p className="p-idividual-page-info-serveis">
+                    <div className="div-individual-page-info div-individual-page-info-serveis">
+                        <p className="p-idividual-page-info p-idividual-page-info-serveis">
                             La Logopèdia és la disciplina que engloba l’estudi,
                             la prevenció, la detecció, l’avaluació, diagnòstic i
                             el tractament dels trastorns de la comunicació
@@ -70,15 +69,13 @@ const PrintServeis = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page-serveis">
-                        Coneix més
-                    </button>
+                    <button className="btn-individual-page">Coneix més</button>
                 </section>
             </section>
             <section className="section-all-pages-main-page">
                 <section className="section-individual-page-info">
-                    <div className="div-h3-logo-individual-page-serveis">
-                        <h3 className="h3-individual-page-info-serveis">
+                    <div className="div-h3-logo-individual-page div-h3-logo-individual-page-serveis">
+                        <h3 className="h3-individual-page-info h3-individual-page-info-serveis">
                             Terapia ocupacional
                         </h3>
                         <img
@@ -87,8 +84,8 @@ const PrintServeis = () => {
                             className="img-individual-page-icon"
                         />
                     </div>
-                    <div className="div-individual-page-info-serveis">
-                        <p className="p-idividual-page-info-serveis">
+                    <div className="div-individual-page-info div-individual-page-info-serveis">
+                        <p className="p-idividual-page-info p-idividual-page-info-serveis">
                             POR AMPLIAR
                         </p>
                         <div className="div-individual-page-divider-serveis"></div>
@@ -98,15 +95,13 @@ const PrintServeis = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page-serveis">
-                        SABER MES
-                    </button>
+                    <button className="btn-individual-page">SABER MES</button>
                 </section>
             </section>
             <section className="section-all-pages-main-page">
                 <section className="section-individual-page-info">
-                    <div className="div-h3-logo-individual-page-serveis">
-                        <h3 className="h3-individual-page-info-serveis">
+                    <div className="div-h3-logo-individual-page div-h3-logo-individual-page-serveis">
+                        <h3 className="h3-individual-page-info h3-individual-page-info-serveis">
                             Reeducacio Pedagogica
                         </h3>
                         <img
@@ -115,8 +110,8 @@ const PrintServeis = () => {
                             className="img-individual-page-icon"
                         />
                     </div>
-                    <div className="div-individual-page-info-serveis">
-                        <p className="p-idividual-page-info-serveis">
+                    <div className="div-individual-page-info div-individual-page-info-serveis">
+                        <p className="p-idividual-page-info p-idividual-page-info-serveis">
                             La reeducació és una intervenció psicopedagògica
                             personalitzada d’aquelles dificultats que presenta
                             l’infant en relació els aprenentatges i el rendiment
@@ -129,9 +124,7 @@ const PrintServeis = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page-serveis">
-                        SABER MES
-                    </button>
+                    <button className="btn-individual-page">SABER MES</button>
                 </section>
             </section>
         </>
