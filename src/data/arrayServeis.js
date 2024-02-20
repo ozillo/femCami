@@ -1,9 +1,14 @@
 export const intervencionEducativa = [
     {
         mainDescription: "POR AMPLIAR",
-        content: ["POR AMPLIAR"],
-        background:'https://res.cloudinary.com/dtfugozix/image/upload/v1708040582/Fem%20Cami/Background/burbujaVerde_avgani.png',
-
+        content: [
+            {
+                titulo: "POR AMPLIAR",
+                contenido: ["POR AMPLIAR"],
+            },
+        ],
+        background:
+            "https://res.cloudinary.com/dtfugozix/image/upload/v1708040582/Fem%20Cami/Background/burbujaVerde_avgani.png",
     },
 ];
 
@@ -11,9 +16,9 @@ export const arrayLogopedia = [
     {
         mainDescription:
             "La Logopèdia és la disciplina que engloba l’estudi, la prevenció, la detecció, l’avaluació, diagnòstic i el tractament dels trastorns de la comunicació humana: les alteracions de la veu, de l’audició, de la parla, del llenguatge (oral, escrit, gestual); i de les funcions orofacials i deglutòries.",
-            icon:'https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg',
-            background:'https://res.cloudinary.com/dtfugozix/image/upload/v1708040582/Fem%20Cami/Background/burbujaVerde_avgani.png',
-
+        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg",
+        background:
+            "https://res.cloudinary.com/dtfugozix/image/upload/v1708040582/Fem%20Cami/Background/burbujaVerde_avgani.png",
 
         content: [
             {
@@ -42,9 +47,9 @@ export const arrayLogopedia = [
 export const arrayTerapiaOcupacional = [
     {
         mainDescription: "POR AMPLIAR",
-        icon:'https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg',
-        background:'https://res.cloudinary.com/dtfugozix/image/upload/v1708040582/Fem%20Cami/Background/burbujaVerde_avgani.png',
-
+        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg",
+        background:
+            "https://res.cloudinary.com/dtfugozix/image/upload/v1708040582/Fem%20Cami/Background/burbujaVerde_avgani.png",
 
         content: [
             {
@@ -96,9 +101,9 @@ export const reeducacionPedagogica = [
     {
         mainDescription:
             "La reeducació és una intervenció psicopedagògica personalitzada d’aquelles dificultats que presenta l’infant en relació els aprenentatges i el rendiment acadèmic, i en el seu desenvolupament.",
-            icon:'https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg',
-            background:'https://res.cloudinary.com/dtfugozix/image/upload/v1708040582/Fem%20Cami/Background/burbujaVerde_avgani.png',
-
+        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg",
+        background:
+            "https://res.cloudinary.com/dtfugozix/image/upload/v1708040582/Fem%20Cami/Background/burbujaVerde_avgani.png",
 
         content: [
             {
