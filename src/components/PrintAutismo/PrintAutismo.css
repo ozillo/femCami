@@ -1,7 +1,7 @@
 .section-title-main-page{
     width: 100vw;
     min-height: 35vh;
-    background-color: var(--pastel-blue);
+    background-color: var(--pastel-orange);
     display:flex;
     justify-content: center;
     align-items: flex-start;
