@@ -1,3 +1,12 @@
+.section-description-qui-som{
+  width: 60vw;
+  height: 200px;
+  display:flex;
+  align-items: center;
+}
+.section-description-qui-som p{
+  font-size: 20px;
+}
 .section-title-description-page{
     display:flex;
     flex-wrap: wrap;

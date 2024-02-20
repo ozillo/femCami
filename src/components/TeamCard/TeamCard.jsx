@@ -26,7 +26,10 @@ const TeamCard = () => {
                                 <h3 className="h3-card-information-name">
                                     {`${elem.name} ${elem.subname}`}
                                 </h3>
-                                <div class="quote">
+                                <div className="quote">
+                                    <p className="text">{elem.description}</p>
+                                </div>
+                                {/* <div class="quote">
                                     <p class="text">
                                         {elem.mention}
                                         <span class="highlight">
@@ -46,7 +49,7 @@ const TeamCard = () => {
                                         </span>
                                         {elem.postmention}.
                                     </p>
-                                </div>
+                                </div> */}
                                 <p className="p-card-information-centre-femcami">
                                     Fem Camí
                                 </p>

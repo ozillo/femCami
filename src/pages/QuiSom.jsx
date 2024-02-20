@@ -177,7 +177,15 @@ const QuiSom = () => {
                     </div>
                 </div>
             </section> */}
-
+            <section className="section-description-qui-som">
+                <p>
+                    FEM CAMÍ està integrat per un{" "}
+                    <strong>EQUIP TRANSDISCIPLINAR</strong>, on totes compartim,
+                    treballem, cooperem cap un mateix objectiu, reforçant la
+                    feina en cada disciplina de forma transversal.
+                </p>
+            </section>
+            <DividerMain />
             <TeamCard />
         </>
     );
