@@ -32,7 +32,7 @@ const PrintServeis = () => {
                         </p>
                         <div className="div-individual-page-divider-serveis"></div>
                         <img
-                            src=""
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708391729/Fem%20Cami/Vectores/GrupoSumando_rigiph.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -65,7 +65,7 @@ const PrintServeis = () => {
                         </p>
                         <div className="div-individual-page-divider-serveis"></div>
                         <img
-                            src=""
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708391969/Fem%20Cami/Vectores/MesaTrabajando_mochh2.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
@@ -93,13 +93,13 @@ const PrintServeis = () => {
                         </p>
                         <div className="div-individual-page-divider-serveis"></div>
                         <img
-                            src=""
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708392537/Fem%20Cami/Vectores/Logopedia_zs55pw.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
                     </div>
                     <button className="btn-individual-page-serveis">
-                        Coneix més
+                        SABER MES
                     </button>
                 </section>
             </section>
@@ -124,13 +124,13 @@ const PrintServeis = () => {
                         </p>
                         <div className="div-individual-page-divider-serveis"></div>
                         <img
-                            src=""
+                            src="https://res.cloudinary.com/dtfugozix/image/upload/v1708392343/Fem%20Cami/Vectores/TerapiaEstudi_yaqw1b.png"
                             alt="imagen seccion que es el autismo"
                             className="img-individual-page-info"
                         />
                     </div>
                     <button className="btn-individual-page-serveis">
-                        Coneix més
+                        SABER MES
                     </button>
                 </section>
             </section>

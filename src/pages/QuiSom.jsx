@@ -3,6 +3,8 @@ import { initialScrollTop } from "../utils/controlScroll";
 import "./QuiSom.css"
 import { dataTeam } from "../data/data";
 import DividerMain from "../components/DividerMain/DividerMain";
+import TeamCard from "../components/TeamCard/TeamCard";
+
 
 
 
@@ -202,7 +204,7 @@ const QuiSom = () => {
                     </div>
 </section>
 
-
+<TeamCard/>
   
 
     </>
