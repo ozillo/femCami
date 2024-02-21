@@ -19,6 +19,7 @@ const Footer = () => {
                     ></path>
                 </svg>
             </div> */}
+
             <div className="div-footer-menu">
                 <div className="div-general-footer">
                     <div className="div-menu-footer">
@@ -29,6 +30,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
+
                     <div className="div-menu-footer">
                         <h4>Serveis</h4>
                         <ul className="footer-menu-ul">
