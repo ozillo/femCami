@@ -6,6 +6,14 @@ const MenuBurger = () => {
     const [openBurger, setOpenBurger] = useState(false);
     const [showList, setShowList] = useState(0);
 
+    const burgerToggleClass = (option) => {
+        if (option === true) {
+            let menu = document.querySelector(".menu-icon");
+            let elements = document.querySelectorAll(".no-animation");
+            menu.classList.toggle("active");
+            elements.forEach((elem) => elem.classList.remove("no-animation"));
+        }
+    };
     const closeMenu = (rute) => {
         setOpenBurger(!openBurger);
         navigate(rute);
@@ -31,6 +39,18 @@ const MenuBurger = () => {
                     className="logo-menu-burger"
                     onClick={() => setOpenBurger(!openBurger)}
                 />
+                {/* <div class="frame">
+                    <div class="center-burger">
+                        <div
+                            class="menu-icon"
+                            onClick={() => burgerToggleClass(!openBurger)}
+                        >
+                            <div class="line-1 no-animation"></div>
+                            <div class="line-2 no-animation"></div>
+                            <div class="line-3 no-animation"></div>
+                        </div>
+                    </div>
+                </div> */}
             </div>
             {openBurger && (
                 <div className="div-menu-burger">
