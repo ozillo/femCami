@@ -114,12 +114,13 @@ text-shadow: 5px 5px var(--primary-green)
 .div-page-main-quees {
     display: flex;
     flex-direction: row;
-    height: 600px;
+    min-height: 400px;
     width: 100vw;
     justify-content: center;
 }
 .div-align-img-p {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     position: relative;
     height: 400px;

@@ -22,11 +22,7 @@ const AutismoQueEs = () => {
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
                     <div className="div-align-img-p">
-                        <img
-                            src={autismoQueEs[0].background}
-                            alt="Background"
-                            className="img-back-p"
-                        />
+                        
                         <p>{autismoQueEs[0].mainDescription}</p>
                     </div>
 
