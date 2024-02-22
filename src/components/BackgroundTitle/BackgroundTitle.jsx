@@ -5,7 +5,7 @@ import "./BackgroundTitle.css";
 
 const BackgroundTitle = () => {
   return (
-    <div className="background">
+    <div className="background background-circles">
       <h1 className="title-pages-blue">Que es l'autisme</h1>
     </div>
   )

@@ -19,7 +19,9 @@ const Footer = () => {
                     ></path>
                 </svg>
             </div> */}
-
+            <div className="div-class-wave">
+            <WaveBackground/>
+            </div>
             <div className="div-footer-menu">
                 <div className="div-general-footer">
                     <div className="div-menu-footer">

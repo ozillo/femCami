@@ -5,6 +5,13 @@ footer {
     display: flex;  
     position:relative;
 }
+
+.div-class-wave{
+height:100px;
+width:100vw;
+position: absolute;
+top:-50%;
+}
 .custom-shape-divider-top-1708371836 {
     position: absolute;
     top: 0;
