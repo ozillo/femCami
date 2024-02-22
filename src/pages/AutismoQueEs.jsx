@@ -23,7 +23,7 @@ const AutismoQueEs = () => {
                 <div className="div-page-main-quees">
                     <div className="div-align-img-p">
                         
-                        <p>{autismoQueEs[0].mainDescription}</p>
+                        <p><span>{autismoQueEs[0].bold} </span>{autismoQueEs[0].mainDescription}</p>
                     </div>
 
                     <img src={autismoQueEs[0].icon} alt="iconQueEs" />

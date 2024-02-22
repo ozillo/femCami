@@ -121,25 +121,30 @@ text-shadow: 5px 5px var(--primary-green)
 .div-align-img-p {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    position: relative;
     height: 400px;
-    width: 50%;
+    width: 60%;
+    
 }
 .div-align-img-p p {
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
-
-    flex: 1;
-    left: 30px;
-    z-index: 1;
+    height:300px;
+    font-size: 28px;
+    font-weight: 300;
+    text-align:center;
     background: rgba(245, 245, 245, 0.11);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.9px);
     -webkit-backdrop-filter: blur(3.9px);
     border: 1px solid rgba(245, 245, 245, 0.28);
+
+}
+.div-align-img-p span {
+    font-size: 40px;
+    font-weight: 600;
+
+    
 }
 
 .img-back-p {
@@ -184,10 +189,11 @@ text-shadow: 5px 5px var(--primary-green)
     text-align: left;
 }
 .img-sections {
-    height: 300px;
-    width: 418px;
-    position: absolute;
-    bottom: 2px;
+    height: 131px;
+    width: 200px;
+    position:absolute;
+    left:502px;
+    bottom: 100px;
     z-index: -1;
 }
 
