@@ -40,3 +40,12 @@ a{
 li{
     list-style: none;
 }
+@media screen and (width<992px){
+    
+}
+@media screen and (width<768px){
+    
+}
+@media screen and (width<601px){
+    
+}
