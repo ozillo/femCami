@@ -5,7 +5,7 @@ import React from "react";
 const Footer = () => {
     return (
         <footer>
-            {/* <WaveBackground /> */}
+             {/* <WaveBackground />  */}
             {/* <div class="custom-shape-divider-top-1708371836">
                 <svg
                     data-name="Layer 1"

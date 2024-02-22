@@ -120,6 +120,7 @@ text-shadow: 5px 5px var(--primary-green)
 }
 .div-align-img-p {
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     height: 400px;
     width: 50%;
@@ -188,6 +189,7 @@ text-shadow: 5px 5px var(--primary-green)
     bottom: 2px;
     z-index: -1;
 }
+
 
 @media (max-width: 700px) {
     .section-title-description-page {
