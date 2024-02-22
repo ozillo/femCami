@@ -10,12 +10,11 @@ export const Board = () => {
 
                     <h1>
                         <br />
-                        Ques es l'autisme?
+                        Que es l'autisme?
                     </h1>
 
                     <p>
-                        Share who you want to teach the web to here (ie,
-                        friends, family, colleagues...)
+                    Variant neurològica natural que pot comportar alteracions en el desenvolupament de diverses funcions del sistema nerviós central.
                     </p>
                 </div>
 
