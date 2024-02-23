@@ -20,7 +20,7 @@ const Footer = () => {
                 </svg>
             </div> */}
             <div className="div-class-wave">
-            <WaveBackground/>
+            {/* <WaveBackground/> */}
             </div>
             <div className="div-footer-menu">
                 <div className="div-general-footer">
