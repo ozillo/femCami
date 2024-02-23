@@ -21,12 +21,14 @@ const AutismoQueEs = () => {
             <BackgroundTitle />
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
+                
                     <div className="div-align-img-p">
                         
                         <p><span>{autismoQueEs[0].bold} </span>{autismoQueEs[0].mainDescription}</p>
+                        
                     </div>
-
                     <img src={autismoQueEs[0].icon} alt="iconQueEs" />
+                    
                 </div>
                 <div className="div-page-main-postit">
                     <Postits arrayData={autismoQueEs[0].content} />
