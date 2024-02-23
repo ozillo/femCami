@@ -4,7 +4,7 @@ export const autismoQueEs = [
         bold:'L`autisme',
         icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1707899627/Fem%20Cami/Vectores/AvatarAutismo1_xuu23n.png",
         background:
-            "https://res.cloudinary.com/dtfugozix/image/upload/v1708040186/Fem%20Cami/Background/burbuja1_xeyoo2.png",
+            "https://res.cloudinary.com/dtfugozix/image/upload/v1708642739/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/circles_mrvbfw.png",
         content: [
             {
                 titulo: "Àrea comunicativa i social",

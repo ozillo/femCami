@@ -5,7 +5,7 @@
     align-items: center;
     gap:1em;
     width: 100vw;
-    min-height: 45vh;
+    min-height: 25vh;
 
 }
 
@@ -24,5 +24,38 @@
   background: #dbecff;
   background-image: linear-gradient(45deg, #b8daff, transparent 90%),
   radial-gradient(#70b4ff 68%, transparent 5%);
-  background-size: 4em 4em;
+  background-size: 2em 2em;
+}
+
+.background-linear{
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #b8daff 0,
+    transparent 30px,
+    #70b4ff 30px,
+    transparent 60px,
+    #b8daff 120px,
+    transparent 240px
+  );
+  background-color: #b8daff;
+}
+@media screen and (width<992px){
+    
+}
+@media screen and (width<768px){
+  .title-pages-blue{
+    font-size: 160px;
+    text-align: center;
+    width: 100vw;
+    min-height: 15vh;
+}
+    
+}
+@media screen and (width<601px){
+.title-pages-blue{
+    font-size: 100px;
+    text-align: center;
+    width: 100vw;
+    min-height: 5vh;
+}
 }
