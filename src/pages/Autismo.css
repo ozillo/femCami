@@ -113,6 +113,8 @@ text-shadow: 5px 5px var(--primary-green)
     flex-wrap: wrap;
 }
 .section-principal-page-container{
+    display:flex;
+    flex-direction: column;
     height:45vh;
     width:100%;
 
@@ -127,12 +129,11 @@ text-shadow: 5px 5px var(--primary-green)
 }
 .div-align-img-p {
     display: flex;
-    flex:1;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height:300px;
-    width: 30%;
+    min-height:400px;
+    width: 60%;
     background: rgba(245, 245, 245, 0.11);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -163,7 +164,7 @@ text-shadow: 5px 5px var(--primary-green)
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position:relative;
     gap:20px;
    
   
@@ -241,7 +242,7 @@ text-shadow: 5px 5px var(--primary-green)
 
 @media screen and (width<992px){
     .div-page-main-quees{
-    flex-direction:row;
+    flex-direction:column;
     }
     .div-page-main-quees img{
         height:300px;
@@ -251,42 +252,13 @@ text-shadow: 5px 5px var(--primary-green)
         height:100vh;
         width:100%;
     }
-    
-    
+     
 }
 @media screen and (width<768px){
    
-    .section-principal-page-container{
-        width: 90vw;
-        min-height: 300px;
-    }
-    .div-page-main-quees {
-    align-items: center;
-    justify-content: center;
-    background-color: blue;
-       
-    }
-
-    .section-principal-page-more-info {
-        margin-top: 2rem;;
-        width: 90vw;
-        min-height: 300px;
-        flex-direction:column;
-        align-items: center;
-        justify-content: center;
-     
-   
-    }
-    
-    .div-align-img-p {
-        height:45vh;
-        width: 100%;
-        }
-  
 }
 @media screen and (width<601px){
     .div-page-main-quees{
-        flex-direction: row;
         justify-content: center;
         align-items: center;
         text-align: left;   
