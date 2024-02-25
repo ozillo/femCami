@@ -78,9 +78,8 @@ text-shadow: 5px 5px var(--primary-green)
     margin: 50px 0;
 }
 .section-principal-page-more-info {
-    width: 100%;
+    width: 100vw;
     min-height: 45vh;
-    margin-top: 11rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,13 +114,13 @@ text-shadow: 5px 5px var(--primary-green)
 .section-principal-page-container{
     display:flex;
     flex-direction: column;
-    height:45vh;
+    min-height: 45vh;
     width:100%;
 
 }
 .div-page-main-quees {
     display:flex;
-    min-height: 400px;
+    min-height: 500px;
     width: 100%;
     justify-content: center;
     gap:20px;
@@ -158,7 +157,7 @@ text-shadow: 5px 5px var(--primary-green)
 }
 
 .div-page-main-postit {
-    height:20vh;
+    min-height:20vh;
     width:100%;
     display: flex;
     flex-direction: row;
