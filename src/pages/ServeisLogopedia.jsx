@@ -37,7 +37,6 @@ const ServeisLogopedia = () => {
                         >
                             <div className="div-all-groups">
                                 <h2 className="title-autisme">{elem.titulo}</h2>
-                               
                                 {elem.contenido.length >= 1 ? (
                                     elem.contenido.map((element, index) => (
                                         <p key={index}>{element}</p>
