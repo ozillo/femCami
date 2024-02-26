@@ -174,7 +174,7 @@ text-shadow: 5px 5px var(--primary-green)
     position: relative;
     flex-direction: column;
     width: 60%;
-    min-height: 100%;
+    min-height: 200px;
     border-right: 2px solid var(--primary-blue);
     padding: 50px;
     z-index: 1;
@@ -280,8 +280,16 @@ text-shadow: 5px 5px var(--primary-green)
         align-items: center;
         text-align: left;   
     }
-    .div-align-img-p{
+    .div-principal-page-more-info{
+    flex-direction: column;
     
+    }
+    .div-all-groups{
+    width: 100%;
+
+    }
+    .div-principal-page-more-info h2{
+        font-size:50px;
     }
 
 }
