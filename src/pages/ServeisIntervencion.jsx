@@ -18,11 +18,6 @@ const ServeisIntervencion = () => {
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
                     <div className="div-align-img-p">
-                        <img
-                            src={intervencionEducativa[0].background}
-                            alt="Background"
-                            className="img-back-p"
-                        />
                         <p>{intervencionEducativa[0].mainDescription}</p>
                     </div>
 
@@ -41,11 +36,7 @@ const ServeisIntervencion = () => {
                         >
                             <div className="div-all-groups">
                                 <h2 className="title-autisme">{elem.titulo}</h2>
-                                <img
-                                    src={intervencionEducativa[0].background}
-                                    alt="Background"
-                                    className="img-sections"
-                                />
+                                
                                 {elem.contenido.length >= 1 ? (
                                     elem.contenido.map((element, index) => (
                                         <p key={index}>{element}</p>
