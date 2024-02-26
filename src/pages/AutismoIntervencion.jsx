@@ -8,6 +8,7 @@ import Postits from "../components/Postits/Postits";
 import BackgroundTitle from "../components/BackgroundTitle/BackgroundTitle";
 
 const AutismoIntervencion = () => {
+    const title= intervencionPsicoeducativa[0].title;
     useEffect(() => {
         initialScrollTop();
     }, []);
@@ -16,7 +17,7 @@ const AutismoIntervencion = () => {
             {/* <section className="section-title-description-page">
                 <h1 className="title-page">Intervenció Psicoeducativa</h1>
             </section> */}
-            <BackgroundTitle/>
+            <BackgroundTitle title={title}/>
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
                     <div className="div-align-img-p">

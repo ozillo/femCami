@@ -1,13 +1,13 @@
 import React from "react";
 import "./BackgroundTitle.css";
-import { autismoQueEs, } from "../../data/arrayAutismo";
 
 
 
-const BackgroundTitle = () => {
+
+const BackgroundTitle = (props) => {
   return (
     <div className="background background-linear">
-      <h1 className="title-pages-blue">{autismoQueEs[0].title}</h1>
+      <h1 className="title-pages-blue">{props.title}</h1>
     </div>
   )
 }

@@ -6,18 +6,20 @@ import { centroCrapg } from "../data/arrayAutismo";
 import { initialScrollTop } from "../utils/controlScroll";
 import Postits from "../components/Postits/Postits";
 import { Board } from "../components/Board/Board";
-
+import BackgroundTitle  from "../components/BackgroundTitle/BackgroundTitle";
 
 
 const AutismoCentroCrapg = () => {
+    const title=centroCrapg[0].title;
     useEffect(() => {
         initialScrollTop();
     }, []);
     return (
         <>
-        <section className="section-title-description-page">
+        {/* <section className="section-title-description-page">
             <h1 className="title-page">Centre de recursos d'autisme CRAPG</h1>
-        </section>
+        </section> */}
+         <BackgroundTitle title={title} />
         <section className="section-principal-page-container">
             <div className="div-page-main-quees">
             <div className="div-align-img-p"> 

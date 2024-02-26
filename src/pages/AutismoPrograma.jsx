@@ -7,17 +7,20 @@ import DividerEslogan from "../components/DividerEslogan/DividerEslogan";
 import DividerMain from "../components/DividerMain/DividerMain";
 import { initialScrollTop } from "../utils/controlScroll";
 import Postits from "../components/Postits/Postits";
+import BackgroundTitle  from "../components/BackgroundTitle/BackgroundTitle";
 
 
 const AutismoPrograma = () => {
+    const title= habilidadesSociales[0].title;
     useEffect(() => {
         initialScrollTop();
     }, []);
     return (
         <>
-        <section className="section-title-description-page">
+        {/* <section className="section-title-description-page">
             <h1 className="title-page">programa d'habilitats socials</h1>
-        </section>
+        </section> */}
+        <BackgroundTitle title={title} />
         <section className="section-principal-page-container">
             <div className="div-page-main-quees">
             <div className="div-align-img-p"> 
