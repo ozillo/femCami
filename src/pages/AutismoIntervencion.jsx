@@ -5,6 +5,7 @@ import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor
 import "./Autismo.css";
 import { initialScrollTop } from "../utils/controlScroll";
 import Postits from "../components/Postits/Postits";
+import BackgroundTitle from "../components/BackgroundTitle/BackgroundTitle";
 
 const AutismoIntervencion = () => {
     useEffect(() => {
@@ -12,9 +13,10 @@ const AutismoIntervencion = () => {
     }, []);
     return (
         <>
-            <section className="section-title-description-page">
+            {/* <section className="section-title-description-page">
                 <h1 className="title-page">Intervenció Psicoeducativa</h1>
-            </section>
+            </section> */}
+            <BackgroundTitle/>
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
                     <div className="div-align-img-p">
