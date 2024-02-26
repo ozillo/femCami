@@ -4,6 +4,8 @@ import "./QuiSom.css";
 import { dataTeam } from "../data/data";
 import DividerMain from "../components/DividerMain/DividerMain";
 import TeamCard from "../components/TeamCard/TeamCard";
+import BackgroundTitle from "../components/BackgroundTitle/BackgroundTitle";
+
 
 const QuiSom = () => {
     useEffect(() => {
@@ -11,9 +13,10 @@ const QuiSom = () => {
     }, []);
     return (
         <>
-            <section className="section-title-description-page">
+            {/* <section className="section-title-description-page">
                 <h1 className="title-page">Qui Som</h1>
-            </section>
+            </section> */}
+            <BackgroundTitle title={'Qui som'} />
 
             {/* <section className="section-principal-page-treballadors">
                 <div className="div-page-treballadors">
