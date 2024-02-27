@@ -17,7 +17,7 @@ const AutismoIntervencion = () => {
             {/* <section className="section-title-description-page">
                 <h1 className="title-page">Intervenció Psicoeducativa</h1>
             </section> */}
-            <BackgroundTitle title={title} background={`background-linear-green`}/>
+            <BackgroundTitle title={title} background={`background-linear-green`} color={`green`}/>
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
                     <div className="div-align-img-p">
