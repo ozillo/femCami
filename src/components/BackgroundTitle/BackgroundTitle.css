@@ -20,17 +20,6 @@
  -1px  1px 0 var(--primary-white),
   1px  1px 0 var(--primary-white); 
 }
-.title-pages-blue{
-  font-size: 150px;
-  text-align: center;
-  font-family: 'Shadows Into Light', cursive;
-  font-weight:100;
-  color:var(--primary-blue);
-  text-shadow: -1px -1px 0 var(--primary-white),  
-  1px -1px 0 var(--primary-white),
- -1px  1px 0 var(--primary-white),
-  1px  1px 0 var(--primary-white); 
-}
 .title-pages-green{
   font-size: 150px;
   text-align: center;
@@ -93,7 +82,7 @@
     
 }
 @media screen and (width<768px){
-  .title-pages-blue{
+  .title-pages-blue ,.title-pages-green{
     font-size: 140px;
     text-align: center;
     width: 100vw;
@@ -102,7 +91,7 @@
     
 }
 @media screen and (width<601px){
-.title-pages-blue{
+.title-pages-blue, .title-pages-green{
     font-size: 70px;
     text-align: center;
     width: 100vw;

@@ -90,6 +90,7 @@ text-shadow: 5px 5px var(--primary-green)
     width: 100%;
     min-height: 300px;
     display: flex;
+    justify-content:space-evenly;
     align-items: center;
     gap:20px;
 }

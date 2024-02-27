@@ -17,7 +17,7 @@ const ServeisReeducacion = () => {
             {/* <section className="section-title-description-page">
                 <h1 className="title-page">Intervenció Psicoeducativa</h1>
             </section> */}
-            <BackgroundTitle title={'Reeducació pedagògica'} background={`background-linear`}/>
+            <BackgroundTitle title={'Reeducació pedagògica'} background={`background-linear`} color={`blue`}/>
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
                 <div className="div-align-img-p"> 
