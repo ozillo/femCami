@@ -5,6 +5,8 @@ import { intervencionEducativa } from "../data/arrayServeis";
 import { initialScrollTop } from "../utils/controlScroll";
 import Postits from "../components/Postits/Postits";
 import BackgroundTitle from "../components/BackgroundTitle/BackgroundTitle";
+import DividerMain from "../components/DividerMain/DividerMain";
+
 
 const ServeisIntervencion = () => {
     useEffect(() => {
@@ -17,6 +19,7 @@ const ServeisIntervencion = () => {
                 <h1 className="title-page">Intervenció educativa</h1>
             </section> */}
             <BackgroundTitle title={'Reeducació pedagògica'} background={`background-linear`} color={`blue`}/>
+            <DividerMain/>
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
                     <div className="div-align-img-p">

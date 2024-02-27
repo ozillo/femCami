@@ -6,6 +6,8 @@ import "./Autismo.css";
 import { initialScrollTop } from "../utils/controlScroll";
 import Postits from "../components/Postits/Postits";
 import BackgroundTitle from "../components/BackgroundTitle/BackgroundTitle";
+import DividerMain from "../components/DividerMain/DividerMain";
+
 
 
 
@@ -20,6 +22,7 @@ const ServeisTerapiaOcupacional = () => {
                 <h1 className="title-page">Terapia ocupacional</h1>
             </section> */}
             <BackgroundTitle title={'Reeducació pedagògica'} background={`background-linear`} color={`blue`}/>
+            <DividerMain/>
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
                 <div className="div-align-img-p"> 

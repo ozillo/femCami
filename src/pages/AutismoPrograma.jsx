@@ -10,6 +10,7 @@ import Postits from "../components/Postits/Postits";
 import BackgroundTitle  from "../components/BackgroundTitle/BackgroundTitle";
 
 
+
 const AutismoPrograma = () => {
     const title= habilidadesSociales[0].title;
     useEffect(() => {
@@ -21,10 +22,10 @@ const AutismoPrograma = () => {
             <h1 className="title-page">programa d'habilitats socials</h1>
         </section> */}
         <BackgroundTitle title={title} background={`background-linear-green`} color={`green`}/>
+       <DividerMain/>
         <section className="section-principal-page-container">
             <div className="div-page-main-quees">
             <div className="div-align-img-p"> 
-           
             <p>{habilidadesSociales[0].mainDescription}</p>
             </div>
           
