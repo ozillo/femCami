@@ -6,6 +6,7 @@ import { initialScrollTop } from "../utils/controlScroll";
 import ContactForm from "../components/ContactForm/ContactForm";
 import DividerMain from "../components/DividerMain/DividerMain";
 import { useNavigate } from "react-router-dom";
+import EmailContactForm from "../components/EmailContactForm/EmailContactForm";
 
 const Contacto = () => {
     const navigate = useNavigate();
@@ -104,16 +105,17 @@ const Contacto = () => {
                         Pots enviar el teu missatge!
                     </h2>
                     <p>
-                        No dubtis en contactar-nos davant qualsevol dubte que puguis tenir.
-                        Et respondrem tan aviat com podem!
-                        </p>
+                        No dubtis en contactar-nos davant qualsevol dubte que
+                        puguis tenir. Et respondrem tan aviat com podem!
+                    </p>
                     <img
                         src="https://res.cloudinary.com/dtfugozix/image/upload/v1706141246/Fem%20Cami/logoBanner4_dhmltd.png"
                         alt="logo fem cami formulario"
                         className="img-contact-message-form"
                     />
                 </div>
-                <ContactForm />
+                {/* <ContactForm /> */}
+                <EmailContactForm />
             </section>
             <DividerMain />
             <section className="section-contacte-ubication-map">
