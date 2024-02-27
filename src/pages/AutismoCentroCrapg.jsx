@@ -19,7 +19,7 @@ const AutismoCentroCrapg = () => {
         {/* <section className="section-title-description-page">
             <h1 className="title-page">Centre de recursos d'autisme CRAPG</h1>
         </section> */}
-         <BackgroundTitle title={title} />
+         <BackgroundTitle title={title} background={`background-linear-green`}/>
         <section className="section-principal-page-container">
             <div className="div-page-main-quees">
             <div className="div-align-img-p"> 

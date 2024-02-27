@@ -4,6 +4,7 @@ import AcordeonTypeColor from "../components/AcordeonTypeColor/AcordeonTypeColor
 import { arrayLogopedia } from "../data/arrayServeis";
 import { initialScrollTop } from "../utils/controlScroll";
 import Postits from "../components/Postits/Postits";
+import BackgroundTitle from "../components/BackgroundTitle/BackgroundTitle";
 
 
 const ServeisLogopedia = () => {
@@ -12,9 +13,10 @@ const ServeisLogopedia = () => {
     }, []);
     return (
         <>
-             <section className="section-title-description-page">
+             {/* <section className="section-title-description-page">
                 <h1 className="title-page">Logopedia</h1>
-            </section>
+            </section> */}
+            <BackgroundTitle title={'Logopedia'} background={`background-linear`}/>
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
                 <div className="div-align-img-p"> 
@@ -36,7 +38,7 @@ const ServeisLogopedia = () => {
                             key={index}
                         >
                             <div className="div-all-groups">
-                                <h2 className="title-autisme">{elem.titulo}</h2>
+                                <h2 className="title-serveis">{elem.titulo}</h2>
                                 {elem.contenido.length >= 1 ? (
                                     elem.contenido.map((element, index) => (
                                         <p key={index}>{element}</p>

@@ -20,12 +20,62 @@
  -1px  1px 0 var(--primary-white),
   1px  1px 0 var(--primary-white); 
 }
+.title-pages-blue{
+  font-size: 150px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight:100;
+  color:var(--primary-blue);
+  text-shadow: -1px -1px 0 var(--primary-white),  
+  1px -1px 0 var(--primary-white),
+ -1px  1px 0 var(--primary-white),
+  1px  1px 0 var(--primary-white); 
+}
+.title-pages-green{
+  font-size: 150px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight:100;
+  color:var(--primary-green);
+  text-shadow: -1px -1px 0 var(--primary-white),  
+  1px -1px 0 var(--primary-white),
+ -1px  1px 0 var(--primary-white),
+  1px  1px 0 var(--primary-white); 
+}
+
+
 .background-circles{
   background: #dbecff;
   background-image: linear-gradient(45deg, #b8daff, transparent 90%),
   radial-gradient(#70b4ff 68%, transparent 5%);
   background-size: 2em 2em;
 }
+
+.background-green-lines{
+  background-image: linear-gradient(
+    40deg,
+    #00ff20 50%,
+    #004d0a 55%,
+    #00ff20 55%
+  );
+  background-size: 2em 2em;
+  background-repeat: round;
+  background-color: #00ff20;
+}
+.background-linear-green{
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #bdffc5 0,
+    transparent 30px,
+    #80ff90 30px,
+    transparent 60px,
+    #bdffc5 120px,
+    transparent 240px
+  );
+  background-color: #bdffc5;
+}
+
+
 
 .background-linear{
   background-image: repeating-linear-gradient(

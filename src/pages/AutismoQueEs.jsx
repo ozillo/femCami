@@ -19,7 +19,7 @@ const AutismoQueEs = () => {
             
             <h1 className="title-page">programa d'habilitats socials</h1>
             </section> */}
-            <BackgroundTitle title={title} background={`background-linear`}/>
+            <BackgroundTitle title={title} background={`background-linear-green`}/>
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
                 

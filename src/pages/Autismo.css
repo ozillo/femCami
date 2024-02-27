@@ -94,13 +94,21 @@ text-shadow: 5px 5px var(--primary-green)
     gap:20px;
 }
 
-.div-principal-page-more-info h2 {
+
+.title-autisme {
+    font-size: 60px;
+    font-family: "Shadows Into Light", cursive;
+    color: var(--primary-green);
+    text-shadow:
+        -1px -1px 0 var(--primary-white),
+        1px -1px 0 var(--primary-white),
+        -1px 1px 0 var(--primary-white),
+        1px 1px 0 var(--primary-white);
+}
+.title-serveis {
     font-size: 60px;
     font-family: "Shadows Into Light", cursive;
     color: var(--primary-blue);
-}
-
-.title-autisme {
     text-shadow:
         -1px -1px 0 var(--primary-white),
         1px -1px 0 var(--primary-white),
