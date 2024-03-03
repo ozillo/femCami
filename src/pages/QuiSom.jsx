@@ -16,7 +16,7 @@ const QuiSom = () => {
             {/* <section className="section-title-description-page">
                 <h1 className="title-page">Qui Som</h1>
             </section> */}
-            <BackgroundTitle title={'Qui som'} />
+            <BackgroundTitle title={'Qui som'} background={`background-linear-blue`} color={`blue`}/>
 
             {/* <section className="section-principal-page-treballadors">
                 <div className="div-page-treballadors">
