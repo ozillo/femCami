@@ -5,7 +5,25 @@
     align-items: center;
 }
 .section-description-qui-som p {
-    font-size: 20px;
+    font-size: 24px;
+
+  }
+  
+  .container::before {
+    content: "";
+    width: 100%;
+    height: 150%;
+    box-shadow: 0px -100px 500px black, inset 0px 100px 500px rgb(15, 15, 15);
+    position: absolute;
+    top: 55%;
+    background-image: var(--bg);
+    background-size: var(--bgsize);
+    background-position: var(--bgposition);
+    transform-origin: top;
+    transform: rotateX(80deg);
+}
+.imgWork{
+height:200px;
 }
 .section-title-description-page {
     display: flex;
@@ -213,4 +231,13 @@
         text-align: center;
         color: var(--primary-blue);
     }
+}
+@media screen and (width<601px){
+ .section-description-qui-som {
+  height:200px;
+  width: 100%;
+    
+
+
+ }   
 }

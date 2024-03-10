@@ -16,7 +16,7 @@ const QuiSom = () => {
             {/* <section className="section-title-description-page">
                 <h1 className="title-page">Qui Som</h1>
             </section> */}
-            <BackgroundTitle title={'Qui som'} background={`background-linear-blue`} color={`blue`}/>
+            <BackgroundTitle title={'Qui som'} background={`background-linear`} color={`blue`}/>
 
             {/* <section className="section-principal-page-treballadors">
                 <div className="div-page-treballadors">
@@ -187,6 +187,7 @@ const QuiSom = () => {
                     treballem, cooperem cap un mateix objectiu, reforçant la
                     feina en cada disciplina de forma transversal.
                 </p>
+                {/* <img src={dataTeam[0].photo} alt="photoTeam" className="imgWork" /> */}
             </section>
             <DividerMain />
             <TeamCard />

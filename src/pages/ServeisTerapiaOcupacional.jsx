@@ -21,7 +21,7 @@ const ServeisTerapiaOcupacional = () => {
             {/* <section className="section-title-description-page">
                 <h1 className="title-page">Terapia ocupacional</h1>
             </section> */}
-            <BackgroundTitle title={'Reeducació pedagògica'} background={`background-linear`} color={`blue`}/>
+            <BackgroundTitle title={'Terapia ocupacional'} background={`background-linear`} color={`blue`}/>
             <DividerMain/>
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
