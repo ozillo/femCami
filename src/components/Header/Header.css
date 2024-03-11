@@ -1,6 +1,6 @@
 header {
     height:15vh;
-    width: 100%; 
+    width: 100vw; 
     color: whitesmoke;
 /*     background-color:var(--primary-blue);
     border-bottom:5px solid var(--pastel-blue); */
@@ -117,7 +117,7 @@ background: linear-gradient(180deg, rgba(0,76,159,1) 85%, rgba(112,180,255,1) 10
   }
 } */
 
-@media screen and (width<750px){
+@media screen and (width<850px){
   .menu-nav{
     display:none;
   }

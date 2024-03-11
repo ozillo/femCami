@@ -28,3 +28,18 @@
     font-size: 12px;
 }
  */
+
+ @media screen and (width<768px){
+    .div-all-divider-eslogan{
+        height: 12px;
+        width: 100%;
+    }
+    .divider-Eslogan {
+        width: 60vh;
+        height: 3px;
+    }
+    .p-divider-eslogan{
+        height: 12px;
+        width: 150px; 
+    }
+ }

@@ -9,6 +9,7 @@
 .divider-h2-titulo{
     color:var(--primary-blue);
     font-weight: 800;
+    text-align: center;
 }
 .divider-left-gradient{
     width: 40%;

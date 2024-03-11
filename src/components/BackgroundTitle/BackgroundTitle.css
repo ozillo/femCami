@@ -92,9 +92,10 @@
 }
 @media screen and (width<601px){
 .title-pages-blue, .title-pages-green{
-    font-size: 70px;
+    font-size: 80px;
     text-align: center;
     width: 100vw;
     min-height: 5vh;
+    padding:25px 0;
 }
 }
