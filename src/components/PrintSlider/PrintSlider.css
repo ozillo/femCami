@@ -3,6 +3,7 @@ height:50px;
 width: 250px;
 display: flex;
 align-items: center;
+justify-content: center;
 gap:35px
 }
 

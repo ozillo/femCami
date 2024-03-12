@@ -21,7 +21,7 @@ const Home = () => {
             if (altura - 500 < scrollTop) {
                 sections[index].style.opacity = 1;
             } else {
-                sections[index].style.opacity = 0;
+                sections[index].style.opacity = 0.2;
             }
         });
     };

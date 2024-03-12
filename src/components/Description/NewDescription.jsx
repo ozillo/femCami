@@ -6,7 +6,9 @@ const NewDescription = () => {
     return (
         <div className="div-general-newDescription">
             <div className="div-info-newDescription">
-                <h1>Centre D’Intervenció Educativa</h1>
+                <h1 className="h1-title-description">
+                    Som Centre D’Intervenció Educativa
+                </h1>
                 <p>
                     Fem Camí és un centre d’intervenció educativa amb
                     professionals de l’educació, amb un treball multidisciplinar
