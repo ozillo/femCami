@@ -60,19 +60,18 @@ const ServiciosAcordeon = () => {
             <DividerEslogan />
             <div className="div-description-services">
                 <p className="p-description-services">
-                    Somos un centro especializado en <strong>Autismo</strong>.
-                    Los principales servicios que ofrecemos son la intervencion
-                    psicoeducativa, terapia ocupacional, logopedia y reeducacion
-                    pedagogica.
+                    Som un centre especialitzat en <strong>Autisme</strong>. Els
+                    principals serveis que oferim són la intervencio
+                    psicoeducativa, teràpia ocupacional, logopèdia i reeducació
+                    pedagògica.
                 </p>
                 <p className="p-description-services">
-                    Como profesionales especializadas en este campo, tratamos
-                    con gran empeño cada uno de los servicios que ofrecemos.
+                    Com a professionals especialitzades en aquest camp, tractem
+                    amb gran afany cada un dels serveis que oferim.
                 </p>
                 <p className="p-description-services">
-                    Gracias a los diferentes servicios con los que contamos
-                    podemos desempeñar un gran papel en el desarrollo de las
-                    personas.
+                    Gràcies als diferents serveis amb què comptem podem exercir
+                    un gran paper en el desenvolupament de les persones.
                 </p>
             </div>
 
