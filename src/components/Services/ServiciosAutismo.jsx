@@ -20,9 +20,13 @@ const ServiciosAutismo = () => {
       </div>
       </div> */}
                 <div className="div-info-autismo">
-                    <h2>CENTRE</h2>
-                    <h2>ESPECÍFIC</h2>
-                    <h2>EN AUTISME</h2>
+                    <h2 className="h2-info-autimos-centre-especific">CENTRE</h2>
+                    <h2 className="h2-info-autimos-centre-especific h2-info-autisme-strong">
+                        ESPECÍFIC
+                    </h2>
+                    <h2 className="h2-info-autimos-centre-especific">
+                        EN AUTISME
+                    </h2>
                 </div>
                 <div className="div-all-servicesAutismo">
                     <div className="div-service-autismo">
