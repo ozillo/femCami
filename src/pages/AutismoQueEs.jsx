@@ -31,7 +31,7 @@ const AutismoQueEs = () => {
                         <p><span>{autismoQueEs[0].bold} </span>{autismoQueEs[0].mainDescription}</p>
                         
                     </div>
-                    <img src={autismoQueEs[0].icon} alt="iconQueEs" />
+                    <img src={autismoQueEs[0].icon} alt="iconQueEs" className="iconQueEs" />
                     
                 </div>
                 <div className="div-page-main-postit">

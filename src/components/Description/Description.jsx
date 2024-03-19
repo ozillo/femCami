@@ -14,7 +14,7 @@ const Description = () => {
                 alt=""
                 className="imgDescription"
             />
-            <DividerMain />
+           
             <section className="section-initial-transition">
                 <NewDescription />
             </section>

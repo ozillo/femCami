@@ -55,7 +55,7 @@ const AutismoPrograma = () => {
                                 <p>{elem.contenido}</p>
                             )}
                         </div>
-                        <img src="https://res.cloudinary.com/dtfugozix/image/upload/v1702255755/Fem%20Cami/Vectores/logopedia_xhkedr.png"
+                        <img src={habilidadesSociales[0].themes}
                          alt="" 
                          className="img-autisme"/>
                     </div>

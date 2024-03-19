@@ -23,7 +23,7 @@ const NewDescription = () => {
                         className="btn-home-page"
                         onClick={() => setMoreInfo(!moreInfo)}
                     >
-                        Leer mas
+                        SABER MES
                     </button>
                 ) : (
                     <>

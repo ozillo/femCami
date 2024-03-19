@@ -41,7 +41,7 @@ export const intervencionPsicoeducativa = [
         Ens basem en intervencions focalitzades i programes integrals basats en evidència científica com estratègies, tècniques, mètodes i enfocs específics per persones autistes, basant-se en la psicoeducació.
         Duem a terme intervencions combinades per atendre la persona com ésser únic.`,
         title:'Intervenció psicoeducativa',
-        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg",
+        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1710699099/Fem%20Cami/Autismo/Intervenci%C3%B3%20psicoeducativa/intervencio%CC%81_psicoeducativa_inici_en_taman%CC%83o_mediano_dvbmle.png",
         background:
             "https://res.cloudinary.com/dtfugozix/image/upload/v1708040186/Fem%20Cami/Background/burbuja1_xeyoo2.png",
 
@@ -87,10 +87,14 @@ export const habilidadesSociales = [
         `,
         title:'Programa d`habilitats socials',
         icon: [
-            "https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg",
-            "https://res.cloudinary.com/dtfugozix/image/upload/v1702118110/Fem%20Cami/portadaprova_uxuhpp.png",
-            "https://res.cloudinary.com/dtfugozix/image/upload/v1702251406/Fem%20Cami/POSTER1_wcdv1o.png",
+            "https://res.cloudinary.com/dtfugozix/image/upload/v1710698203/Fem%20Cami/Autismo/Programa%20habilitats%20socials/habilitats_socials_opcio_1_en_taman%CC%83o_mediano_xy5vkd.png"
         ],
+        themes:[
+            "https://res.cloudinary.com/dtfugozix/image/upload/v1710698201/Fem%20Cami/Autismo/Programa%20habilitats%20socials/habilitats_socials_opcio%CC%81_2_en_taman%CC%83o_mediano_il9avb.png",
+            "https://res.cloudinary.com/dtfugozix/image/upload/v1710690857/Fem%20Cami/Autismo/Programa%20habilitats%20socials/programes_en_taman%CC%83o_mediano_bmpmvq.png",
+            "https://res.cloudinary.com/dtfugozix/image/upload/v1710690856/Fem%20Cami/Autismo/Programa%20habilitats%20socials/altres_consideracions_en_taman%CC%83o_mediano_yzgla5.png"
+        ],
+        
         background:
             "https://res.cloudinary.com/dtfugozix/image/upload/v1708040186/Fem%20Cami/Background/burbuja1_xeyoo2.png",
 
@@ -128,7 +132,7 @@ export const centroCrapg = [
         mainDescription:
             "Fem Camí és centre col·laborador amb l’Associació Autisme amb Futur Penedès-Garraf des de l’any 2021, compartint projectes i actualment formant part del CRAPG (Centre de Recursos d’Autisme Penedès – Garraf).",
             title:'Centre de recursos d`autisme CRAPG',
-        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg",
+        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1710699329/Fem%20Cami/Autismo/CRAPG/CRAPG_INICI_en_taman%CC%83o_mediano_if0ybz.png",
         background:
             "https://res.cloudinary.com/dtfugozix/image/upload/v1708040186/Fem%20Cami/Background/burbuja1_xeyoo2.png",
 
