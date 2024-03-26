@@ -28,6 +28,7 @@ export const arrayLogopedia = [
                 La nostra intervenció es duu a terme al nostre centre com a l’entorn natural per afavorir la generalització vivencial de les estratègies que treballem i sempre des de la motivació de l’infant i les necessitats de la família que són el nucli del nostre treball en equip.
                 `,
                 ],
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711148838/Fem%20Cami/Servicios/Logopedia/EN_QUE%CC%80_ES_BASA_en_taman%CC%83o_mediano_tynrwi.png",
             },
             {
                 titulo: "Funcions",
@@ -39,6 +40,7 @@ export const arrayLogopedia = [
                     "⦁	Coordinació continuada amb especialistes externs com: CDIAP, CSMIJ, centres Educatius, CREDA, unitats especialistres en centres hospitalaris, entre d’altres.",
                     "⦁	Assessorament familiar.",
                 ],
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711148839/Fem%20Cami/Servicios/Logopedia/FUNCIONS_en_taman%CC%83o_mediano_xsorup.png",
             },
         ],
     },
@@ -59,6 +61,7 @@ export const arrayTerapiaOcupacional = [
                 El/la terapeuta ocupacional fa servir l’activitat de forma terapèutica per la prevenció de les malalties i/o discapacitats, el manteniment de la salut, la rehabilitació de la funcionalitat i l’adaptació del entorn de les persones. Tot això amb l’objectiu d’aconseguir un desenvolupament i una participació satisfactoris en totes les activitats de la vida diària.
                 `,
                 ],
+                image: "",
             },
             {
                 titulo: "Objectius i metodologia del servei.",
@@ -67,6 +70,7 @@ export const arrayTerapiaOcupacional = [
                 Per això, s’utilitzen diferents valoracions estandarditzades i observacions sistemàtiques realitzant un estudi global i en profunditat del desenvolupament dels infants. També es tindrà en comte la seva historia individual i coordinació amb altres dispositius de recolzament, com el empoderament amb la família i altres institucions relacionades amb el menor.
                 `,
                 ],
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711148919/Fem%20Cami/Servicios/Terapia%20Ocupacional/OBJECTIUS_I_METODOLOGIA_en_taman%CC%83o_mediano_fvhb8x.png",
             },
             {
                 titulo: "Què és la integració sensorial?",
@@ -76,10 +80,12 @@ export const arrayTerapiaOcupacional = [
                 Tenim 7 sistemes sensorials:
                 `,
                 ],
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1702042428/Fem%20Cami/Servicios/Terapia%20Ocupacional/terapiaOcupacional_wiecsg.png",
             },
             {
                 titulo: "Quan és necessària la teràpia ocupacional?",
                 contenido: ["POR AMPLIAR///IMAGEN"],
+                image: "",
             },
             {
                 titulo: "Com treballem?",
@@ -92,6 +98,7 @@ export const arrayTerapiaOcupacional = [
                 •Aprenentatge manipulatiu
                 `,
                 ],
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711148921/Fem%20Cami/Servicios/Terapia%20Ocupacional/COM_TREBALLEM_en_taman%CC%83o_mediano_xux8s9.png",
             },
         ],
     },
@@ -123,6 +130,7 @@ export const reeducacionPedagogica = [
                     "⦁	Motricitat fina",
                     "⦁	Psicomotricitat",
                 ],
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711148870/Fem%20Cami/Servicios/Reeducaci%C3%B3%20pedag%C3%B2gica/OBJECTIUS_en_taman%CC%83o_mediano_to6ho8.png",
             },
             {
                 titulo: "Reforç en els continguts acadèmics",
@@ -132,6 +140,7 @@ export const reeducacionPedagogica = [
                 Dins del reforç escolar, a part de reforçar els aprenentatges del curs, treballem l’organització i la planificació dels deures i l’estudi, on la finalitat és poder orientar i donar pautes i estratègies a l’alumne per tal de que avanci en l’autonomia de treball.
                 `,
                 ],
+                image: "",
             },
             {
                 titulo: "Hàbits, planificació i tècniques d’estudi",
@@ -141,6 +150,7 @@ export const reeducacionPedagogica = [
                 Cada alumne/a és únic/a, per tant no ens basem amb una tècnica en concret, si no intentem donar totes les tècniques i estratègies d’estudi possibles, tenint en compte les seves capacitats, necessitats i dificultats, per la millorar del seu rendiment en els estudis.
                 `,
                 ],
+                image: "",
             },
         ],
     },

@@ -8,9 +8,8 @@ import Postits from "../components/Postits/Postits";
 import BackgroundTitle from "../components/BackgroundTitle/BackgroundTitle";
 import DividerMain from "../components/DividerMain/DividerMain";
 
-
 const AutismoIntervencion = () => {
-    const title= intervencionPsicoeducativa[0].title;
+    const title = intervencionPsicoeducativa[0].title;
     useEffect(() => {
         initialScrollTop();
     }, []);
@@ -19,12 +18,15 @@ const AutismoIntervencion = () => {
             {/* <section className="section-title-description-page">
                 <h1 className="title-page">Intervenció Psicoeducativa</h1>
             </section> */}
-            <BackgroundTitle title={title} background={`background-linear-green`} color={`green`}/>
-            <DividerMain/>
+            <BackgroundTitle
+                title={title}
+                background={`background-linear-green`}
+                color={`green`}
+            />
+            <DividerMain />
             <section className="section-principal-page-container">
                 <div className="div-page-main-quees">
                     <div className="div-align-img-p">
-                       
                         <p>{intervencionPsicoeducativa[0].mainDescription}</p>
                     </div>
 
@@ -48,7 +50,7 @@ const AutismoIntervencion = () => {
                         >
                             <div className="div-all-groups">
                                 <h2 className="title-autisme">{elem.titulo}</h2>
-                                
+
                                 {elem.contenido.length >= 1 ? (
                                     elem.contenido.map((element, index) => (
                                         <p key={index}>{element}</p>
@@ -58,8 +60,8 @@ const AutismoIntervencion = () => {
                                 )}
                             </div>
                             <img
-                                src="https://res.cloudinary.com/dtfugozix/image/upload/v1702255755/Fem%20Cami/Vectores/logopedia_xhkedr.png"
-                                alt=""
+                                src={elem.image}
+                                alt={`intervenciò psicoeducativa image ${elem.titulo}`}
                                 className="img-autisme"
                             />
                         </div>
