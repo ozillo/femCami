@@ -39,6 +39,7 @@
 .div-image-newDescription{
     width: 50%;
     background-color: transparent;
+    
 
 }
 .div-image-newDescription img{
@@ -109,6 +110,7 @@
 .div-background-img{
     height:350px;
     width: 90vw;
+    border: 2px;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,9 +140,14 @@ width:600px;
     
 }
 @media screen and (width<700px){
+    .div-image-newDescription{
+        height:266px;
+    }
     .div-image-newDescription img{
       object-fit: cover;
-      height:366px;
+      height:66px;
+      width: 100%;
+      
     }
     .imgDescription{
         height: 130px;

@@ -75,8 +75,9 @@ const NewDescription = () => {
             </div>
             <div className="div-image-newDescription">
                 <img
-                    src="https://res.cloudinary.com/dtfugozix/image/upload/v1707301436/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/backgroundPeraTrans_qkiuya.png"
+                    src="https://res.cloudinary.com/dtfugozix/image/upload/v1711568101/Fem%20Cami/Inicio/FondoInici2_yav3b2.png"
                     alt="image centro fem cami"
+                    className="imgIndex"
                 />
             </div>
         </div>
