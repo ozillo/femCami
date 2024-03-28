@@ -14,7 +14,7 @@ export const autismoQueEs = [
                     "Reptes en la comunicació no verbal",
                     "Reptes en el desenvolupament, manteniment i comprensió de les relacions socials",
                 ],
-                image: "",
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711657487/Fem%20Cami/Autismo/Que%20es%20l%27autisme/a%CC%80rea_comunicativa_i_social_en_taman%CC%83o_mediano_jr5odd.png",
             },
             {
                 titulo: "Patrons restrictius i repetitius",
@@ -24,7 +24,7 @@ export const autismoQueEs = [
                     "Interessos fixes",
                     "Hiper o hipo sensibilitats sensorials",
                 ],
-                image: "",
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711657488/Fem%20Cami/Autismo/Que%20es%20l%27autisme/patrons_restrictius_i_repetitius_en_taman%CC%83o_mediano_syeelf.png",
             },
             {
                 titulo: "Altres consideracions",
@@ -32,7 +32,7 @@ export const autismoQueEs = [
                     "Poden presentar comorbiditats associades a l’autisme",
                     "No existeix “nivells d’autisme”, sí que s’especifica el grau de suport",
                 ],
-                image: "",
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711657488/Fem%20Cami/Autismo/Que%20es%20l%27autisme/altres_consideracions_en_taman%CC%83o_mediano_dejvxl.png",
             },
         ],
     },

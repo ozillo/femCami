@@ -57,8 +57,8 @@ const AutismoQueEs = () => {
                                 )}
                             </div>
                             <img
-                                src="https://res.cloudinary.com/dtfugozix/image/upload/v1702255755/Fem%20Cami/Vectores/logopedia_xhkedr.png"
-                                alt=""
+                                src={elem.image}
+                                alt={`intervenciò psicoeducativa image ${elem.titulo}`}
                                 className="img-autisme"
                             />
                         </div>
