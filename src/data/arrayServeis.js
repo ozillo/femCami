@@ -140,7 +140,7 @@ export const reeducacionPedagogica = [
                 Dins del reforç escolar, a part de reforçar els aprenentatges del curs, treballem l’organització i la planificació dels deures i l’estudi, on la finalitat és poder orientar i donar pautes i estratègies a l’alumne per tal de que avanci en l’autonomia de treball.
                 `,
                 ],
-                image: "",
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711881178/Fem%20Cami/Servicios/Reeducaci%C3%B3%20pedag%C3%B2gica/reforc%CC%A7_de_continguts_en_taman%CC%83o_mediano_ojhbas.png",
             },
             {
                 titulo: "Hàbits, planificació i tècniques d’estudi",
@@ -150,7 +150,7 @@ export const reeducacionPedagogica = [
                 Cada alumne/a és únic/a, per tant no ens basem amb una tècnica en concret, si no intentem donar totes les tècniques i estratègies d’estudi possibles, tenint en compte les seves capacitats, necessitats i dificultats, per la millorar del seu rendiment en els estudis.
                 `,
                 ],
-                image: "",
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711881178/Fem%20Cami/Servicios/Reeducaci%C3%B3%20pedag%C3%B2gica/Habits_planificacio%CC%81_i_tecniques_d_estudi_en_taman%CC%83o_mediano_zdvio4.png",
             },
         ],
     },

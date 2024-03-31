@@ -165,7 +165,7 @@ export const centroCrapg = [
                     "Instagram:   @autismeambfutur",
                     "Facebook:    Autisme amb Futur",
                 ],
-                image: "",
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711880806/Fem%20Cami/Autismo/CRAPG/CRAPG_centre_de_recursos_pyyqx7.png",
             },
         ],
     },
