@@ -35,8 +35,12 @@ const ServiciosAutismo = () => {
                                 "https://res.cloudinary.com/dtfugozix/image/upload/v1706486965/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/iconGlassesOrange_wcqdtr.png"
                             }
                             title={"Intervenció Psicoeducativa"}
-                            content={
-                                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi autem expedita accusantium sapiente tenetur labore aperiam dolorem numquam harum. Eligendi, tempore asperiores ducimus esse impedit fugit aut. Totam, saepe nisi!"
+                            content=
+                            {
+                                `La nostra intervenció es basa en treballar totes les àrees de desenvolupament,
+                                habilitats personals, comunicatives i socials, i habilitats d’aprenentatge i d’autonomia,
+                                amb intervencions focalitzades i integrals específiques en autisme, millorant la qualitat
+                                de vida familiar i de la persona, com el seu benestar emocional i sensorial.`
                             }
                         />
                     </div>
@@ -47,7 +51,11 @@ const ServiciosAutismo = () => {
                             }
                             title={"Programa d'activitats socials"}
                             content={
-                                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi autem expedita accusantium sapiente tenetur labore aperiam dolorem numquam harum. Eligendi, tempore asperiores ducimus esse impedit fugit aut. Totam, saepe nisi!"
+                                `Duem a terme el programa d’habilitats socials de forma grupal, on ara mateix
+                                comptem amb quatre grups segons edat, acompanyats per les professionals del
+                                centre. Dins del programa es treballa les habilitats comunicatives i socials, les habilitats
+                                personals, l’educació socioemocional, l’autoconeixement i autodeterminació, les
+                                relacions interpersonals i cercles d’amistat, l’afectivitat i sexualitat, entre d’altres.`
                             }
                         />
                     </div>
@@ -57,8 +65,12 @@ const ServiciosAutismo = () => {
                                 "https://res.cloudinary.com/dtfugozix/image/upload/v1706489429/Fem%20Cami/iconos%20y%20vectores%20Divi%20Page/iconBoxGreen_xb3ibo.png"
                             }
                             title={"Centre de recursos d'autisme CRAPG"}
-                            content={
-                                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi autem expedita accusantium sapiente tenetur labore aperiam dolorem numquam harum. Eligendi, tempore asperiores ducimus esse impedit fugit aut. Totam, saepe nisi!"
+                            content=
+                            {
+                                `Som centre col·laborador amb l’Associació Autisme amb Futur, una associació de
+                                famílies amb fills/es en l’espectre autista. Col·laborem dins del projecte CRAPG (Centre
+                                de Recursos per l’Autisme Penedès-Garraf) on acompanyem famílies sòcies en la
+                                intervenció del seu fill/a, els grups d’habilitats socials i altres projectes en comú.`
                             }
                         />
                     </div>

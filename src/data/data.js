@@ -87,12 +87,14 @@ export const dataTeam = [
 
     },
     {
-        name: "Nom?",
-        subname: "Cognoms?",
+        name: "Andrea",
+        subname: "De la Torre Hervás",
         job: "Terapeuta Ocupacional",
         img: "https://res.cloudinary.com/dtfugozix/image/upload/v1710198664/Fem%20Cami/TRABAJADORAS/NPI2_ry2mfv.png",
-        description:
-            "Graduada en teràpia ocupacional per l’Universitat Miguel Hernández, amb un màster i un postgrau de salut mental i formada en Integració Sensorial. A més, amb experiència en els àmbits de la salut mental, la rehabilitació i sobre tot en atenció pediàtrica i intervenció amb persones autistes.",
+        description:`Graduada en teràpia ocupacional per l’escola universitària d’infermeria i teràpia ocupacional
+        de Terrassa, cursant la formació en Integració Sensorial. Curs d’estimulació basal, acreditació
+        valorada de la dependència. Formació informal de rehabilitació ( estimulació precoç, Projecte
+        TAO de Rio Safari Elche.)`,
         photo:"https://res.cloudinary.com/dtfugozix/image/upload/v1709488311/Fem%20Cami/Background/AnnaWork_en_taman%CC%83o_mediano_mxv0lu.png",
 
     },
