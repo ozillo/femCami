@@ -15,13 +15,13 @@ margin: 4px;
 .div-section-autismo h3 {
 margin-top: 6px;
 text-align: center;
-padding:3px;
+/* padding:3px; */
 
 }
 
 .div-section-autismo p {
  margin-top:10px;
- padding:10px;
+ /* padding:10px; */
  text-align: center;
 
 }
@@ -38,7 +38,7 @@ padding:3px;
     background-color:var(--light-pastel-blue);
     border-radius: 15px;
     border: 1px solid var(--light-pastel-blue);
-    margin-top:30px;
+    /* margin-top:30px; */
 }
 .btn-section-autismo:hover{
     transform: scale(1.05);

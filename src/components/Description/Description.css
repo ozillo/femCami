@@ -148,8 +148,15 @@ gap:2rem;
       height:266px;
       width: 100%;
     }
-
- 
+    }
+    @media screen and (width<601px){
     
+        
+        .imgDescription{
+            height: 220px;
+            width: 90vw;
+            position:absolute;
+         
+        }
     }
   
