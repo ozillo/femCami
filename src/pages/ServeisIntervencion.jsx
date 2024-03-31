@@ -18,7 +18,7 @@ const ServeisIntervencion = () => {
                 <h1 className="title-page">Intervenció educativa</h1>
             </section> */}
             <BackgroundTitle
-                title={"Reeducació pedagògica"}
+                title={"Intervenció educativa"}
                 background={`background-linear`}
                 color={`blue`}
             />
