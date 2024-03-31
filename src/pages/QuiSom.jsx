@@ -187,6 +187,7 @@ const QuiSom = () => {
                     treballem, cooperem cap un mateix objectiu, reforçant la
                     feina en cada disciplina de forma transversal.
                 </p>
+                
                 {/* <img src={dataTeam[0].photo} alt="photoTeam" className="imgWork" /> */}
             </section>
             <DividerMain />
