@@ -1,6 +1,14 @@
 export const intervencionEducativa = [
     {
-        mainDescription: "POR AMPLIAR",
+        mainDescription: `L'intervenció educativa es basa en treballar totes les àrees de desenvolupament, les
+        habilitats personals, comunicatives i socials, i les habilitats d’aprenentatge i
+        d’autonomia. Acompanyem l’infant i la família en totes les etapes evolutives.
+        El treball es fa conjuntament amb la família, recollint les preocupacions i acordant
+        objectius, estratègies i pautes per avançar en el desenvolupament i aprenentatge de
+        l’infant, tenint en compte el seu benestar emocional i sensorial.
+        Atenem a infants amb neurodivergència (dislèxia, tdah, altes capacitats, autisme, etc),
+        amb diversitat funcional o amb dificultats d’aprenentatge.`,
+        icon:"https://res.cloudinary.com/dtfugozix/image/upload/v1711895855/Fem%20Cami/Servicios/Intervenci%C3%B3%20educativa/INTERVENCIO%CC%81_EDUCATIVA_INICI_en_taman%CC%83o_mediano_svjlzk.png",
         content: [
             {
                 titulo: "POR AMPLIAR",
@@ -16,7 +24,7 @@ export const arrayLogopedia = [
     {
         mainDescription:
             "La Logopèdia és la disciplina que engloba l’estudi, la prevenció, la detecció, l’avaluació, diagnòstic i el tractament dels trastorns de la comunicació humana: les alteracions de la veu, de l’audició, de la parla, del llenguatge (oral, escrit, gestual); i de les funcions orofacials i deglutòries.",
-        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg",
+        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1711148841/Fem%20Cami/Servicios/Logopedia/LOGOPE%CC%80DIA_INICI_en_taman%CC%83o_mediano_yb6sdg.png",
         background:
             "https://res.cloudinary.com/dtfugozix/image/upload/v1708040582/Fem%20Cami/Background/burbujaVerde_avgani.png",
 
@@ -48,21 +56,27 @@ export const arrayLogopedia = [
 
 export const arrayTerapiaOcupacional = [
     {
-        mainDescription: "POR AMPLIAR",
-        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg",
+        mainDescription: `La teràpia ocupacional es una professió sòcio-sanitària que vol promoure la major
+        autonomia, benestar i qualitat de vida en les persones, a traves de l’ocupació.
+        El/la terapeuta ocupacional fa servir l’activitat de forma terapèutica per la prevenció
+        de les malalties i/o discapacitats, el manteniment de la salut, la rehabilitació de la
+        funcionalitat i l’adaptació del entorn de les persones. Tot això amb l’objectiu
+        d’aconseguir un desenvolupament i una participació satisfactoris en totes les activitats
+        de la vida diària.`,
+        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1711148925/Fem%20Cami/Servicios/Terapia%20Ocupacional/TERA%CC%80PIA_OCUPACIONAL_INICI_en_taman%CC%83o_mediano_tmync0.png",
         background:
             "https://res.cloudinary.com/dtfugozix/image/upload/v1708040582/Fem%20Cami/Background/burbujaVerde_avgani.png",
 
         content: [
-            {
-                titulo: "Què és la teràpia ocupacional?",
-                contenido: [
-                    `La teràpia ocupacional es una professió sòcio-sanitària que vol promoure la major autonomia, benestar i qualitat de vida en les persones, a traves de l’ocupació.
-                El/la terapeuta ocupacional fa servir l’activitat de forma terapèutica per la prevenció de les malalties i/o discapacitats, el manteniment de la salut, la rehabilitació de la funcionalitat i l’adaptació del entorn de les persones. Tot això amb l’objectiu d’aconseguir un desenvolupament i una participació satisfactoris en totes les activitats de la vida diària.
-                `,
-                ],
-                image: "",
-            },
+            // {
+            //     titulo: "Què és la teràpia ocupacional?",
+            //     contenido: [
+            //         `La teràpia ocupacional es una professió sòcio-sanitària que vol promoure la major autonomia, benestar i qualitat de vida en les persones, a traves de l’ocupació.
+            //     El/la terapeuta ocupacional fa servir l’activitat de forma terapèutica per la prevenció de les malalties i/o discapacitats, el manteniment de la salut, la rehabilitació de la funcionalitat i l’adaptació del entorn de les persones. Tot això amb l’objectiu d’aconseguir un desenvolupament i una participació satisfactoris en totes les activitats de la vida diària.
+            //     `,
+            //     ],
+            //     image: "",
+            // },
             {
                 titulo: "Objectius i metodologia del servei.",
                 contenido: [
@@ -85,7 +99,7 @@ export const arrayTerapiaOcupacional = [
             {
                 titulo: "Quan és necessària la teràpia ocupacional?",
                 contenido: ["POR AMPLIAR///IMAGEN"],
-                image: "",
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711148923/Fem%20Cami/Servicios/Terapia%20Ocupacional/PER_OMPLIR..._en_taman%CC%83o_mediano_vqnuaf.png",
             },
             {
                 titulo: "Com treballem?",
@@ -108,7 +122,7 @@ export const reeducacionPedagogica = [
     {
         mainDescription:
             "La reeducació és una intervenció psicopedagògica personalitzada d’aquelles dificultats que presenta l’infant en relació els aprenentatges i el rendiment acadèmic, i en el seu desenvolupament.",
-        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1702245497/Fem%20Cami/Imagenes/IMG-6610-2-1024x768_vgogqr.jpg",
+        icon: "https://res.cloudinary.com/dtfugozix/image/upload/v1711148868/Fem%20Cami/Servicios/Reeducaci%C3%B3%20pedag%C3%B2gica/REEDUCACIO%CC%81_PEDAGO%CC%80GICA_INICI_en_taman%CC%83o_mediano_dyv3ic.png",
         background:
             "https://res.cloudinary.com/dtfugozix/image/upload/v1708040582/Fem%20Cami/Background/burbujaVerde_avgani.png",
 

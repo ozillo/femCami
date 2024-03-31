@@ -31,11 +31,11 @@ const ServeisIntervencion = () => {
 
                     <img src={intervencionEducativa[0].icon} alt="iconQueEs" />
                 </div>
-                <div className="div-page-main-postit">
+                {/* <div className="div-page-main-postit">
                     <Postits arrayData={intervencionEducativa[0].content} />
-                </div>
+                </div> */}
             </section>
-            <section className="section-principal-page-more-info">
+            {/* <section className="section-principal-page-more-info">
                 {intervencionEducativa[0].content.map((elem, index) => {
                     return (
                         <div
@@ -61,7 +61,7 @@ const ServeisIntervencion = () => {
                         </div>
                     );
                 })}
-            </section>
+            </section> */}
         </>
     );
 };
