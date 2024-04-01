@@ -19,7 +19,7 @@
     background-color: transparent;
 }
 .div-info-newDescription{
-    width: 40%;
+    width: 100%;
     min-height: 300px;
     display: flex;
     align-items: center;
@@ -91,9 +91,9 @@
     width: 240px;
     font-size:20px;
     font-weight:bold;
-    border:1px solid var(--primary-blue);
-    background-color: var(--pastel-blue);
-    color:var(--primary-black);
+    background-color: var(--light-pastel-blue);
+    border:2px solid var(--light-pastel-blue);
+    color:var(--primary-blue);
     border-radius: 15px;
     font-size: 20px;
     margin-top:50px;

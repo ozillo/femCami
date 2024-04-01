@@ -40,7 +40,7 @@ export const autismoQueEs = [
 
 export const intervencionPsicoeducativa = [
     {
-        mainDescription: `La intervenció consisteix en treballar totes les àrees del desenvolupament tenint en compte les necessitats de l’infant i la família, sobretot en l’àrea comunicativa i social, les habilitats personals, d’aprenentatge i d’autonomia.
+        mainDescription: `L'intervenció consisteix en treballar totes les àrees del desenvolupament tenint en compte les necessitats de l’infant i la família, sobretot en l’àrea comunicativa i social, les habilitats personals, d’aprenentatge i d’autonomia.
         Ens basem en intervencions focalitzades i programes integrals basats en evidència científica com estratègies, tècniques, mètodes i enfocs específics per persones autistes, basant-se en la psicoeducació.
         Duem a terme intervencions combinades per atendre la persona com ésser únic.`,
         title: "Intervenció psicoeducativa",
