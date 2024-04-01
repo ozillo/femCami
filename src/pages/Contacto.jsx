@@ -109,7 +109,7 @@ const Contacto = () => {
                         puguis tenir. Et respondrem tan aviat com podem!
                     </p>
                     <img
-                        src="https://res.cloudinary.com/dtfugozix/image/upload/v1706141246/Fem%20Cami/logoBanner4_dhmltd.png"
+                        src="https://res.cloudinary.com/dtfugozix/image/upload/v1711988521/Fem%20Cami/BANNER/logoBannerContacto2_en_taman%CC%83o_mediano_v6akjh.png"
                         alt="logo fem cami formulario"
                         className="img-contact-message-form"
                     />

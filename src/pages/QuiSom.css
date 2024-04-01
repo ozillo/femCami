@@ -1,11 +1,12 @@
 .section-description-qui-som {
-    width: 60vw;
+    width: 100vw;
     height: 200px;
     display: flex;
     align-items: center;
 }
 .section-description-qui-som p {
     font-size: 24px;
+    margin: 2rem;
 
   }
   
@@ -22,9 +23,14 @@
     transform-origin: top;
     transform: rotateX(80deg);
 }
-.imgWork{
-height:200px;
+ .teamImg{
+    height:350px;
+    width:60%;
+    margin:2rem;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 70%); 
 }
+
+
 .section-title-description-page {
     display: flex;
     flex-wrap: wrap;

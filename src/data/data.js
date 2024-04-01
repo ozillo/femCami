@@ -1,9 +1,5 @@
 export const dataTeam = [
-    {
-    name:"Team",
-    subname:"Fem cami",
-    img:"https://res.cloudinary.com/dtfugozix/image/upload/v1711899580/Fem%20Cami/TRABAJADORAS/Foto_equip_en_taman%CC%83o_mediano_ummaju.png"
-    },
+  
     {
         name: "Mònica",
         subname: "Cardús Torné",

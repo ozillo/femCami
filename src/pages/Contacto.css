@@ -44,10 +44,12 @@ opacity: 0.7;
   margin-left:25vw;
 }
 .section-contacte-div-general-info h3{
+  font-size: 24px;
+  font-weight: 600;
   margin-left:0;
 }
 .section-contacte-div-general-info p{
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 300;
   text-align: center;
   margin-left: 15vh;
@@ -76,7 +78,10 @@ opacity: 0.7;
 
   background-color: var(--light-pastel-orange);
   border-radius: 10px;
-  .p-contacte-social-display{display:block}
+  
+}
+.p-contacte-social-display{
+display:block;
 }
 .p-contacte-social-display{
   display:none;
@@ -102,7 +107,6 @@ opacity: 0.7;
 }
 .div-contact-message-form{
   width: 40vw;
-
   padding:30px;
   display: flex;
   flex-direction: column;
@@ -110,8 +114,14 @@ opacity: 0.7;
 
   gap:30px;
 }
+.div-contact-message-form p{
+  font-size: 24px;
+  font-weight: 300;
+}
+
 .h2-contact-message-form{
-  font-size: 3rem;
+  font-size: 40px;
+  font-weight: 700;
   text-transform: uppercase;
 	background: linear-gradient(to right, var(--primary-blue) 20%,var(--pastel-blue)  55%);
   background-clip: inherit;
