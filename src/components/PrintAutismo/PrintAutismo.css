@@ -63,7 +63,7 @@
     width: 95vw;
     min-height: 400px;
     display: flex;
-    background-color: var(--primary-green);
+    background-color: var(--light-pastel-green);
     align-items: center;
     justify-content: space-evenly;
     gap:50px;
@@ -132,10 +132,11 @@ font-size: 50px;
 .btn-individual-page{
     width: 400px;
     height: 60px;
-    border:1px solid var(--primary-blue);
-    background-color: var(--pastel-blue);
-    color:var(--primary-black);
-    font-size: 20px;
+    border:1px solid var(--light-pastel-blue);
+    background-color: var(--light-pastel-blue);
+    color:var(--primary-blue);
+    font-size: 24px;
+    font-weight: 600;
     border-radius: 5px;
     margin-top:20px;
 }

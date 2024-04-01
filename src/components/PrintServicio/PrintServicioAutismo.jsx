@@ -5,7 +5,7 @@ const PrintServicioAutismo = ({icon,title,content}) => {
   return (
     <div className='div-section-autismo'>
     <img src={icon}
-    className='img-service-autismo'
+    className="img-service-autismo"
      alt="img-icon" 
      />
     <h3>

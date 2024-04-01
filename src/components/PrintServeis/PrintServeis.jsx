@@ -9,12 +9,12 @@ const PrintServeis = () => {
                 <h1 className="title-page-serveis">SERVEIS</h1>
             </section>
             <section className="section-description-main-page">
-                <p>FEM CAMI es centro especializado en el mundo del autismo.</p>
+                <p>FEM CAMI es un centre especialitzat en el mon de l'autisme.</p>
                 <p>
-                    Somos un equipo de profesionales que tienen una trayectoria
-                    de mas de 10 años dedicados a la enseñanza.
+                    Som un equip de professionals que tenen una trajectoria
+                    de mes de 10 anys dedicats a l'ensenyament.
                 </p>
-                <p>Nuestro principales valores son:</p>
+                <p>Els nostres principals valor son:</p>
             </section>
             <section className="section-all-pages-main-page">
                 <section className="section-individual-page-info">
@@ -39,7 +39,7 @@ const PrintServeis = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page">Coneix més</button>
+                    <button className="btn-individual-page">SABER MES</button>
                 </section>
             </section>
             <section className="section-all-pages-main-page">
@@ -70,7 +70,7 @@ const PrintServeis = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page">Coneix més</button>
+                    <button className="btn-individual-page">SABER MES</button>
                 </section>
             </section>
             <section className="section-all-pages-main-page">
@@ -128,7 +128,6 @@ const PrintServeis = () => {
                     <button className="btn-individual-page">SABER MES</button>
                 </section>
             </section>
-            <Board />
         </>
     );
 };
