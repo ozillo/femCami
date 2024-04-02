@@ -4,11 +4,11 @@
     width: 100%;
     min-height: 20vh;
     align-items: center; 
+   
  
 }
 .section-description-qui-som p {
     font-size: 24px;
-    margin: 2rem; 
     
   }
   
@@ -241,8 +241,7 @@
 }
 @media screen and (width<601px){
  .section-description-qui-som {
-  height:200px;
-  width: 100%;
+  flex-direction: column;
     
 
 
