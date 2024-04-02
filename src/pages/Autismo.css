@@ -10,6 +10,7 @@
     background-position: 50%;
 }
 
+
 /* .title-page{
 background: url(https://res.cloudinary.com/dtfugozix/image/upload/v1707246955/textura1_vovdtm.png) 0 0 / cover no-repeat;
 -webkit-background-clip: text;
@@ -20,6 +21,12 @@ text-shadow: 5px 5px var(--primary-green)
 .img-autisme {
     height: 400px;
     width: 380px;
+    background: rgba(245, 245, 245, 1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(245, 245, 245, 0.3);
     
 }
 
