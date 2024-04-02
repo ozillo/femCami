@@ -150,7 +150,9 @@ gap:2rem;
     }
     }
     @media screen and (width<601px){
-    
+        .div-background-img{
+            height: 250px;
+        }
         
         .imgDescription{
             height: 220px;

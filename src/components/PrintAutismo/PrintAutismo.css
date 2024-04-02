@@ -147,6 +147,7 @@ font-size: 50px;
 } */
 .btn-individual-page:hover{
     transform: scale(1.05);
+    border:2px solid var(--primary-blue);
 }
 
 @media screen and (width<992px){
