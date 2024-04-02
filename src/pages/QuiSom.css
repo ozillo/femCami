@@ -1,13 +1,15 @@
 .section-description-qui-som {
-    width: 100vw;
-    height: 200px;
-    display: flex;
-    align-items: center;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 20vh;
+    align-items: center; 
+ 
 }
 .section-description-qui-som p {
     font-size: 24px;
-    margin: 2rem;
-
+    margin: 2rem; 
+    
   }
   
   .container::before {
@@ -24,10 +26,9 @@
     transform: rotateX(80deg);
 }
  .teamImg{
-    height:350px;
-    width:60%;
+    height:auto;
+    max-width:100%;
     margin:2rem;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 70%); 
 }
 
 
