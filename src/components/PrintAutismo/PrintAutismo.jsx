@@ -9,12 +9,14 @@ const PrintAutismo = () => {
                 <h1 className="title-page">AUTISME</h1>
             </section>
             <section className="section-description-main-page">
-                <p>FEM CAMI es centro especializado en el mundo del autismo.</p>
                 <p>
-                    Somos un equipo de profesionales que tienen una trayectoria
-                    de mas de 10 años dedicados a la enseñanza.
+                    FEM CAMI es un centre especialitzat en el mon de l'autisme.
                 </p>
-                <p>Nuestro principales valores son:</p>
+                <p>
+                    Som un equip de professionals que tenen una trajectoria de
+                    mes de 10 anys dedicats a l'ensenyament.
+                </p>
+                <p>Els nostres principals valor son:</p>
             </section>
             <section className="section-all-pages-main-page">
                 <section className="section-individual-page-info">

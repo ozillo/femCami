@@ -38,9 +38,17 @@
 
 
 .section-description-main-page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 80vw;
     min-height: 30vh;
-    background-color: var(--light-pastel-orange);
+    background-color: var(--primary-white);
+}
+.section-description-main-page p{
+font-size: 24px;
+font-weight: 600;
 }
 
 .section-all-pages-main-page{
@@ -73,13 +81,13 @@
     background-color: var(--primary-blue);
 }
 .div-h3-logo-individual-page{
-    width: 80vw;
+    width: 95vw;
     min-height: 100px;
     justify-content: center;
     display:flex;
     align-items: center;
     background-color: var(--light-pastel-green);
-    border:2px solid var(--primary-green);
+    /* border:2px solid var(--primary-green); */
     color:var(--primary-black);
 }
 .div-h3-logo-individual-page-serveis{
@@ -106,7 +114,8 @@ font-size: 50px;
     margin-left:75px;
 }
 .p-idividual-page-info{
-    font-size:16px;
+    font-size:20px;
+    font-weight: 300;
     margin:30px 0 0 50px;
     width: 50%;
     min-height: 400px;
@@ -129,10 +138,30 @@ font-size: 50px;
     width: 400px;
     height: 400px;
 }
+.btn-individual-page-autisme{
+    width: 400px;
+    height: 60px;
+    border:1px solid var(--primary-green);
+    background-color: var(--light-pastel-green);
+    color:var(--primary-green);
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top:20px;
+}
+/* .btn-individual-page-serveis{
+    border:1px solid var(--pastel-green);
+    background-color: var(--primary-green);
+    color:var(--primary-black);
+} */
+.btn-individual-page-autisme:hover{
+    transform: scale(1.05);
+    border:2px solid var(--primary-green);
+}
 .btn-individual-page{
     width: 400px;
     height: 60px;
-    border:1px solid var(--light-pastel-blue);
+    border:1px solid var(--primary-blue);
     background-color: var(--light-pastel-blue);
     color:var(--primary-blue);
     font-size: 24px;
