@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import "./PrintAutismo.css";
-import { useParams } from "react-router-dom";
+import { Navigate, useNavigate, useParams } from "react-router-dom";
 const PrintAutismo = () => {
+    const navigate = useNavigate();
     return (
         <>
             <section className="section-title-main-page">
@@ -47,7 +48,12 @@ const PrintAutismo = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page">SABER MES</button>
+                    <button
+                        className="btn-individual-page"
+                        onClick={() => navigate("/autisme/que-es-el-autisme")}
+                    >
+                        SABER MES
+                    </button>
                 </section>
             </section>
             <section className="section-all-pages-main-page">
@@ -64,7 +70,17 @@ const PrintAutismo = () => {
                     </div>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
-                        L'intervenció Psicoeducativa consisteix en treballar totes les àrees del desenvolupament tenint en compte les necessitats de l’infant i la família, sobretot en l’àrea comunicativa i social, les habilitats personals, d’aprenentatge i d’autonomia. Ens basem en intervencions focalitzades i programes integrals basats en evidència científica com estratègies, tècniques, mètodes i enfocs específics per persones autistes, basant-se en la psicoeducació. Duem a terme intervencions combinades per atendre la persona com ésser únic.
+                            L'intervenció Psicoeducativa consisteix en treballar
+                            totes les àrees del desenvolupament tenint en compte
+                            les necessitats de l’infant i la família, sobretot
+                            en l’àrea comunicativa i social, les habilitats
+                            personals, d’aprenentatge i d’autonomia. Ens basem
+                            en intervencions focalitzades i programes integrals
+                            basats en evidència científica com estratègies,
+                            tècniques, mètodes i enfocs específics per persones
+                            autistes, basant-se en la psicoeducació. Duem a
+                            terme intervencions combinades per atendre la
+                            persona com ésser únic.
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
@@ -73,7 +89,14 @@ const PrintAutismo = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page">SABER MES</button>
+                    <button
+                        className="btn-individual-page"
+                        onClick={() =>
+                            navigate("/autisme/intervencio-psicoeducativa")
+                        }
+                    >
+                        SABER MES
+                    </button>
                 </section>
             </section>
             <section className="section-all-pages-main-page">
@@ -90,7 +113,23 @@ const PrintAutismo = () => {
                     </div>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
-                        Les habilitats socials són un conjunt de competències conductuals que possibiliten que la persona mantingui relacions socials positives amb els altres i que afronti, de manera efectiva i adaptativa, les demandes del seu entorn social, aspectes que contribueixen significativament, per una part, a l’acceptació per part dels companys i, per altra, a un ajut i adaptació social adequat. Una de les condicions que presenten les persones amb autisme és la dificultat de comprensió i la gestió de les relacions socials. És per això que des de Fem Camí duem a terme sessions grupals per treballar les habilitats socials i personals amb professionals especialistes en autisme. A través de la interacció, comunicació i el joc treballem aspectes necessaris per el desenvolupament de la persona i la inclusió social.
+                            Les habilitats socials són un conjunt de
+                            competències conductuals que possibiliten que la
+                            persona mantingui relacions socials positives amb
+                            els altres i que afronti, de manera efectiva i
+                            adaptativa, les demandes del seu entorn social,
+                            aspectes que contribueixen significativament, per
+                            una part, a l’acceptació per part dels companys i,
+                            per altra, a un ajut i adaptació social adequat. Una
+                            de les condicions que presenten les persones amb
+                            autisme és la dificultat de comprensió i la gestió
+                            de les relacions socials. És per això que des de Fem
+                            Camí duem a terme sessions grupals per treballar les
+                            habilitats socials i personals amb professionals
+                            especialistes en autisme. A través de la interacció,
+                            comunicació i el joc treballem aspectes necessaris
+                            per el desenvolupament de la persona i la inclusió
+                            social.
                         </p>
                         <div className="div-individual-page-divider"></div>
                         <img
@@ -99,7 +138,14 @@ const PrintAutismo = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page">SABER MES</button>
+                    <button
+                        className="btn-individual-page"
+                        onClick={() =>
+                            navigate("/autisme/programa-habilitats-socials")
+                        }
+                    >
+                        SABER MES
+                    </button>
                 </section>
             </section>
         </>
