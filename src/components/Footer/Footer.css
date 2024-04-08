@@ -1,7 +1,7 @@
 footer {
     min-height: 50vh;
     width: 100%;
-    background-color:var(--primary-green);
+    background-color:var(--pastel-green);
     display: flex;  
     position:relative;
 }
