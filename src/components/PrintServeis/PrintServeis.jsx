@@ -2,17 +2,21 @@ import React from "react";
 import "./PrintServeis.css";
 import "../PrintAutismo/PrintAutismo.css";
 import { Board } from "../Board/Board";
+import { useNavigate } from "react-router-dom";
 const PrintServeis = () => {
+    const navigate = useNavigate();
     return (
         <>
             <section className="section-title-main-page section-title-main-page-serveis">
                 <h1 className="title-page-serveis">SERVEIS</h1>
             </section>
             <section className="section-description-main-page">
-                <p>FEM CAMI es un centre especialitzat en el mon de l'autisme.</p>
                 <p>
-                    Som un equip de professionals que tenen una trajectoria
-                    de mes de 10 anys dedicats a l'ensenyament.
+                    FEM CAMI es un centre especialitzat en el mon de l'autisme.
+                </p>
+                <p>
+                    Som un equip de professionals que tenen una trajectoria de
+                    mes de 10 anys dedicats a l'ensenyament.
                 </p>
                 <p>Els nostres principals valor son:</p>
             </section>
@@ -39,7 +43,14 @@ const PrintServeis = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page">SABER MES</button>
+                    <button
+                        className="btn-individual-page"
+                        onClick={() =>
+                            navigate("/serveis/intervencio-educativa")
+                        }
+                    >
+                        SABER MES
+                    </button>
                 </section>
             </section>
             <section className="section-all-pages-main-page">
@@ -70,7 +81,12 @@ const PrintServeis = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page">SABER MES</button>
+                    <button
+                        className="btn-individual-page"
+                        onClick={() => navigate("/serveis/logopedia")}
+                    >
+                        SABER MES
+                    </button>
                 </section>
             </section>
             <section className="section-all-pages-main-page">
@@ -96,7 +112,12 @@ const PrintServeis = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page">SABER MES</button>
+                    <button
+                        className="btn-individual-page"
+                        onClick={() => navigate("/serveis/terapia-ocupacional")}
+                    >
+                        SABER MES
+                    </button>
                 </section>
             </section>
             <section className="section-all-pages-main-page">
@@ -125,7 +146,14 @@ const PrintServeis = () => {
                             className="img-individual-page-info"
                         />
                     </div>
-                    <button className="btn-individual-page">SABER MES</button>
+                    <button
+                        className="btn-individual-page"
+                        onClick={() =>
+                            navigate("/serveis/reeducacio-pedagogica")
+                        }
+                    >
+                        SABER MES
+                    </button>
                 </section>
             </section>
         </>

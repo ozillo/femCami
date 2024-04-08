@@ -32,7 +32,8 @@
  @media screen and (width<768px){
     .div-all-divider-eslogan{
         height: 12px;
-        width: 100%;
+        width: 70%;
+        margin-top:50px;
     }
     .divider-Eslogan {
         width: 60vh;
