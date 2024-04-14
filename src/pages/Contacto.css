@@ -111,7 +111,6 @@ display:block;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   gap:30px;
 }
 .div-contact-message-form p{
