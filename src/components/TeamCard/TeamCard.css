@@ -20,6 +20,10 @@
 }
 .section-all-cards:hover{
     width: 90vw;
+    .div-card-photo .imgBx img{
+        top:0;
+        left:10px;
+    }
 }
 .section-all-cards:hover .imgBx{
     bottom:80px;
@@ -69,10 +73,10 @@
 }
 .div-card-photo .imgBx img{
     position:absolute;
-    top:0;
+    top:30px;
     left:0;
-    width:100%;
-    height:100%;
+    width:260px;
+    height:260px;
     object-fit:fill;
 
 }
