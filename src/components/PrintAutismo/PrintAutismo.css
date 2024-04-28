@@ -99,8 +99,8 @@ font-weight: 600;
     width: 60%;
     letter-spacing: 5px;
     text-transform: uppercase;
-     font-family: 'Shadows Into Light', cursive;
-font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
     color:var(--primary-green);
     text-shadow: -1px -1px 0 var(--primary-black),-1px  1px 0 var(--primary-black),1px  1px 0 var(--primary-black); 
     letter-spacing: 5px; 
@@ -141,7 +141,7 @@ font-size: 50px;
     height: 400px;
 }
 .btn-individual-page-autisme{
-    width: 400px;
+    width: 200px;
     height: 60px;
     border:1px solid var(--primary-green);
     background-color: var(--light-pastel-green);
@@ -161,7 +161,7 @@ font-size: 50px;
     border:2px solid var(--primary-green);
 }
 .btn-individual-page{
-    width: 400px;
+    width: 200px;
     height: 60px;
     border:1px solid var(--primary-blue);
     background-color: var(--light-pastel-blue);
@@ -233,9 +233,9 @@ font-size: 50px;
         height: 60px;
         margin-left:0;
     }
-    .btn-individual-page{
+    /* .btn-individual-page{
         width: 250px;
         height: 60px;
 
-    }
+    } */
 }
