@@ -24,11 +24,11 @@ const PrintAutismo = () => {
                         <h3 className="h3-individual-page-info">
                             Què és l'autisme
                         </h3>
-                        <img
+                        {/* <img
                             src="https://res.cloudinary.com/dtfugozix/image/upload/v1708390949/Fem%20Cami/Vectores/AutismoIcono_ntqbcv.png"
                             alt="logo seccion servicios"
                             className="img-individual-page-icon"
-                        />
+                        /> */}
                     </div>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
@@ -51,7 +51,7 @@ const PrintAutismo = () => {
                         />
                     </div>
                     <button
-                        className="btn-individual-page"
+                        className="btn-individual-page-autisme"
                         onClick={() => navigate("/autisme/que-es-el-autisme")}
                     >
                         SABER MES
@@ -64,11 +64,11 @@ const PrintAutismo = () => {
                         <h3 className="h3-individual-page-info">
                             Intervenció psicoeducativa
                         </h3>
-                        <img
+                        {/* <img
                             src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363072/Fem%20Cami/Vectores/icons8-tools-64_1_a3hsqb.png"
                             alt="logo seccion servicios"
                             className="img-individual-page-icon"
-                        />
+                        /> */}
                     </div>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
@@ -92,7 +92,7 @@ const PrintAutismo = () => {
                         />
                     </div>
                     <button
-                        className="btn-individual-page"
+                        className="btn-individual-page-autisme"
                         onClick={() =>
                             navigate("/autisme/intervencio-psicoeducativa")
                         }
@@ -107,11 +107,11 @@ const PrintAutismo = () => {
                         <h3 className="h3-individual-page-info">
                             Programa d'habilitats socials
                         </h3>
-                        <img
+                        {/* <img
                             src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363074/Fem%20Cami/Vectores/icons8-brick-80_tojhwz.png"
                             alt="logo seccion servicios"
                             className="img-individual-page-icon"
-                        />
+                        /> */}
                     </div>
                     <div className="div-individual-page-info">
                         <p className="p-idividual-page-info">
@@ -141,7 +141,7 @@ const PrintAutismo = () => {
                         />
                     </div>
                     <button
-                        className="btn-individual-page"
+                        className="btn-individual-page-autisme"
                         onClick={() =>
                             navigate("/autisme/programa-habilitats-socials")
                         }

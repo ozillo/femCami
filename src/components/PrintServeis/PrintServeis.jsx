@@ -26,15 +26,22 @@ const PrintServeis = () => {
                         <h3 className="h3-individual-page-info h3-individual-page-info-serveis">
                             Intervenció educativa
                         </h3>
-                        <img
+                        {/* <img
                             src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-garden-100_mnaflb.png"
                             alt="logo seccion servicios"
                             className="img-individual-page-icon"
-                        />
+                        /> */}
                     </div>
                     <div className="div-individual-page-info div-individual-page-info-serveis">
                         <p className="p-idividual-page-info p-idividual-page-info-serveis">
-                            POR AMPLIAR
+                        La intervenció educativa es basa en treballar totes les àrees de desenvolupament, les
+                        habilitats personals, comunicatives i socials, i les habilitats d’aprenentatge i
+                        d’autonomia. Acompanyem l’infant i la família en totes les etapes evolutives.
+                        El treball es fa conjuntament amb la família, recollint les preocupacions i acordant
+                        objectius, estratègies i pautes per avançar en el desenvolupament i aprenentatge de
+                        l’infant, tenint en compte el seu benestar emocional i sensorial.
+                        Atenem a infants amb neurodivergència (dislèxia, tdah, altes capacitats, autisme, etc),
+                        amb diversitat funcional o amb dificultats d’aprenentatge.
                         </p>
                         <div className="div-individual-page-divider-serveis"></div>
                         <img
@@ -59,11 +66,11 @@ const PrintServeis = () => {
                         <h3 className="h3-individual-page-info h3-individual-page-info-serveis">
                             Logopedia
                         </h3>
-                        <img
+                        {/* <img
                             src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-garden-100_mnaflb.png"
                             alt="logo seccion servicios"
                             className="img-individual-page-icon"
-                        />
+                        /> */}
                     </div>
                     <div className="div-individual-page-info div-individual-page-info-serveis">
                         <p className="p-idividual-page-info p-idividual-page-info-serveis">
@@ -95,15 +102,21 @@ const PrintServeis = () => {
                         <h3 className="h3-individual-page-info h3-individual-page-info-serveis">
                             Terapia ocupacional
                         </h3>
-                        <img
+                        {/* <img
                             src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-garden-100_mnaflb.png"
                             alt="logo seccion servicios"
                             className="img-individual-page-icon"
-                        />
+                        /> */}
                     </div>
                     <div className="div-individual-page-info div-individual-page-info-serveis">
                         <p className="p-idividual-page-info p-idividual-page-info-serveis">
-                            POR AMPLIAR
+                        La teràpia ocupacional es una professió sòcio-sanitària que vol promoure la major
+                        autonomia, benestar i qualitat de vida en les persones, a traves de l’ocupació.
+                        El/la terapeuta ocupacional fa servir l’activitat de forma terapèutica per la prevenció
+                        de les malalties i/o discapacitats, el manteniment de la salut, la rehabilitació de la
+                        funcionalitat i l’adaptació del entorn de les persones. Tot això amb l’objectiu
+                        d’aconseguir un desenvolupament i una participació satisfactoris en totes les activitats
+                        de la vida diària.
                         </p>
                         <div className="div-individual-page-divider-serveis"></div>
                         <img
@@ -126,11 +139,11 @@ const PrintServeis = () => {
                         <h3 className="h3-individual-page-info h3-individual-page-info-serveis">
                             Reeducacio Pedagogica
                         </h3>
-                        <img
+                        {/* <img
                             src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-garden-100_mnaflb.png"
                             alt="logo seccion servicios"
                             className="img-individual-page-icon"
-                        />
+                        /> */}
                     </div>
                     <div className="div-individual-page-info div-individual-page-info-serveis">
                         <p className="p-idividual-page-info p-idividual-page-info-serveis">
