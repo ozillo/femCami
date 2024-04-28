@@ -75,7 +75,7 @@ const EmailContactForm = () => {
                 <input
                     type="submit"
                     id="button"
-                    value="Send Email"
+                    value="ENVIAR"
                     className="btn-form"
                 />
             </form>

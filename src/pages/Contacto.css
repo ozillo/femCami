@@ -111,7 +111,6 @@ display:block;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   gap:30px;
 }
 .div-contact-message-form p{
@@ -130,8 +129,8 @@ display:block;
   text-shadow: 5px 2px 20px #ff9b1922;
 }
 .img-contact-message-form{
-  width: 100%;
-  height: 150px;
+  width: 60%;
+  height: 320px;
 }
 /* SECTION MAPA */
 
@@ -322,6 +321,10 @@ display:block;
       .section-contacte-ubication-map{
         width: 90vw;
       }
+      .img-contact-message-form{
+        width: 40%;
+        max-height:250px;
+      }
   }
   @media screen and (width<601px){
     .label-form-column{
@@ -332,5 +335,9 @@ display:block;
     }
     .div-contacte-social{
       width: 90vw;
+    }
+    .img-contact-message-form{
+      width: 40%;
+      max-height:220px;
     }
   }

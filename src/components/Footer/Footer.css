@@ -1,7 +1,7 @@
 footer {
     min-height: 50vh;
     width: 100%;
-    background-color:var(--primary-green);
+    background-color:var(--pastel-green);
     display: flex;  
     position:relative;
 }
@@ -9,7 +9,7 @@ footer {
 .div-class-wave{
 height:100px;
 width:100vw;
-position: absolute;
+position:absolute;
 top:-50%;
 }
 .custom-shape-divider-top-1708371836 {
@@ -19,9 +19,6 @@ top:-50%;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-}
-.logo-social{
-    height:60px;
 }
 
 .div-wave-component{
@@ -111,7 +108,7 @@ top:-50%;
     height: 50px;
 }
 .logo-social:hover{
-    background-color:var(--primary-green);
+    background-color:var(--pastel-green);
     border-radius: 50%;
     padding:5px;
     
