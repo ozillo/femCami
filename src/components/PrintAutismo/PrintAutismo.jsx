@@ -1,13 +1,15 @@
 import React, { useEffect, useRef } from "react";
 import "./PrintAutismo.css";
+import BackgroundTitle from "../BackgroundTitle/BackgroundTitle";
 import { Navigate, useNavigate, useParams } from "react-router-dom";
 const PrintAutismo = () => {
     const navigate = useNavigate();
     return (
         <>
-            <section className="section-title-main-page">
+            {/* <section className="section-title-main-page">
                 <h1 className="title-page">AUTISME</h1>
-            </section>
+            </section> */}
+            <BackgroundTitle title="SERVEIS" background={`background-linear-green`} color={`green`}/>
             <section className="section-description-main-page">
                 <p>
                     FEM CAMI es un centre especialitzat en el mon de l'autisme.
