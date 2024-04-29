@@ -29,8 +29,7 @@ const ServiciosAutismo = () => {
                     </h2>
                     
                 </div>
-                <div className="div-all-servicesAutismo">
-                    {/* <div className="div-description-service-autismo">
+                <div className="div-description-service-autismo">
                     <p>
                     Actualment, Fem Camí, és un centre de referència en autisme en la nostra comarca. Portem
                     més de 10 anys d’experiència, d’actualització i formació especialitzada, on estem acompanyant
@@ -39,7 +38,9 @@ const ServiciosAutismo = () => {
                     emocional i sensorial.  
                     </p>
 
-                    </div> */}
+                    </div> 
+                <div className="div-all-servicesAutismo">
+                    
                     <div className="div-service-autismo">
                         <PrintServicioAutismo
                             icon={

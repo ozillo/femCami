@@ -10,7 +10,7 @@ const Description = () => {
         <>
             <div className="div-background-img"></div>
             <img
-                src="https://res.cloudinary.com/dtfugozix/image/upload/v1702028834/Fem%20Cami/Logo/logoFemCami_eqfgop.png"
+                src="https://res.cloudinary.com/dtfugozix/image/upload/v1714428502/Fem%20Cami/Logo/logoFemCami_eqfgop_1_tzzldl.png"
                 alt=""
                 className="imgDescription"
             />

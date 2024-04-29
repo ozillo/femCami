@@ -80,6 +80,7 @@
     gap:30px;
 }
 
+
 .imgDescription{
     height: 300px;
     width: 80vw;
@@ -118,8 +119,9 @@
 }
 .div-image-newDescription img{
 display:flex;
+flex-wrap: wrap;
 height:500px;
-width:70%;
+width:90%;
 gap:2rem;
 
 
@@ -136,6 +138,12 @@ gap:2rem;
     .div-image-newDescription img{
       width: 100%;
       object-fit: contain;
+    }
+    .imgDescription{
+        height: 190px;
+        width: 90vw;
+        position:absolute;
+     
     }
     
 }
@@ -155,7 +163,7 @@ gap:2rem;
         }
         
         .imgDescription{
-            height: 220px;
+            height: 180px;
             width: 90vw;
             position:absolute;
          
@@ -164,4 +172,12 @@ gap:2rem;
             margin: 20px 0 50px 0;
     }
   
+    }
+    @media screen and (width<400px){
+        .imgDescription{
+            height: 140px;
+            width: 95vw;
+            position:absolute;
+         
+        }
     }

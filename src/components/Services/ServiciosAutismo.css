@@ -127,6 +127,24 @@
 
 
 /* FIN SECCION AUTISMO DIV */
+.div-description-service-autismo{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+  padding: 6px;
+  background-color: var(--primary-blue);
+}
+.div-description-service-autismo p{
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+  
+
+
+}
 @media screen and (width<1000px){
   .div-all-servicesAutismo{
     flex-direction: column;
@@ -145,6 +163,9 @@
    width:100%;
    text-align: center;
 
+}
+.h2-info-autimos-centre-especific{
+  letter-spacing: 4px;
 }
 
 }
