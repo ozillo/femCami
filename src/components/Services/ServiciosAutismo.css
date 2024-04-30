@@ -129,18 +129,23 @@
 /* FIN SECCION AUTISMO DIV */
 .div-description-service-autismo{
   display: flex;
+  flex-direction: column;
   justify-content:center;
-  align-items:center;
-
-  padding: 6px;
-  background-color: var(--primary-blue);
+  align-items:flex-start;
+width: 60vw;
+margin:40px 0 20px 0;
+  padding: 25px;
+gap:20px;
+/* -webkit-box-shadow: 0px 0px 15px 0px #004C9F;
+-moz-box-shadow: 0px 0px 15px 0px #004C9F;
+box-shadow: 0px 0px 15px 0px #004C9F;
+border-radius:20px; */
 }
 .div-description-service-autismo p{
   font-size: 20px;
   font-weight: 300;
-  text-align: center;
-  background-color: var(--primary-blue);
-  color: var(--primary-white);
+  text-align: left;
+  color: var(--primary-black);
   
 
 
