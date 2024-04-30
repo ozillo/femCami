@@ -10,7 +10,9 @@ gap:35px
 
 
 .btn-previous, .btn-next{
-
+display:flex;
+align-items: center;
+justify-content: center;
 height:50px;
 width: 50px;
 background-color:var(--light-pastel-blue);

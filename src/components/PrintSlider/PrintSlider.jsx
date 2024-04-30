@@ -35,15 +35,18 @@ const PrintSlider = ({ images }) => {
                 alt="banner talleres"
             />
             <div className="div-previous-next">
-                <button className="btn-previous" onClick={goToPreviousSlide}>
-                    <FcPrevious className="btn-previous-slider" />
-                </button>
+                <span className="btn-previous" onClick={goToPreviousSlide}>
+                    <FcPrevious
+                        className="btn-previous-slider"
+                        title={"Back"}
+                    />
+                </span>
                 <p>
                     {currentImage + 1} de {images.length}
                 </p>
-                <button className="btn-next" onClick={goToNextSlide}>
+                <span className="btn-next" onClick={goToNextSlide}>
                     <FcNext className="btn-next-slider" />
-                </button>
+                </span>
             </div>
         </>
     );
