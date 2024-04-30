@@ -29,7 +29,11 @@ const PrintSlider = ({ images }) => {
 
     return (
         <>
-            <img src={images[currentImage]} className="img-banner-tallers" />
+            <img
+                src={images[currentImage]}
+                className="img-banner-tallers"
+                alt="banner talleres"
+            />
             <div className="div-previous-next">
                 <button className="btn-previous" onClick={goToPreviousSlide}>
                     <FcPrevious className="btn-previous-slider" />
