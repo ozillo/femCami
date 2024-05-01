@@ -9,7 +9,7 @@ const PrintAutismo = () => {
             {/* <section className="section-title-main-page">
                 <h1 className="title-page">AUTISME</h1>
             </section> */}
-            <BackgroundTitle title="SERVEIS" background={`background-linear-green`} color={`green`}/>
+            <BackgroundTitle title="AUTISME" background={`background-linear-green`} color={`green`}/>
             <section className="section-description-main-page">
                 <p>
                     FEM CAMI es un centre especialitzat en el mon de l'autisme.

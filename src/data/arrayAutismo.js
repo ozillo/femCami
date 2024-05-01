@@ -75,12 +75,40 @@ export const intervencionPsicoeducativa = [
             },
             {
                 titulo: "Suport Conductual Positiu",
-                contenido: ["POR AMPLIAR"],
+                contenido: [`El Suport Conductual Positiu és una metodologia que es basa en la prevenció dels
+                problemes de conducta i pretén millorar la qualitat de vida de les persones i del seu
+                entorn. Tracta d’observar què hauríem de canviar per què la persona autista es senti
+                millor.
+                L’objectiu principal és comprendre el comportament i satisfer les necessitats,
+                proporcionant el suport adequat en el moment adequat per que una persona pugui
+                portar una vida significativa, i amb una participació en les activitats i aprenentatges de
+                noves habilitats.
+                Dins d’aquesta metodologia s’utilitza diferents mètodes per recopilar informació per
+                determinar què significa el comportament de les persones i programes de prevenció i
+                actuació. A partir d’aquestes eines, la finalitat és poder adaptar l’entorn tant personal
+                com material, i l’estructura, per la prevenció i satisfacció de les necessitats, i poder
+                millorar el benestar emocional i sensorial de la persona.
+                
+                La família i l’escola juga un paper essencial en aquesta metodologia, on tenen una
+                participació activa i constant.`],
                 image: "https://res.cloudinary.com/dtfugozix/image/upload/v1710699103/Fem%20Cami/Autismo/Intervenci%C3%B3%20psicoeducativa/suport_conductual_positiu_en_taman%CC%83o_mediano_glbrwy.png",
             },
             {
                 titulo: "Ensenyament Estructurat basat en metodología Teacch",
-                contenido: ["POR AMPLIAR"],
+                contenido: [`L’Objectiu principal d’aquesta metodologia és millorar la qualitat de vida i l’autonomia,
+                millorar la comunicació, les funcions executives, la imitació, i les habilitats motores i
+                acadèmiques.
+                La metodologia consisteix en adaptar l’entorn per una millor comprensió, i per un
+                millor benestar emocional i sensorial de la persona. El procediment consisteix en donar
+                una estructura física de l’entorn, una estructura temporal (suports visuals en la
+                anticipació), uns sistemes de treball, unes rutines i estratègies de treball, i una
+                estructura tant visual com personal.
+                La metodologia és aplicable en diferents entorns, tant a l’escola, a casa, com a la vida
+                laboral i independent. Els objectius són individuals i els suports s’adapten a les
+                necessitats, els seus interessos i fortaleses.
+                Moltes escoles estan començant a implementar aquesta metodologia per donar millor
+                atenció a l’alumnat autista, respectant el benestar sensorial i emocional, i què hi hagi
+                una plena participació inclusiva en les diverses activitats del centre.`],
                 image: "https://res.cloudinary.com/dtfugozix/image/upload/v1710699098/Fem%20Cami/Autismo/Intervenci%C3%B3%20psicoeducativa/ensenyament_estructurat_en_taman%CC%83o_mediano_x9rhon.png",
             },
         ],
