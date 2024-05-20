@@ -94,7 +94,7 @@ export const arrayTerapiaOcupacional = [
                 Tenim 7 sistemes sensorials:
                 `,
                 ],
-                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1702042428/Fem%20Cami/Servicios/Terapia%20Ocupacional/terapiaOcupacional_wiecsg.png",
+                image: "https://res.cloudinary.com/dtfugozix/image/upload/v1716234591/Fem%20Cami/Servicios/Terapia%20Ocupacional/imatge_tera%CC%80pia_ocupacional_ybpzh0.png",
             },
             {
                 titulo: "Quan és necessària la teràpia ocupacional?",
