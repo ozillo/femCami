@@ -124,22 +124,22 @@ const MenuBurger = () => {
                                 <ul className="ul-menu-burger-hidden">
                                     <li className="li-menu-burger-hidden">
                                         <a href="/autisme/que-es-el-autisme">
-                                            + Que és el autisme
+                                             Que és el autisme
                                         </a>
                                     </li>
                                     <li className="li-menu-burger-hidden">
                                         <a href="/autisme/intervencio-psicoeducativa">
-                                            + Intervenció Psicoeducativa
+                                             Intervenció Psicoeducativa
                                         </a>
                                     </li>
                                     <li className="li-menu-burger-hidden">
                                         <a href="/autisme/programa-habilitats-socials">
-                                            + Programa d'habilitats socials
+                                             Programa d'habilitats socials
                                         </a>
                                     </li>
                                     <li className="li-menu-burger-hidden">
                                         <a href="/autisme/centre-recursos-CRAPG">
-                                            + Centre de recursos d'autisme
+                                             Centre de recursos d'autisme
                                             CRAPG
                                         </a>
                                     </li>
