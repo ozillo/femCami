@@ -132,4 +132,7 @@
     height:50px;
     width: 180px;
     }
+    .div-wrapper-acordeon{
+        min-height: 100px;
+    }
 }

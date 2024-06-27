@@ -137,6 +137,9 @@
     .imgBx{
         bottom:80px !important;
     }
+    .div-card-photo .imgBx img {
+        left:10px;
+    }
 }
 @media screen and (width<768px){
     .section-all-cards{
