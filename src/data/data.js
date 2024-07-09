@@ -73,7 +73,7 @@ export const dataTeam = [
         job: "Integradora Social i Educadora.",
         img: "https://res.cloudinary.com/dtfugozix/image/upload/v1710198663/Fem%20Cami/TRABAJADORAS/MireiaRenom2_wlm9qi.png",
         description:
-            "Formada en Suport Conductual Positiu per persones amb TEA (Trastorn de l’Espectre Autista), mètode DENVER i Sistema PECS. Experiència de 6 anys treballant a una escola d’alta complexitat a les aules SIEI, amb infants amb Trastorns de Conducta, TEA, TDAH, entre d’altres. Forma part de l’equip Autisme amb Futur en el projecte Transició a la Vida Adulta.",
+            "Formada en Suport Conductual Positiu per persones amb TEA, mètode DENVER i Sistema PECS. Experiència de 6 anys treballant a una escola d’alta complexitat a les aules SIEI, amb infants amb Trastorns de Conducta, TEA, TDAH, entre d’altres. És part de l’equip Autisme amb Futur en el projecte Transició a la Vida Adulta.",
         photo:"https://res.cloudinary.com/dtfugozix/image/upload/v1709488311/Fem%20Cami/Background/AnnaWork_en_taman%CC%83o_mediano_mxv0lu.png",
 
     },
@@ -83,7 +83,7 @@ export const dataTeam = [
         job: "Logopeda",
         img: "https://res.cloudinary.com/dtfugozix/image/upload/v1710198663/Fem%20Cami/TRABAJADORAS/MeritxellGallardo2_obyq7m.png",
         description:
-            "Especialista amb teràpia miofuncional en disfuncions orofacials, i en el diagnòstic i tractaments dels Trastorns de l’Aprenentatge i del Neurodesenvolupament. Formada en Trastorn per Dèficit d’Atenció amb o sense Hiperactivitat, en problemes de alimentació en el TEA, amb Trastorns Específics del Llenguatge (TEL), en Dificultats Específiques de la Lectoescriptura, i 1r nivell de formació en Integració Sensorial (CEIB).",
+            "Especialista en teràpia miofuncional en disfuncions orofacials, en diagnòstic i tractament dels Trastorns de l’Aprenentatge i del Neurodesenvolupament. Formada en Trastorn per Dèficit d’Atenció amb o sense Hiperactivitat, en problemes d'alimentació,amb Trastorns Específics del Llenguatge,en Dificultats Específiques de la Lectoescriptura.",
         photo:"https://res.cloudinary.com/dtfugozix/image/upload/v1709488311/Fem%20Cami/Background/AnnaWork_en_taman%CC%83o_mediano_mxv0lu.png",
 
     },

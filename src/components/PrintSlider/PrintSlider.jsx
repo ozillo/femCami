@@ -52,4 +52,5 @@ const PrintSlider = ({ images }) => {
     );
 };
 
+
 export default PrintSlider;
