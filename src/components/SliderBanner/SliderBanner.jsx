@@ -10,12 +10,14 @@ const SliderBanner = () => {
         "https://res.cloudinary.com/dtfugozix/image/upload/v1719234026/Fem%20Cami/Publicaciones%20Eventos/4_j0ewea.png",
     ];
     const imgTablet = [
+        "https://res.cloudinary.com/dtfugozix/image/upload/v1720539336/Fem%20Cami/Publicaciones%20Eventos/TABLET/grups_de_suport_adultses_autistes_tablet_chgcml.png",
         "https://res.cloudinary.com/dtfugozix/image/upload/v1720039993/Fem%20Cami/Publicaciones%20Eventos/TABLET/3_eum668.png",
         "https://res.cloudinary.com/dtfugozix/image/upload/v1720039992/Fem%20Cami/Publicaciones%20Eventos/TABLET/4_ac5hch.png",
         "https://res.cloudinary.com/dtfugozix/image/upload/v1720039993/Fem%20Cami/Publicaciones%20Eventos/TABLET/2_jrqqsy.png",
         "https://res.cloudinary.com/dtfugozix/image/upload/v1720039991/Fem%20Cami/Publicaciones%20Eventos/TABLET/1_keh95c.png",
     ];
     const imgTlf = [
+        "https://res.cloudinary.com/dtfugozix/image/upload/v1720540396/Fem%20Cami/Publicaciones%20Eventos/TELEFONO/grup_de_suport_adultses_autistes_mobil_xmtalz.png",
         "https://res.cloudinary.com/dtfugozix/image/upload/v1720534769/Fem%20Cami/Publicaciones%20Eventos/TELEFONO/3_khp0gc.png",
         "https://res.cloudinary.com/dtfugozix/image/upload/v1720534769/Fem%20Cami/Publicaciones%20Eventos/TELEFONO/4_xtv5ih.png",
         "https://res.cloudinary.com/dtfugozix/image/upload/v1720534769/Fem%20Cami/Publicaciones%20Eventos/TELEFONO/2_u6u4s4.png",
