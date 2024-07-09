@@ -12,3 +12,25 @@
 width: 100vw;
 height: 700px;
 }
+
+@media screen and (width<992px){
+    .div-slider-banner-home-page img{
+        width: 100vw;
+        height: 700px;
+        }
+
+}
+
+@media screen and (width<768px){
+    .div-slider-banner-home-page img{
+        width: 100vw;
+        height: 700px;
+        } 
+}
+
+@media screen and (width<601px){
+    .div-slider-banner-home-page img{
+        width: 100vw;
+        height: 700px;
+        } 
+}
