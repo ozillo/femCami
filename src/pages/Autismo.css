@@ -303,6 +303,7 @@ border: 1px solid rgba(245, 245, 245, 0.3);
     }
     .div-principal-page-more-info{
     flex-direction: column;
+    gap:65px;
     
     }
     .div-all-groups{

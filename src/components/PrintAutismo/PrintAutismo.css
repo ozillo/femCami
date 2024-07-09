@@ -92,7 +92,6 @@ font-weight: 600;
 }
 .div-h3-logo-individual-page-serveis{
     background-color: var(--light-pastel-blue);
-    border:2px solid var(--primary-blue);
     color:var(--primary-black);
 }
 .h3-individual-page-info{
@@ -221,12 +220,13 @@ font-weight: 600;
 
     .h3-individual-page-info{
         font-size: 30px;
+        text-align: center;
 
     }
     .div-h3-logo-individual-page{
-        width: 95vw;
-        justify-content: space-between;
+        width: 100vw;
         padding:0 10px;
+        min-height: 150px;
     }
     .img-individual-page-icon{
         width: 75px;

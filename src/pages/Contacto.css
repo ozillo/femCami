@@ -334,6 +334,8 @@ display:block;
     }
     .section-contacte-div-general-info{
       width: 100vw;
+      margin-left:0;
+      padding:0 15px;
     }
     .div-contacte-social{
       width: 90vw;

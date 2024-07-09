@@ -162,7 +162,9 @@ border-radius:20px; */
 }
 }
 @media screen and (width<768px){
-
+.div-description-service-autismo{
+  width: 95vw;
+}
 .div-info-autismo{
    height:400px;
    width:100%;
