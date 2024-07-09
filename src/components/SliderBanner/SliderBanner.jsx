@@ -23,7 +23,7 @@ const SliderBanner = () => {
         "https://res.cloudinary.com/dtfugozix/image/upload/v1720534769/Fem%20Cami/Publicaciones%20Eventos/TELEFONO/2_u6u4s4.png",
         "https://res.cloudinary.com/dtfugozix/image/upload/v1720534770/Fem%20Cami/Publicaciones%20Eventos/TELEFONO/1_z0ucua.png",
     ];
-
+    
     return (
         <div className="div-slider-banner-home-page">
             <PrintSlider images={images} />
