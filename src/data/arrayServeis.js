@@ -98,7 +98,7 @@ export const arrayTerapiaOcupacional = [
             },
             {
                 titulo: "Quan és necessària la teràpia ocupacional?",
-                contenido: ["POR AMPLIAR///IMAGEN"],
+                contenido: [" M'incomoda anar descalç, Soc selectiu amb el menjar i em resisteixo a tastar nous aliments i textures, No m'agraden les pessigolles i carícies, Sóc maldestre i tinc poques habilitats motrius al córrer o anar en bicicleta, Em costa concentrar-me i parar atenció, Em molesta molt que em tallin el cabell i les ungles, Sóc molt sensible als sorolls forts i m'irriten alguns sorolls, Em costen les activitats de motricitat fina com retallar o escriure, Em molesten les etiquetes de la roba, M'assec amb les cames en W, Em costa vestir-me sol, Tendeixo a mossegar alguns objectes (llapis,mànigues...) "],
                 image: "https://res.cloudinary.com/dtfugozix/image/upload/v1711148923/Fem%20Cami/Servicios/Terapia%20Ocupacional/PER_OMPLIR..._en_taman%CC%83o_mediano_vqnuaf.png",
             },
             {
