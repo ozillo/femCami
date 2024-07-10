@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import PrintSlider from "../PrintSlider/PrintSlider";
 import "./SliderBanner.css";
 const SliderBanner = () => {
@@ -23,12 +23,30 @@ const SliderBanner = () => {
         "https://res.cloudinary.com/dtfugozix/image/upload/v1720534769/Fem%20Cami/Publicaciones%20Eventos/TELEFONO/2_u6u4s4.png",
         "https://res.cloudinary.com/dtfugozix/image/upload/v1720534770/Fem%20Cami/Publicaciones%20Eventos/TELEFONO/1_z0ucua.png",
     ];
+    const [currentImages, setCurrentImages] = useState(images);
+
+    useEffect(() => {
+        const handleResize = () => {
+            const width = window.innerWidth;
+            if (width <= 640) {
+                setCurrentImages(imgTablet);
+            } else if (width <= 500) {
+                setCurrentImages(imgTlf);
+            } else {
+                setCurrentImages(images);
+            }
+        };
+
+        handleResize(); // Check the width on component mount
+        window.addEventListener("resize", handleResize);
+
+        return () => window.removeEventListener("resize", handleResize);
+    }, [images, imgTablet, imgTlf]);
+
     
     return (
         <div className="div-slider-banner-home-page">
-            <PrintSlider images={images} />
-            <PrintSlider images={imgTablet}/>
-            <PrintSlider images={imgTlf}/>
+            <PrintSlider images={currentImages} />
         </div>
     );
 };
