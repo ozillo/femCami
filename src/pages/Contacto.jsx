@@ -40,7 +40,7 @@ const Contacto = () => {
                 </div>
                 <div className="section-contacte-div-general-info">
                     <h3>E-MAIL:</h3>
-                    <p>info@femcami.cat</p>
+                    <p>infofemcami@gmail.com</p>
                 </div>
                 <div className="div-contacte-social">
                     <div
