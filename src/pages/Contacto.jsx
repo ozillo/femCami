@@ -36,11 +36,11 @@ const Contacto = () => {
                 </div>
                 <div className="section-contacte-div-general-info">
                     <h3>TELÈFON:</h3>
-                    <p>+34 789 098 399</p>
+                    <p>+34 637 059 313</p>
                 </div>
                 <div className="section-contacte-div-general-info">
                     <h3>E-MAIL:</h3>
-                    <p>infofemcami@gmail.com</p>
+                    <p>info@femcami.cat</p>
                 </div>
                 <div className="div-contacte-social">
                     <div

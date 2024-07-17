@@ -17,7 +17,7 @@ const ServeisLogopedia = () => {
                 <h1 className="title-page">Logopedia</h1>
             </section> */}
             <BackgroundTitle
-                title={"Logopedia"}
+                title={"Logopèdia"}
                 background={`background-linear`}
                 color={`blue`}
             />

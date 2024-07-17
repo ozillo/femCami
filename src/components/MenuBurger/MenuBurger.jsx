@@ -124,7 +124,7 @@ const MenuBurger = () => {
                                 <ul className="ul-menu-burger-hidden">
                                     <li className="li-menu-burger-hidden">
                                         <a href="/autisme/que-es-el-autisme">
-                                             Que és el autisme
+                                             Que és l'autisme
                                         </a>
                                     </li>
                                     <li className="li-menu-burger-hidden">
@@ -183,7 +183,7 @@ const MenuBurger = () => {
                                     </li>
                                     <li className="li-menu-burger-hidden">
                                         <a href="/serveis/logopedia">
-                                            Logopedia
+                                            Logopèdia
                                         </a>
                                     </li>
                                     <li className="li-menu-burger-hidden">

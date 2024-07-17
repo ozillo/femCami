@@ -66,7 +66,7 @@ const PrintServeis = () => {
                 <section className="section-individual-page-info">
                     <div className="div-h3-logo-individual-page div-h3-logo-individual-page-serveis">
                         <h3 className="h3-individual-page-info h3-individual-page-info-serveis">
-                            Logopedia
+                            Logopèdia
                         </h3>
                         {/* <img
                             src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-garden-100_mnaflb.png"
@@ -102,7 +102,7 @@ const PrintServeis = () => {
                 <section className="section-individual-page-info">
                     <div className="div-h3-logo-individual-page div-h3-logo-individual-page-serveis">
                         <h3 className="h3-individual-page-info h3-individual-page-info-serveis">
-                            Terapia ocupacional
+                            Teràpia ocupacional
                         </h3>
                         {/* <img
                             src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-garden-100_mnaflb.png"
@@ -112,7 +112,7 @@ const PrintServeis = () => {
                     </div>
                     <div className="div-individual-page-info div-individual-page-info-serveis">
                         <p className="p-idividual-page-info p-idividual-page-info-serveis">
-                        La teràpia ocupacional es una professió sòcio-sanitària que vol promoure la major
+                        La teràpia ocupacional és una professió sòcio-sanitària que vol promoure la major
                         autonomia, benestar i qualitat de vida en les persones, a traves de l’ocupació.
                         El/la terapeuta ocupacional fa servir l’activitat de forma terapèutica per la prevenció
                         de les malalties i/o discapacitats, el manteniment de la salut, la rehabilitació de la
@@ -139,7 +139,7 @@ const PrintServeis = () => {
                 <section className="section-individual-page-info">
                     <div className="div-h3-logo-individual-page div-h3-logo-individual-page-serveis">
                         <h3 className="h3-individual-page-info h3-individual-page-info-serveis">
-                            Reeducacio Pedagogica
+                            Reeducació Pedagògica
                         </h3>
                         {/* <img
                             src="https://res.cloudinary.com/dtfugozix/image/upload/v1708363075/Fem%20Cami/Vectores/icons8-garden-100_mnaflb.png"
