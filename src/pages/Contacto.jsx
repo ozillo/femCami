@@ -65,7 +65,7 @@ const Contacto = () => {
                         className="div-contacte-social-wrapper"
                         onClick={() =>
                             window.open(
-                                "https://www.instagram.com/centrefemcami/",
+                                "https://www.facebook.com/centrefemcamivilafranca/?locale=es_ES",
                                 "rel=noopener noreferrer",
                             )
                         }
@@ -83,7 +83,7 @@ const Contacto = () => {
                         className="div-contacte-social-wrapper"
                         onClick={() =>
                             window.open(
-                                "https://www.instagram.com/centrefemcami/",
+                                "https://www.youtube.com/channel/UC2zIgt6wwXJ_sKLUsZCPDAA",
                                 "rel=noopener noreferrer",
                             )
                         }

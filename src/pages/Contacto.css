@@ -66,7 +66,7 @@ opacity: 0.7;
   width: 160px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   padding:15px;
   
@@ -78,7 +78,7 @@ opacity: 0.7;
 }
 .div-contacte-social-wrapper:hover{
 
-  background-color: var(--light-pastel-green);
+  background-color: var(--light-pastel-orange);
   border-radius: 10px;
   
 }
