@@ -29,7 +29,7 @@ const Header = () => {
                         <ul className="submenu-ul">
                             <li className="menu-li-hidden">
                                 <a href="/autisme/que-es-el-autisme">
-                                    Que es el autisme
+                                    Que es l'autisme
                                 </a>
                             </li>
                             <li className="menu-li-hidden">
@@ -59,7 +59,7 @@ const Header = () => {
                                 </a>
                             </li>
                             <li className="menu-li-hidden">
-                                <a href="/serveis/logopedia">Logopedia</a>
+                                <a href="/serveis/logopedia">Logopèdia</a>
                             </li>
                             <li className="menu-li-hidden">
                                 <a href="/serveis/terapia-ocupacional">
@@ -68,7 +68,7 @@ const Header = () => {
                             </li>
                             <li className="menu-li-hidden">
                                 <a href="/serveis/reeducacio-pedagogica">
-                                    Reeducació pedagogica
+                                    Reeducació pedagògica
                                 </a>
                             </li>
                         </ul>
