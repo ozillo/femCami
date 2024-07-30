@@ -14,13 +14,11 @@ const PrintServeis = () => {
             <BackgroundTitle title="SERVEIS" background={`background-linear`} color={`blue`}/>
             <section className="section-description-main-page">
                 <p>
-                    FEM CAMI es un centre especialitzat en el mon de l'autisme.
+                Fem Camí oferim diferents serveis per acompanyar millor l'infant o jove, i les seves famílies, tenint en compte les seves necessitats.
+
                 </p>
-                <p>
-                    Som un equip de professionals que tenen una trajectoria de
-                    mes de 10 anys dedicats a l'ensenyament.
-                </p>
-                <p>Els nostres principals valor son:</p>
+    <br></br>
+                <p>Els serveis que oferim són:</p>
             </section>
             <section className="section-all-pages-main-page">
                 <section className="section-individual-page-info">

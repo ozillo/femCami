@@ -12,13 +12,16 @@ const PrintAutismo = () => {
             <BackgroundTitle title="AUTISME" background={`background-linear-green`} color={`green`}/>
             <section className="section-description-main-page">
                 <p>
-                    FEM CAMI es un centre especialitzat en el mon de l'autisme.
+                Actualment, Fem Camí, és un centre de referència en autisme en la nostra comarca.
                 </p>
                 <p>
-                    Som un equip de professionals que tenen una trajectoria de
-                    mes de 10 anys dedicats a l'ensenyament.
+                Portem més de 10 anys d’experiència, d’actualització i formació especialitzada,
+
+Estem acompanyant a les famílies i els seus fills/es en l’espectre autista, també adults/es autistes en el seu dia a dia, donant suport a la persona i a la família per una millor qualitat de vida, benestar emocional i sensorial.
+
+
                 </p>
-                <p>Els nostres principals valor son:</p>
+                <p>Els serveis que oferim son:</p>
             </section>
             <section className="section-all-pages-main-page">
                 <section className="section-individual-page-info">
